@@ -6,6 +6,7 @@ Backup allows some special analytics, for example, log files can be analyzed for
 ### Logdata handling on ubuntu12.04
 
 |Current Name	|Frequency	|Compress	|Generations	|Uncompressed Name	|
+| ------------- |-----------| --------- | ------------- | ----------------- |
 |auth.log		|2d			|1+			|6				|auth.log.0			|
 |syslog			|1d			|1+			|6				|syslog.0			|
 |apache*		|1w			|1+			|52				|access.log.1		|
