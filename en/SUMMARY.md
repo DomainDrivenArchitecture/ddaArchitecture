@@ -15,4 +15,3 @@
     * [Source](backup/solution/source.md)
     * [Sink](backup/solution/sink.md)
  * [Books License](LICENSE.md)
-        
