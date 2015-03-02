@@ -1,7 +1,7 @@
 # Summary
 
 * [DomainDrivenArchitecture](README.md)
-* [Books Scope](Scope/README.md)
+* [Books Scope](scope/README.md)
 * [Backup](backup/README.md)
   * [Analysis](backup/analysis/README.md)
     * [Questions and Entities](backup/analysis/questions_and_entities.md)
@@ -13,5 +13,5 @@
     * [Restore Process](backup/solution/restore_process.md)
     * [Source](backup/solution/source.md)
     * [Sink](backup/solution/sink.md)
- * [Books License](License.md)
+ * [Books License](LICENSE.md)
         
