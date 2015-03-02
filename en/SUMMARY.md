@@ -10,7 +10,8 @@ This is the summary of my book.
     * [Secific Environments](backup/analysis/specific_environments.md)
   * [Architecture](backup/architecture/README.md)
   * [Solution Architecture](backup/solution/README.md)
-    * [Processes](backup/solution/processes.md)
+    * [Backup Process](backup/solution/backup_process.md)
+    * [Restore Process](backup/solution/restore_process.md)
     * [Source](backup/solution/source.md)
     * [Sink](backup/solution/sink.md)
         
