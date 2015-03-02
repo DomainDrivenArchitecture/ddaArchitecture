@@ -1,8 +1,7 @@
 # Backup Process Steps
 
 ![the backup process][backup process]
-
-[backup process]: /en/backup/solution/backup_phases.png "the backup process"
+[backup process]: backup_phases.png "the backup process"
 
 ## Backup Source
 ### Backing up (1)
@@ -32,6 +31,9 @@ In the transport step a sink system cron job will
 HostEurope backs up the whole file system of the last 14 days. If we just store one daily generation on the local file system, we have the ability to rollback to one of the last 14 days.
 
 # Restore Process Steps
+![the restore process][restore process]
+[restore process]: restore_phases.png "the restore process"
+
 ## Restore Data Transport (1)
 1. Source for restores can either be
 1. the dataBackupSink (1.a)
