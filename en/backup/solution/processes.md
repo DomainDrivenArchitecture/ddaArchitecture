@@ -1,5 +1,9 @@
 # Backup Process Steps
 
+![the backup process][backup process]
+
+[backup process]: /en/backup/solution/backup_phases.png "the backup process"
+
 ## Backup Source
 ### Backing up (1)
 In the backup step, a source system cron job will 
