@@ -2,7 +2,7 @@
 This document describes backup concepts on an example company.
 
 ## Intended Reader
-Software operating, architects, developers and product owners.
+IT operations, architects, developers and product owners.
 
 ## Additional Documents
 1. BSI Datensicherung: https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKataloge/Inhalt/_content/baust/b01/b01004.html
