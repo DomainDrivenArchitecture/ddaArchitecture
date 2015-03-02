@@ -1,6 +1,7 @@
 # Summary
 
 * [DomainDrivenArchitecture](README.md)
+* [Change History](change_history.md)
 * [Books Scope](scope/README.md)
 * [Backup](backup/README.md)
   * [Analysis](backup/analysis/README.md)
