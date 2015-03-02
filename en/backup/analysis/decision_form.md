@@ -25,7 +25,8 @@ Normal important data are stored on another server.
 Low important data are stored only on the same server and on the hosting providers backup store.
 
 ### Decisions and Analysis per Application
-|ID|Measurement||
+|ID|Measurement|
+|--|--|
 |Application name||
 |Current application data size||
 |Estimated application data growth for upcoming year||

@@ -1,5 +1,5 @@
 {
-    "plugins": ["piwik"],
+    "plugins": ["piwik", "toc"],
     "pluginsConfig": {
         "piwik": {
             "URL": "piwik.meissa-gmbh.de/",
