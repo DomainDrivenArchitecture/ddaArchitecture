@@ -1,1 +1,9 @@
-{}
+{
+    "plugins": ["piwik"],
+    "pluginsConfig": {
+        "piwik": {
+            "URL": "https://piwik.meissa-gmbh.de",
+        "siteId": 30
+        }
+    }
+}
