@@ -1,1 +1,1 @@
-# 4  Solution Architecture
+# Solution Architecture

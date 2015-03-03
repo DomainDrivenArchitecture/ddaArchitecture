@@ -11,7 +11,7 @@ Das Backup ermöglicht etwas speziellere Analytik. Die Logfiles können zum Beis
 |apache*		|1w			|1+				|52				|access.log.1			|
 |catalina.out	|1w			|0+				|52				|--						|
 
-## Besonderheiten bei HostEurope
+# Besonderheiten bei HostEurope
 Das Beispiel Unternehmen hat seine Server  bei HostEurope gehostet. Nach der HostEurope Produktbeschreibung sind für das Beispiel Unternehmen die folgenden Backup Optionen verfügbar:
 Snapshot: verwahrt den ganzen Server (Anwendung, Konfiguration, Daten) – die Wiederherstellung dauert ca. 2-5 Stunden. Die Snapshots werden drei Monate lang aufbewahrt.
 Permanenter Snapshot: Vergleichbar mit Snapshots, nur mit unbegrenzter Aufbewahrungszeit.
