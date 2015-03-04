@@ -1,4 +1,4 @@
 # DomainDrivenArchitecture
 
 ## Inhaltsverzeichnis
-{% include "SUMMARY.md" %}
+{% include "./SUMMARY.md" %}
