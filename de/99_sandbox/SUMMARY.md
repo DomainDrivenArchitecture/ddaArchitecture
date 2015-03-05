@@ -1,3 +1,2 @@
- * [README](README.md)
- * [Eine andere Seite](AnOtherPage.md)
-
+* [README](README.md)
+* [Eine zweite Wurzelseite](SecondRootPage.md)
