@@ -1,10 +1,6 @@
 # README
 
 ## Eine andere Seite einbinden
-{% include "./AnOtherPage.md" %}
-
-{% include "AnOtherPage.md" %}
-
-{% include "AnOtherPage" %}
+{% include "../LICENSE.md" %}
 
 Abschließender Text

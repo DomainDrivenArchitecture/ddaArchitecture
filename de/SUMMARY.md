@@ -17,8 +17,8 @@
     * [Source](10_backup/50_solution/source.md)
     * [Sink](10_backup/50_solution/sink.md)
 * [Sandbox](99_sandbox/README.md)
-  * [Eine zweite Wurzelseite](99_sandbox/SecondRootPage.md) 
-  {% include "./99_sandbox/SUMMARY.md" %}
+ * [README](99_sandbox/README.md)
+ * [Eine zweite Wurzelseite](99_sandbox/SecondRootPage.md)
 * [Lizenz](LICENSE.md)
     
 
