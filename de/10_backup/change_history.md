@@ -1,8 +1,12 @@
-#Buch Änderungshistorie
+#Änderungshistorie
 	
 |Version	|Autor / Aktor					|Datum		|Änderung / Aktivität	|Status	|
-|-----------|-------------------------------|-----------|-----------------------|-------|
-|0.1		|M.Jerger, M.Mörike, M.Caspari, T.Scherer, meissa	|05.03.2015		|Veröffentlichung von DDA-Backup 0.5	|gültig	|
+| --------- | ----------------------------- | --------- | --------------		| -----	|
+|0.1		|M.Jerger						|14.11.14	|Initiale Erstellung	|Entwurf|
+|0.2		|M.Mörike, M.Caspari, T.Scherer	|12.12.14	|Review durchgeführt	|gültig	|
+|0.3		|M.Jerger						|22.12.14	|Lösungsarchitektur beschrieben und die Dokumentenstruktur überarbeitet|gültig	|
+|0.4		|M.Jerger						|28.01.15	|Auf Konsistenz geprüft, “Restore” hinzugefügt|gültig	|
+|0.5		|meissa							|30.01.15	|Gereviewed und übersetzt|gültig	|
 
 #Legende
 

@@ -1,8 +1,12 @@
 #Changehistory
 	
 |Version	|Author / Actor					|Date		|Change / Activity	|State	|
-| --------- | ----------------------------- | --------- | --------------	| -----	|
-|0.1		|M.Jerger, M.Mörike, M.Caspari, T.Scherer, meissa|05.03.2015	|Publishing of DDA Backup 0.5	|valid	|
+|-----------|-------------------------------|-----------|-------------------|-------|
+|0.1		|M.Jerger						|14.11.14	|initial			|draft	|
+|0.2		|M.Mörike, M.Caspari, T.Scherer	|12.12.14	|reviewed			|valid	|
+|0.3		|M.Jerger						|22.12.14	|described Solution Architecture and refactored document structure.|valid	|
+|0.4		|M.Jerger						|28.01.15	|reviewed for consistency, added restore|valid	|
+|0.5		|meissa							|30.01.15	|reviewed and translated.|valid	|
 
 #Legend
 
