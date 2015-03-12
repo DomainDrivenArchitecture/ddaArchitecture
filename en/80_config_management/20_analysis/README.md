@@ -8,7 +8,7 @@
 * Standardize components setup
 * 
 
-review: bla
+review: sth
 
 ##What's difficult at Config Management?
 * There are many cross cutting dimensions for modules (tenant, security, functionality, backup, identity on various levels, different environments per appstack ...)
