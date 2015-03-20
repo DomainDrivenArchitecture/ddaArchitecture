@@ -29,8 +29,7 @@ Versions matters
 
 Distinguishing between debit and actual. On the one hand, configuration will describe the debit side and facts will cover the actual side n server.
 
-Kommentar JS: Den Satz verstehe ich nicht so ganz. Fehlt da irgendwas von Deinen Gedanken? :-)
-
+Kommentar: Den Satz verstehe ich nicht so ganz. Fehlt da irgendwas von Deinen Gedanken? :-)
 Tests of configurations
 
 Configuration can be distributed in push mode
