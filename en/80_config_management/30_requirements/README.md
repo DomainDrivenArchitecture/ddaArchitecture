@@ -12,13 +12,13 @@ Detailed and referencable requirements for this feature can be found at https://
 * NonFun012 Configuration Distribution
    * Config for nodes should be pushed from central instances.
       * Config receiver should not need to have java installed.
-      * Security relevant stuff should stay central as possible.
-   * Config for developer client nodes should be pulled from config management repository. Developers should be able to apply the config of their developer clients themselves.
+      * As possible, security relevant stuff should stay central. (Anm.: War das damit gemeint?)
+   * Config for developer client nodes should be pulled from the config management repository. Developers should be able to apply the config of their developer clients themselves.
 
 ###Dimension Configuration vs. Facts
-* UseCase0091 CM System reads version of already applied configurations from target system.
-* UseCase0092 CM System writes version of currently applied configuration to target system.
+* UseCase0091 CM System reads the version of already applied configurations from the target system.
+* UseCase0092 CM System writes the version of currently applied configuration to the target system.
 
 ###Dimension Multitenancy
-* NonFun024 Multi Tenant configuration
+* NonFun024 Multitenant configuration
    * Multitenant configuration can be handled separated per tenant
