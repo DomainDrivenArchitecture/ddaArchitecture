@@ -1,5 +1,5 @@
 # Target and Objective
-This document describes configuration management for an small example company.
+This document describes configuration management for a small example company.
 
 ## Intended Reader
 IT Operations, IT Architects, software developers.
