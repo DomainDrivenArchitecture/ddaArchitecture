@@ -16,6 +16,6 @@
     * [Restore Process](10_backup/50_solution/restore_process.md)
     * [Source](10_backup/50_solution/source.md)
     * [Sink](10_backup/50_solution/sink.md)
- * [Config Management](80_config_management/README.md)
- {% include "./80_config_management/SUMMARY.md" %}
- * [Books License](LICENSE.md)
+* [Config Management](80_config_management/README.md)
+{% include "./80_config_management/SUMMARY.md" %}
+* [Books License](LICENSE.md)
