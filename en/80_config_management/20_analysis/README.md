@@ -1,27 +1,46 @@
 # Analysis
 
-##Why do we need Config Management?
-* repeatability - server-setup should be repeatable for controlled fixing of issues.
-* automate&hide - boring details like file-mode or file-owner should be automated away.
-* Handle large number of servers
-* React fast on demand for new servers
-* Standardize components setup - so all installed system will benefit from new insights. 
+##Business Value of Config Management
+* Standardize system setup - thats good for
+  * increase environmental control - new insights will result in continuous progress
+  * all installed systems will benefit simultaneously from new insights
+  * systems can be installed repeatable - so testing in test systems become more meaningful
+* Increase automation - thats good for
+  * hide a huge number of boring details
+  * react fast on tasks like setup of new system or apply new configuration
+  * handle more systems with less human operators  
 
-##What's difficult at Config Management?
-* There are many cross cutting dimensions for modules (tenant, security, functionality, backup, users identity on various levels, different environments for one application stack ...)
-* There are different deployed versions of configuration on servers
-* Blind shoot server configuration is dangerous
-* Configurations in config management should be well tested
-* Target systems differ on wide range (e.g. operating system, server, desktop, device type like smartphone)
-* Pull / Push both methods are needed.
-  * Push is important for security reason (server-credentials may not reside on every server node in net)
-  * Pull is important for social & technical reason (some nets may be not accessible from outside / or developers don't like uncontrolled updates from outside)
+##Limits & Scoping
+Question is how is config management can be distinguished from things like
+* windows desktop applications with their installers or
+* linux packages?
+
+My thesis is: Config Management is the general unit for configuring all systems in scope 
+
+
+##Important Concepts
+There are many relevant Dimensions for cutting modules
+* tenants, 
+* different system environments like dev, test, staging, integration or production 
+* cross cutting aspects like security, backup, users identity on various levels
+
+Versions matters
+* There will always be the situation of different versions of deployed software
+
+Distinguish between debit and actual. On the one hand configuration will describe the debit side and facts will cover the actual side n server.
+
+Tests of configurations
+
+Configuration can be distributed in push mode
+* Push is important for security reason (server-credentials may not reside on every server node in net)
   
-##Insigths
-* Distinguishing the following module types might be useful:
-  * CM core modules - things like CM transport & execution, target fact recognition
-  * CM middleware modules - like httpd, backup or hardening
-  * CM App-Stacks - like owncloud consisting of httpd, database, app, backup, hardening, monitoring and individual configuration.
-  * Configuration is an central concept in Config Management. Therefore Configuration would be a CM core module.
+Configuration can be distributed in pull mode. Pull is important for social & technical reason.
+* Technical: Some networks may be not accessible from outside.
+* Social: Developers don't like uncontrolled updates from outside.
+
+Configuration is different for each system.
+
+Configuration is quite complex.
+
   
   
