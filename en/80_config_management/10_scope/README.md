@@ -5,3 +5,5 @@ This document describes configuration management for an small example company.
 IT Operations, IT Architects, software developers.
 
 ## Additional Documents
+Referencable requirements are described at:
+  * https://requirements.domaindrivenarchitecture.org/CmRequirementsConfiguration
