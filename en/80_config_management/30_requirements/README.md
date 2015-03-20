@@ -1,18 +1,25 @@
 # Requirements
-##User and Roles
+Detailed and referencable requirements for this feature can be found at https://requirements.domaindrivenarchitecture.org/CmRequirementsConfiguration 
+
+## User and Roles
 * IT-Operator
 
-##Configuration
-###Functional Requirements
-* CM System validates configuration ahead of configuration.
-* CM System reads version of applied configuration from target system.
-* CM System writes version of applied configuration to target system.
+## Requirements
+### Validation
+* UseCase0090 CM System validates configuration ahead of application.
 
-###Non Functional Requirements 
-* Configuration can be handled (create, persist, version, change or delete) independent from CM-System.
-* Tenant configuration can be handled separated.
-* Configuration defines a version per module.
-* Configuration defines structure per module.
-* Configuration defines validity per module.
-  
-  
+### Versions
+* UseCase0091 CM System reads version of already applied configurations from target system.
+* UseCase0092 CM System writes version of currently applied configuration to target system.
+
+### Multitenancy
+* NonFun024 Multi Tenant configuration
+   * Multi Tenant configuration can be handled separated per tenant
+   
+### Distribution
+* NonFun012 Configuration Distribution
+   * Config for nodes should be pushed from central instances.
+     * Config receiver should not need to have java installed.
+     * Security relevant stuff should stay central as possible.
+   * Config for developer client nodes should be pulled from config management repository developers should be able to apply the config of their developer clients themselves.
+
