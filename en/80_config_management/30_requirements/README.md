@@ -15,8 +15,8 @@ Detailed and referencable requirements for this feature can be found at https://
         * Running SSH server
         * Credentials known by configuration management system
         * Bash is available.
-      * System delivers security relevant stuff (like SSL keys, credentials, configuration informations) sparingly.
-   * Config for developer client nodes should be pulled from the config management repository. Developers should be able to apply the config of their developer clients themselves.
+      * System delivers only the node specific configuration to target nodes. Other nodes security relevant stuff (like SSL keys, credentials, configuration informations) stays central.
+   * Configuration for developer client nodes should be pulled from the configuration management repository. Developers should be able to apply their own configuration of their developer clients themselves.
 
 ###Dimension Configuration vs. Facts
 * UseCase0091 CM System reads the version of already applied configurations from the target system.
