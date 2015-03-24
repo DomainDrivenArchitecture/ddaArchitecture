@@ -10,9 +10,12 @@ Detailed and referencable requirements for this feature can be found at https://
 
 ###Distribution
 * NonFun012 Configuration Distribution
-   * Config for nodes should be pushed from central instances.
-      * Config receiver should not need to have java installed.
-      * As possible, security relevant stuff should stay central. (Anm.: War das damit gemeint?)
+   * System pushes configuration from a central system to nodes.
+      * Configuration receiver has the following prerequisites:
+        * Running SSH server
+        * Credentials known by configuration management system
+        * Bash is available.
+      * System delivers security relevant stuff (like SSL keys, credentials, configuration informations) sparingly.
    * Config for developer client nodes should be pulled from the config management repository. Developers should be able to apply the config of their developer clients themselves.
 
 ###Dimension Configuration vs. Facts
