@@ -44,7 +44,7 @@ Configuration can be distributed in pull mode. Pull is important for social & te
 ###Configuration differs
 Configuration is different for each system.
 
-###Confuiguration is complex
+###Configuration is complex
 Configuration is quite complex.
 
   
