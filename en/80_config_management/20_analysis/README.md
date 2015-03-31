@@ -18,20 +18,22 @@ The question is, how config management can be distinguished from things like
 My thesis is: Config Management is the general unit for configuring all systems in scope 
 
 
-##Important Insights
+##Important Thoughts
 ###Dimensions
 There are many relevant Dimensions for cutting modules
 * tenants, 
-* different system environments like dev, test, staging, integration or production * cross cutting aspects like security, backup, users identity on various levels
+* different system environments like dev, test, staging, integration or production * cross cutting functions like security, backup, users identity on various levels
 
 ###Versions matters
-There will always be the situation of different versions of deployed software. Distinguishing between debit and actual.
+There will always be the situation of different versions of deployed software. Distinguishing between debit and actual. "Configuration" denominates the pursued debit, the actual state of server nodes we will name "Facts".
 
   * On the one hand, configuration will describe the debit side. 
   * On the other hand we take also care of the actual side on server also. We will name this "facts".
 
+###Test First in case of Configuration
 Tests of configurations
 
+###Distribution
 Configuration can be distributed in push mode
 * Push is important for security reason (server-credentials may not reside on every server node in net)
   
@@ -39,8 +41,10 @@ Configuration can be distributed in pull mode. Pull is important for social & te
 * Technical: Some networks may be not accessible from outside.
 * Social: Developers don't like uncontrolled updates from outside.
 
+###Configuration differs
 Configuration is different for each system.
 
+###Confuiguration is complex
 Configuration is quite complex.
 
   
