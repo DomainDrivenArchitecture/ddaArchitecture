@@ -51,7 +51,8 @@ e.g. for sql dump file named "output2.sql" with [username], [userPassword] and [
 * vi mapping_[dbName]_full.ttl
 * extract necessary fields
 * make sure to delete fields relevant to security (plain text passwords, answers to security questions, etc.)
-* Terminology of ontology:
+* Terminology of Ontology:
+* Triples of subject, predicate and object:
 * subject: instance of a class
 * predicate: RDF property 
 * object: value of RDF property
