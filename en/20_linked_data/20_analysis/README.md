@@ -10,6 +10,13 @@
 * D2RQ-Server responses 
 * linked data is displayed
 
+
+### Underlying Structure
+* D2RQ-Server is running on machine, using either Jetty or a servlet container (e.g. tomcat) 
+* Machine is then accessed via http protocol in web-browser
+* RFD-data can be requested from D2RQ Server
+* yields view of RDF-structured linked data
+
 ### Development Procedure:
 * Assuming a running server (e.g. localhost) with D2RQ-Server
 * Setup underlying Database
