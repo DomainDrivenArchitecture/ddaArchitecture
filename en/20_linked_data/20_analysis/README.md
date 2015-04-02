@@ -1,21 +1,17 @@
 # Analysis
 
 ## Overview and Basics
-![](ld_ontology.png)
-
-### Process
-* HTTP-request from Browser
-* asks for RDF 
-* RDF: model for subject–predicate–object expressions
-* D2RQ-Server responses 
-* linked data is displayed
+![](linkedData_ontology.png)
 
 
-### Underlying Structure
+### Underlying Structure and Procedure
 * D2RQ-Server is running on machine, using either Jetty or a servlet container (e.g. tomcat) 
+* Server contains mapping of a database (created beforehand)
 * Machine is then accessed via http protocol in web-browser
 * RFD-data can be requested from D2RQ Server
 * yields view of RDF-structured linked data
+* SPARQL queries are supported by D2RQ
+* Browser may send SPARQL queries
 
 ### Development Procedure:
 * Assuming a running server (e.g. localhost) with D2RQ-Server
