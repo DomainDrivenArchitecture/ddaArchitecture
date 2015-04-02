@@ -8,3 +8,7 @@
 * Code: https://github.com/d2rq/d2rq
 
 
+## Solution
+* Path on Server: /var/lib/d2rq-0.8.1
+* Start: ./d2r-server -b http://iwbdemo.meissa-gmbh.de:2020/ mapping_part_shj.ttl
+
