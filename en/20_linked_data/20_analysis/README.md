@@ -27,6 +27,7 @@ e.g. for sql-backup-file named "output2.sql" with [username], [userPassword] and
 * mysql -hlocalhost -uroot -prootpwd -e "FLUSH PRIVILEGES";
 * mysql -hlocalhost -u[username] -[userPassword] [dbName] < output2.sql
  
+
 ### Generate Mapping
 * ./generate-mapping -u [username] -p [userPassword] -o mapping_[dbName]_full.ttl jdbc:mysql://127.0.0.1:3306/[dbName]
 
