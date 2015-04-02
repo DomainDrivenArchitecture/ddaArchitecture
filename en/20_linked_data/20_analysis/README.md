@@ -16,11 +16,14 @@
 * 
 
 ### Setup DB
-  
-* mysql -hlocalhost -uroot -prootpwd -e "CREATE USER 'pa_user'@'localhost' IDENTIFIED BY 'wwwjfurt'";
-* mysql -hlocalhost -uroot -prootpwd -e "CREATE DATABASE IF NOT EXISTS `pa_portal`";
-* mysql -hlocalhost -upa_user -pwwwjfurt -e "create database pa_portal character set utf8";
-* mysql -hlocalhost -upa_user -pwwwjfurt pa_portal < output2.sql
+mysql -hlocalhost -uroot -prootpwd -e "CREATE USER 'pa_user'@'localhost' IDENTIFIED BY 'wwwjfurt'";
+mysql -hlocalhost -uroot -prootpwd -e "CREATE DATABASE IF NOT EXISTS pa_portal";
+mysql -hlocalhost -uroot -prootpwd -e "GRANT ALL ON pa_portal.* TO 'pa_user'@'localhost'";
+mysql -hlocalhost -uroot -prootpwd -e "FLUSH PRIVILEGES";
+ 
+  # replace location in portal config
+   
+mysql -hlocalhost -upa_user -pwwwjfurt pa_portal < output2.sql
   
  
 
