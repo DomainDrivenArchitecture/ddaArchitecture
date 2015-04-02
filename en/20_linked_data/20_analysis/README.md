@@ -58,7 +58,7 @@ e.g. for sql dump file named "output2.sql" with [username], [userPassword] and [
 ### Start Server with Jetty
 * ./d2r-server -b http://[server]:2020/ mapping_[dbName]_full.ttl
 
-## What happens behind the scenes?
+## What happens behind the scenes?![](ontology.png)
 
   
  
