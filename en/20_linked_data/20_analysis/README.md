@@ -16,7 +16,7 @@
 * Create full Mapping
 * Reduce Mapping (when necessary): Extract relevant data
 * Start D2RQ-Server with Mapping
-* Use SPARQL queries to access data
+* Use SPARQL queries to access data in browser
 
 
 ## Tools
