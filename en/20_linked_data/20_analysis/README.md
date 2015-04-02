@@ -1,34 +1,38 @@
 # Analysis
 
-## Whiteboard
-* https://awwapp.com/draw.html#a349121d
+## Overview
+
+![](ontology.png)
 
 ## Tools
 * Project: http://d2rq.org/
 * Code: https://github.com/d2rq/d2rq
+* Path on Server: /var/lib/d2rq-0.8.1
 
 ## Idea
-* Multisource ability by using war files. The war file will define the url namespace ...
+* Establish a multi-source ability by deploying .war-files into a servlet container (e.g. tomcat), running on a server
+* use a distinct .war-file for every business application
+* thus, databases that do not belong together stay separated
+* when accessing the the server, the client application can be accessed by the URL which contains the name of the .war-file
+* thus, the URLs define namespaces for different business applications
 
 ## Solution
-* Path on Server: /var/lib/d2rq-0.8.1
-* Start: ./d2r-server -b http://iwbdemo.meissa-gmbh.de:2020/ mapping_part_shj.ttl
-* 
 
 ### Setup DB
-mysql -hlocalhost -uroot -prootpwd -e "CREATE USER 'pa_user'@'localhost' IDENTIFIED BY 'wwwjfurt'";
-mysql -hlocalhost -uroot -prootpwd -e "CREATE DATABASE IF NOT EXISTS pa_portal";
-mysql -hlocalhost -uroot -prootpwd -e "GRANT ALL ON pa_portal.* TO 'pa_user'@'localhost'";
-mysql -hlocalhost -uroot -prootpwd -e "FLUSH PRIVILEGES";
+e.g. for sql-backup-file named "output2.sql" with [username], [userPassword] and [dbName] for D2RQ on [server]
+
+* mysql -hlocalhost -uroot -prootpwd -e "CREATE USER '[username]'@'localhost' IDENTIFIED BY '[userPassword]'";
+* mysql -hlocalhost -uroot -prootpwd -e "CREATE DATABASE IF NOT EXISTS [dbName]";
+* mysql -hlocalhost -uroot -prootpwd -e "GRANT ALL ON [dbName].* TO '[username]'@'localhost'";
+* mysql -hlocalhost -uroot -prootpwd -e "FLUSH PRIVILEGES";
+* mysql -hlocalhost -u[username] -[userPassword] [dbName] < output2.sql
  
-  # replace location in portal config
-   
-mysql -hlocalhost -upa_user -pwwwjfurt pa_portal < output2.sql
+### Generate Mapping
+* ./generate-mapping -u [username] -p [userPassword] -o mapping_[dbName]_full.ttl jdbc:mysql://127.0.0.1:3306/[dbName]
 
+### Start Server with Jetty
+* ./d2r-server -b http://[server]:2020/ mapping_[dbName]_full.ttl
 
-
-./generate-mapping -u pa_user -p wwwjfurt -o mapping_pa_portal_full.ttl jdbc:mysql://127.0.0.1:3306/pa_portal
-./d2r-server -b http://iwbdemo.meissa-gmbh.de:2020/ mapping_pa_portal_full.ttl
   
  
 
