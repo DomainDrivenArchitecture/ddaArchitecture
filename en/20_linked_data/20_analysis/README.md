@@ -1,8 +1,7 @@
 # Analysis
 
 ## Overview and Basics
-
-![](ontology.png)
+![](ld_ontology.png)
 
 ### Process
 * HTTP-request from Browser
@@ -17,6 +16,7 @@
 * Create full Mapping
 * Reduce Mapping (when necessary): Extract relevant data
 * Start D2RQ-Server with Mapping
+* Use SPARQL queries to access data
 
 
 ## Tools
@@ -32,6 +32,7 @@
 * thus, the URLs define namespaces for different business applications
 
 ## Solution
+for single business application
 
 ### Setup DB
 e.g. for sql dump file named "output2.sql" with [username], [userPassword] and [dbName] for D2RQ on [server]
@@ -49,8 +50,8 @@ e.g. for sql dump file named "output2.sql" with [username], [userPassword] and [
 ### Adapt full Mapping
 * vi mapping_[dbName]_full.ttl
 * extract necessary fields
-* make sure to delete fields relevant to security (plain passwords, security questions, etc.)
-
+* make sure to delete fields relevant to security (plain text passwords, answers to security questions, etc.)
+* Terminology of ontology:
 * subject: instance of a class
 * predicate: RDF property 
 * object: value of RDF property
@@ -58,7 +59,12 @@ e.g. for sql dump file named "output2.sql" with [username], [userPassword] and [
 ### Start Server with Jetty
 * ./d2r-server -b http://[server]:2020/ mapping_[dbName]_full.ttl
 
-## What happens behind the scenes?![](ontology.png)
+### Access Linked Data via SPARQL query
+* access SPARQL on running server in browser
+* e.g. localhost:8080/sparql
+* run SPARQL queries
+* optional: set limit (number of results shown)
+* review results
 
   
  
