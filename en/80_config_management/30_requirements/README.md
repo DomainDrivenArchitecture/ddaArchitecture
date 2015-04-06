@@ -25,5 +25,3 @@ Detailed and referencable requirements for this feature can be found at https://
 ###Dimension Multitenancy
 * NonFun024 Multitenant configuration
    * Multitenant configuration can be handled separated per tenant
-
-%{ include "../README.md" %}
