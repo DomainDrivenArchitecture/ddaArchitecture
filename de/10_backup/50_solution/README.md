@@ -1,22 +1,48 @@
 # Umsetzung 
 
-Im Folgenden werden reale Umsetzungen beschrieben. Es zeigt Umsetzungen für folgende Server-Applikationen:
-* JIRA (kleines Beispiel)
-* Liferay (ausführlicheres Beispiel)
+Im Folgenden werden reale Umsetzungen beschrieben, z.B. anwendbar auf die Applikationen
+* JIRA 
+* Ownlcoud
+* Liferay 
+* Sugar CRM
 
 ## Grundsätzliches
 * Grundsätzlich soll der Backup von unterschiedlichsten Modulen funktionieren.
 * Auch der Backup von verschiedenen Instanzen des gleichen Moduls sollen problemlos ablaufen.
+
+## Modulkonfigurationen
  
-## Module
-* org.domaindrivenarchitecture.pallet.crate enthält die Konfiguration der Module (facilities). 
-* Die Namen der Module sind dda-liferay oder dda-jira.
+* org.domaindrivenarchitecture.pallet.crate enthält die Konfiguration der Module (facilities).  
 * Auf dieser Ebene werden die  Installation und die Konfigurationen beschrieben.
 * Die install-Phase übernimmt also (u.A.) die Einrichtung des Backupsystem...
 * ... während die configure-Phase die Konfiguration übernimmt.
+ 
+
+## Module
+*  Die Namen der Module sind z.B. dda-liferay oder dda-jira.
+
+* Beispiel:
+* (def facility :dda-jira)      ;Facility
+* (def app-name (name facility))    ;AppName = Name des Moduls
 
 ## Instanzen
 * Einzelne Module können mehrfach instanziierbar sein.
 * D.h. die Modulkonfigurationen müssen verschiedene Instanzen unterscheiden können.
 * Das bedeutet, dass auch der Backup eine Unterscheidung zwischen Modulen und Instanzen vornehmen können muss.
+* Instanzen sind unterscheidbar anhand ihrer Id. Aus Gründen der Lesbarkeit, bekommen unterschiedliche Instanzen unterschiedliche semantische Namen:
+* semantic-name
+
+
+## Skripte
+* Es werden grob zwei Arten von Skripten genutzt
+* cronjob-Skripte
+* Modul- und instanzspezifische Backup-/Restore-Skripte
+
+### Skripte im Filesystem
+
+* cronjob-Skripte liegen in /etc/cron.dayly/
+* außerdem finden sich hier Links auf Backup- und Transportskripte
+
+* Backup- und Restore-Skripte liegen in /usr/lib/dda-[app-name]/
+
 
