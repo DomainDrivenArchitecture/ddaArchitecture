@@ -1,5 +1,7 @@
-# Umsetzung (todo)
+# Umsetzung 
 
-Hier ist das Bsp. aus Politaktiv beschrieben.
+Im Folgenden werden reale Umsetzungen beschrieben. Es zeigt Umsetzungen für folgende Server-Applikationen:
+* JIRA (kleines Beispiel)
+* Liferay (ausführlicheres Beispiel)
 
-Vlt. zwei Szenarien daraus machen: klein und groß?
+
