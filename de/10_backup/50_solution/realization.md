@@ -6,16 +6,9 @@ Im Folgenden werden reale Umsetzungen beschrieben, z.B. anwendbar auf die Applik
 * Liferay 
 * Sugar CRM
 
-## Grundsätzliches
-* Grundsätzlich soll der Backup von unterschiedlichsten Modulen funktionieren.
-* Auch der Backup von verschiedenen Instanzen des gleichen Moduls sollen problemlos ablaufen.
-
 ## Modulkonfigurationen
  
 * org.domaindrivenarchitecture.pallet.crate enthält die Konfiguration der Module (facilities).  
-* Auf dieser Ebene werden die  Installation und die Konfigurationen beschrieben.
-* Die install-Phase übernimmt also (u.A.) die Einrichtung des Backupsystem...
-* ... während die configure-Phase die Konfiguration übernimmt.
  
 
 ## Module
@@ -28,9 +21,10 @@ Im Folgenden werden reale Umsetzungen beschrieben, z.B. anwendbar auf die Applik
 ## Instanzen
 * Einzelne Module können mehrfach instanziierbar sein.
 * D.h. die Modulkonfigurationen müssen verschiedene Instanzen unterscheiden können.
-* Das bedeutet, dass auch der Backup eine Unterscheidung zwische den Instanzen von Modulen vornehmen können muss.
+* Das bedeutet, dass auch der Backup eine Unterscheidung zwischen den Instanzen von Modulen vornehmen können muss.
 * Instanzen sind unterscheidbar anhand ihrer Id. Aus Gründen der Lesbarkeit, bekommen unterschiedliche Instanzen unterschiedliche semantische Namen:
 * semantic-name
+* Auch wenn ein Modul nur eine Instanz hat, so hat es einen semantic-name
 
 
 ### Skripte im Filesystem
