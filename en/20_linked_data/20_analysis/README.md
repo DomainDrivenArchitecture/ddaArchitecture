@@ -38,13 +38,24 @@
 for single business application
 
 ### Setup DB
-e.g. for sql dump file named "output2.sql" with [username], [userPassword] and [dbName] for D2RQ on [server]
+* e.g. for sql dump file named "output2.sql"
+* authorization via: [username], [userPassword] and [dbName] for D2RQ on running [server]
 
-* mysql -hlocalhost -uroot -prootpwd -e "CREATE USER '[username]'@'localhost' IDENTIFIED BY '[userPassword]'";
-* mysql -hlocalhost -uroot -prootpwd -e "CREATE DATABASE IF NOT EXISTS [dbName]";
-* mysql -hlocalhost -uroot -prootpwd -e "GRANT ALL ON [dbName].* TO '[username]'@'localhost'";
-* mysql -hlocalhost -uroot -prootpwd -e "FLUSH PRIVILEGES";
-* mysql -hlocalhost -u[username] -[userPassword] [dbName] < output2.sql
+    1. Create DB user:
+    
+    mysql -hlocalhost -uroot -prootpwd -e "CREATE USER '[username]'@'localhost' IDENTIFIED BY '[userPassword]'";
+    2. Create DB: 
+    
+    mysql -hlocalhost -uroot -prootpwd -e "CREATE DATABASE IF NOT EXISTS [dbName]";
+    3. Set permission:
+    
+    mysql -hlocalhost -uroot -prootpwd -e "GRANT ALL ON [dbName].* TO '[username]'@'localhost'";
+    4. Reload grant tables
+    
+    mysql -hlocalhost -uroot -prootpwd -e "FLUSH PRIVILEGES";
+    5. Load DB
+    
+    mysql -hlocalhost -u[username] -[userPassword] [dbName] < output2.sql
  
 
 ### Generate full Mapping
