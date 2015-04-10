@@ -6,7 +6,7 @@
 
 ### Underlying Structure and Procedure
 * D2RQ-Server is running on machine, using either Jetty or a servlet container (e.g. tomcat) 
-* Server contains mapping of a database (created beforehand)
+* Server contains mapping ontology for mapping of a database (created before)
 * Machine is then accessed via http protocol in web-browser
 * RFD-data can be requested from D2RQ Server
 * yields view of RDF-structured linked data
