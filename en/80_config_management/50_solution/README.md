@@ -1,3 +1,5 @@
 # Solution
 
-## Provided Functions
+## General Functions for DDA Modules
+* Phase Support
+* Report
