@@ -1,1 +1,3 @@
 # Solution
+
+## Provided Functions
