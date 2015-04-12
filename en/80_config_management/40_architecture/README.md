@@ -1,5 +1,6 @@
-# Architecture
+#Architecture
 
+<<<<<<< Upstream, based on origin/master
 <<<<<<< Upstream, based on origin/master
 TODO
 
@@ -15,15 +16,21 @@ TODO
   * hide a huge number of boring details
   * react fast on tasks like setup of new systems or apply a new configuration
   * handle more systems with less human operators  
+=======
+* TODO Considere Dimensions
+  * tenants, 
+  * different system environments like dev, test, staging, integration or production 
+  * cross cutting functions like security, backup, users identity on various levels
+>>>>>>> c5eec4a started to write down architecture
 
-##Limits & Scoping
-The question is, how config management can be distinguished from things like
-* windows desktop applications with their installers or
-* linux packages?
+##Modules and building blocks
+![architectural overview](/en/80_config_management/resources/archtectural-overview.png)
 
-My thesis is: Config Management is the general unit for configuring all systems in scope. Therefore Config Management includes all the different installers or package managers.
+##Phases
+###Enumeration of phases
 
 
+<<<<<<< Upstream, based on origin/master
 ##Important Thoughts
 ###Dimensions
 There are many relevant Dimensions for cutting modules
@@ -74,6 +81,9 @@ There are many relevant Dimensions for cutting modules
 * different system environments like dev, test, staging, integration or production 
 * cross cutting functions like security, backup, users identity on various levels
 
+=======
+##Configuration
+>>>>>>> c5eec4a started to write down architecture
 ###Versions matters
 There will always be the situation of different versions of deployed software. Distinguishing between debit and actual. "Configuration" denominates the pursued debit, the actual state of server nodes we will name "Facts".
 
@@ -94,5 +104,9 @@ Configuration is different for each system. In the one hand this statement is tr
 Configuration tend to be complex. Because of all the abstracted away details we have more speed, but also higher complexity to tackle with.
 
   
+<<<<<<< Upstream, based on origin/master
   
 >>>>>>> 8605019 wip
+=======
+####Distinguishing between
+>>>>>>> c5eec4a started to write down architecture
