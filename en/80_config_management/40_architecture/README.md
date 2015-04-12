@@ -24,7 +24,7 @@ TODO
 >>>>>>> c5eec4a started to write down architecture
 
 ##Modules and building blocks
-![architectural overview](/en/80_config_management/resources/archtectural-overview.png)
+![architectural overview](../resources/archtectural-overview.png)
 
 ##Phases
 ###Enumeration of phases
