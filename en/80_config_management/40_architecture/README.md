@@ -1,62 +1,18 @@
-# Architecture
+#Architecture
 
-##Business Value of Config Management
-* Standardize system setup - that's good for
-  * increase environmental control - new insights will result in a continuous progress
-  * all installed systems will benefit simultaneously from new insights
-  * systems can be installed repeatable - so testing in test systems become more meaningful
-* Increase automation - that's good for
-  * hide a huge number of boring details
-  * react fast on tasks like setup of new systems or apply a new configuration
-  * handle more systems with less human operators  
+* TODO Considere Dimensions
+  * tenants, 
+  * different system environments like dev, test, staging, integration or production 
+  * cross cutting functions like security, backup, users identity on various levels
 
-##Limits & Scoping
-The question is, how config management can be distinguished from things like
-* windows desktop applications with their installers or
-* linux packages?
+##Modules and building blocks
+![architectural overview](/en/80_config_management/resources/archtectural-overview.png)
 
-My thesis is: Config Management is the general unit for configuring all systems in scope. Therefore Config Management includes all the different installers or package managers.
+##Phases
+###Enumeration of phases
 
 
-##Important Thoughts
-###Dimensions
-There are many relevant Dimensions for cutting modules
-* tenants, 
-* different system environments like dev, test, staging, integration or production 
-* cross cutting functions like security, backup, users identity on various levels
-
-###Versions matters
-There will always be the situation of different versions of deployed software. Distinguishing between debit and actual. "Configuration" denominates the pursued debit, the actual state of server nodes we will name "Facts".
-
-  * On the one hand, configuration will describe the debit side. 
-  * On the other hand we take also care of the actual side on server also. We will name this "facts".
-
-# Analysis
-
-##Business Value of Config Management
-* Standardize system setup - that's good for
-  * increase environmental control - new insights will result in a continuous progress
-  * all installed systems will benefit simultaneously from new insights
-  * systems can be installed repeatable - so testing in test systems become more meaningful
-* Increase automation - that's good for
-  * hide a huge number of boring details
-  * react fast on tasks like setup of new systems or apply a new configuration
-  * handle more systems with less human operators  
-
-##Limits & Scoping
-The question is, how config management can be distinguished from things like
-* windows desktop applications with their installers or
-* linux packages?
-
-My thesis is: Config Management is the general unit for configuring all systems in scope. Therefore Config Management includes all the different installers or package managers.
-
-##Important Thoughts
-###Dimensions
-There are many relevant Dimensions for cutting modules
-* tenants, 
-* different system environments like dev, test, staging, integration or production 
-* cross cutting functions like security, backup, users identity on various levels
-
+##Configuration
 ###Versions matters
 There will always be the situation of different versions of deployed software. Distinguishing between debit and actual. "Configuration" denominates the pursued debit, the actual state of server nodes we will name "Facts".
 
@@ -77,19 +33,4 @@ Configuration is different for each system. In the one hand this statement is tr
 Configuration tend to be complex. Because of all the abstracted away details we have more speed, but also higher complexity to tackle with.
 
   
-  
-
-TODO
-
-## Configuration
-### Intended Configuration and real facts on Server Node
-  * On the one hand, configuration will describe the debit side. 
-  * On the other hand we take also care of the actual side on server also. We will name this "facts".
-  * 
-  
-##Modules
-###Phases
-####Enumeration
-* 
-
 ####Distinguishing between
