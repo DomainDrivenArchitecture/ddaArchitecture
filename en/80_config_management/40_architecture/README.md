@@ -6,7 +6,7 @@
   * cross cutting functions like security, backup, users identity on various levels
 
 ##Modules and building blocks
-![architectural overview](/en/80_config_management/resources/archtectural-overview.png)
+![architectural overview](../resources/archtectural-overview.png)
 
 ##Phases
 ###Enumeration of phases
