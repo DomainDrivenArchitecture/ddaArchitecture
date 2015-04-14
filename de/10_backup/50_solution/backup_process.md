@@ -2,11 +2,15 @@
 
 ![the backup process][backup process]
 
-![the restore process][restore process]
-
 [backup process]: backup_phases.png "the backup process"
 
 ## Backup Quelle
+### Server (0)
+1. Vor dem Backup ist der Server zu beenden (0.a).
+2. Dann kann mit den Anwendungsdateien (0.b) ein Backup durchgeführt werden. 
+3. Nach der Datensicherung ist der Server wieder zu starten (0.c)
+
+
 ### Backup durchführen (1)
 Im Backup Schritt ist ein Cronjob auf dem „Source“ System dafür zuständig,
 1. alle Anwendungsdaten (1.a) und Logdaten (1.b) zu sammeln.
