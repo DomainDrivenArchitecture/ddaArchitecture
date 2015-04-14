@@ -2,8 +2,6 @@
 
 ![the backup process][backup process]
 
-[backup process]: backup_phases.png "the backup process"
-
 
 ## Backup Quelle
 ### Backup durchführen (1)
