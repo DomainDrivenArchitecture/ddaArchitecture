@@ -2,6 +2,10 @@
 
 ![the backup process][backup process]
 
+![the restore process][restore process]
+
+[backup process]: backup_phases.png "the backup process"
+
 ## Backup Quelle
 ### Backup durchführen (1)
 Im Backup Schritt ist ein Cronjob auf dem „Source“ System dafür zuständig,
