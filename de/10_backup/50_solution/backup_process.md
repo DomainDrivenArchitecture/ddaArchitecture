@@ -2,7 +2,6 @@
 
 ![the backup process][backup process]
 
-
 ## Backup Quelle
 ### Backup durchführen (1)
 Im Backup Schritt ist ein Cronjob auf dem „Source“ System dafür zuständig,
