@@ -1,5 +1,3 @@
-# DDA Konzept Backup
+# DDA Backup Feature Spezifikation
 
-## Table of Content
-
-{% include "SUMMARY.md" %}
+Anforderungen, Architektur und Umsetzung zum Feature "Backup"

@@ -7,6 +7,7 @@
 |0.3		|M.Jerger						|22.12.14	|Lösungsarchitektur beschrieben und die Dokumentenstruktur überarbeitet|gültig	|
 |0.4		|M.Jerger						|28.01.15	|Auf Konsistenz geprüft, “Restore” hinzugefügt|gültig	|
 |0.5		|meissa							|30.01.15	|Gereviewed und übersetzt|gültig	|
+|0.6		|M.Jerger						|21.04.15	|Umstrukturiert, Anforderungen hinzugefügt, Umsetzung in das Umsetzungprojekt ausgelagert|gültig	|
 
 #Legende
 
