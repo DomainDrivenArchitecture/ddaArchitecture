@@ -1,8 +1,6 @@
 {
     "gitbook": "2.0.1",
-    "plugins": [
-        "piwik"
-    ],
+    "plugins": ["piwik"],
     "pluginsConfig": {
         "piwik": {
             "URL": "piwik.meissa-gmbh.de/",
