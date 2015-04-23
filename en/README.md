@@ -1,5 +1,5 @@
-# The DomainDrivenArchitecture
+# DomainDrivenArchitecture
 
-## Table of Content
+## Inhaltsverzeichnis
 
-{% include "SUMMARY.md" %}
+{% include "./SUMMARY.md" %}
