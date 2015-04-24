@@ -1,14 +1,7 @@
 {
-<<<<<<< Upstream, based on origin/master
     "gitbook": "2.0.1",
     "plugins": [
         "piwik"
-=======
-    "gitbook": "2.0.0-alpha.9",
-    "plugins": [
-        "piwik",
-        "conref"
->>>>>>> d624ec2 Update book.json
     ],
     "pluginsConfig": {
         "piwik": {
