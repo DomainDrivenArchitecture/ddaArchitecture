@@ -17,5 +17,4 @@
     * [Source](10_backup/50_solution/source.md)
     * [Sink](10_backup/50_solution/sink.md)
 {% include "20_linked_data/SUMMARY_INCLUDE.md" %}
-
 * [Books License](LICENSE.md)
