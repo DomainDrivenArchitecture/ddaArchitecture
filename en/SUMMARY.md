@@ -16,5 +16,5 @@
     * [Restore Process](10_backup/50_solution/restore_process.md)
     * [Source](10_backup/50_solution/source.md)
     * [Sink](10_backup/50_solution/sink.md)
- * [Feature Spec Linked Data Resource Publishing](20_liked_data/README.md)
- * [Books License](LICENSE.md)
+{% include "20_linked_data/SUMMARY_INCLUDE.md" %}
+* [Books License](LICENSE.md)
