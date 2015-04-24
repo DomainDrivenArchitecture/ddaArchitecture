@@ -6,6 +6,10 @@
 * [Backup Feature Specification](10_backup/README.md) 
 {% include "./10_backup/SUMMARY_INCLUDE.md" %}
 {% include "20_linked_data/SUMMARY_INCLUDE.md" %}
+<<<<<<< Upstream, based on master
 * [Sandbox](99_sandbox/README.md)
 {% include "./99_sandbox/SUMMARY.md" %}
 * [Books License](LICENSE.md)
+=======
+* [Books License](LICENSE.md)
+>>>>>>> 3fb85b0 Update SUMMARY.md
