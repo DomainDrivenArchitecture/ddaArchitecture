@@ -2,5 +2,7 @@
   * [Concepts Scope](80_config_management/10_scope/README.md)
   * [Analysis](80_config_management/20_analysis/README.md)
   * [Requirements](80_config_management/30_requirements/README.md)
+    * [Module WebServer](80_config_management/30_requirements/webServer.md)
   * [Architecture](80_config_management/40_architecture/README.md)
-  * [Solution](80_config_management/50_solution/README.md)
+  * [Solution](80_config_management/50_realization/README.md)
+    * [Module WebServer](80_config_management/50_realization/webServer.md)
