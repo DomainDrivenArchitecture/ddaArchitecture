@@ -5,17 +5,13 @@
 [backup process]: backup_phases.png "the backup process"
 
 ## Backup Quelle
-### Server (0)
-1. Vor dem Backup ist der Server zu beenden (0.a).
-2. Dann kann mit den Anwendungsdateien (0.b) ein Backup durchgeführt werden. 
-3. Nach der Datensicherung ist der Server wieder zu starten (0.c)
-
-
 ### Backup durchführen (1)
 Im Backup Schritt ist ein Cronjob auf dem „Source“ System dafür zuständig,
-1. alle Anwendungsdaten (1.a) und Logdaten (1.b) zu sammeln.
-2. diese Daten an den  “Transport Handover Point” zu übergeben.
-3. den “früherer Transport ist fehlgeschlagen” Fall zu behandeln und z.B. eine Fehler-Mail zu verschicken.
+1. den laufenden App-Server zu stoppen (1.a).
+2. alle Anwendungsdaten (1.b) und Logdaten (1.d) zu sammeln.
+3. den App-Server wieder zu starten (1.c).
+4. die gesammelten Daten an den  “Transport Handover Point” zu übergeben.
+5. den “früherer Transport ist fehlgeschlagen” Fall zu behandeln und z.B. eine Fehler-Mail zu verschicken.
 
 ## Backup Daten Transport (2)
 ### Den Transport durchführen(2.a)
