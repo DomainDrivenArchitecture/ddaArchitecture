@@ -1,6 +1,6 @@
 # Besonderheiten beim Backup von Logfiles 
-## Weiterführende Analyse Möglichkeiten mit Log Backups
-Das Backup ermöglicht etwas speziellere Analytik. Die Logfiles können zum Beispiel auf nicht autorisierte Änderungen analysiert werden und so einen weiteren Indikator für Angriffe liefern.
+## Weiterführende Analysemöglichkeiten mit Log Backups
+Dieses Backup ermöglicht etwas speziellere Analytik. Die Logfiles können zum Beispiel auf nicht autorisierte Änderungen analysiert werden und so einen weiteren Indikator für Angriffe liefern.
 
 ## Log-Daten Behandlung mit ubuntu12.04
 

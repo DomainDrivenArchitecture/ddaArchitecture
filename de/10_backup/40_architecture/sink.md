@@ -1,11 +1,11 @@
 # Backup Sink
 ## Grundsätze des „Sink Systems“ 
  1. Ablauf
-   1. Die Backups werden vom „Source“-System bezogen und in einem Eingangstransport Verzeichnis gespeichert.
+   1. Die Backups werden vom „Source“-System bezogen und in einem Eingangstransport-Verzeichnis gespeichert.
    2. Die Schritte nach dem Transport werden von dem „Sink“-System angestoßen:
      1. Überprüfung des erfolgreichen Transports.	
      2. Ausführen der „Source“-System-Schritte nach dem Transport.
-     3. Ausführen der „Sink“-System-Schritte nach den Transport.
+     3. Ausführen der „Sink“-System-Schritte nach dem Transport.
        1. Verschieben der Backup-Dateien in den Store
        2. (Optional) Auswertung nach Ablauf durchführen
  2. Zugriff
@@ -29,6 +29,6 @@
    1. store
    2. \[source-systems-dns-name]
    3. \[Speichergeneration] (z.B. täglich | wöchentlich | monatlich)
- 2. Dateiname wie in  4.4.2  eingehendes Transportverzeichnis beschrieben
+ 2. Dateiname wie in Abschnitt "Eingehendes Transportverzeichnis" beschrieben
  3. Beispiel:
    1. store/owncloud.example.org/daily/dda-owncloud_meissa_mysql_2015-01-28_04-52-01.sql
