@@ -5,13 +5,13 @@
 We backup application data and log data.
 Code and configuration needs no backup, because code is saved by Version Management System.
  * Application Data
- * Log Data: Logfiles are synchronized daily. Storage duration is: e.g. 1 Year
- * Security Log Data: Security logs need no backup, because they're synchronized in real time. Storage duration is:	e.g. 1 Year
+ * Log Data: Logfiles are synchronized daily. Storage duration is: e.g. 1 year
+ * Security Log Data: Security logs need no backup, because they are synchronized in real time. Storage duration is:	e.g. 1 year
 
 ### Availability
- * High: High important data are stored on another computing center.
- * Normal: Normal important data are stored on another server.
- * Low: Low important data are stored only on the same server and on the hosting providers backup store.
+ * High: Highly important data are stored on another computing center.
+ * Normal: Normally important data are stored on another server.
+ * Low: Less important data are stored only on the same server and on the hosting provider's backup store.
 
 ## Decisions and Analysis per Application
 |ID|Measurement|

@@ -9,7 +9,7 @@
   1. the dataBackupSink (1.a)
   2. or the HostEurope Backup (1.b). How to get backuped files back is described at https://kis.hosteurope.de/support/faq/index.php?cpid=16063&in_object=40&searchword=backup
 2. Access to the system being restored has to be assigned manually.
-3. Backups to be restored, have to be placed in /home/dataBackupSource/restore. The restore script will take the newest backup available in the restore folder.
+3. Backups to be restored, have to be placed in /home/dataBackupSource/restore. The restore script will take the latest backup available in the restore folder.
 
 ## Restore (2)
-The restore step is part of the system applications' individual procedure.
+The restore step is part of the system applications' individual procedures.
