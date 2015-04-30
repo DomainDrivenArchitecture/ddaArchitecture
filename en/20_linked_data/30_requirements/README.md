@@ -1,4 +1,4 @@
-# Requirements
+# Requirements Linked Data
 
 ## Idea: Multi-Source Ability
 * Establish a multi-source ability by deploying .war-files into a servlet container (e.g. tomcat), running on a server
