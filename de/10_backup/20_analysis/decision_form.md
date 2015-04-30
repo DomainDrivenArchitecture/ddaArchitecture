@@ -4,7 +4,7 @@
 Wir machen für Anwendungsdaten und Logdaten ein Backup.
 Code und Konfigurationen benötigen kein Backup, da der Code im Versions Management System gespeichert ist.
  * Anwendungsdaten
- * Logdaten Logfiles werden täglich synchronisiert. Aufbewahrungsdauer ist z.B.: 1 Jahr
+ * Logdaten werden täglich synchronisiert. Aufbewahrungsdauer ist z.B.: 1 Jahr
  * Sicherheits-Logdaten: Sicherheits-Logs benötigen kein Backup, da sie in Echtzeit synchronisiert werden. Aufbewahrungsdauer ist z.B.: 1 Jahr
 
 ### Verfügbarkeit

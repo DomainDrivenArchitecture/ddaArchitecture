@@ -1,5 +1,5 @@
 #Buch Änderungshistorie
-	
+
 |Version	|Autor / Aktor					|Datum		|Änderung / Aktivität	|Status	|
 |-----------|-------------------------------|-----------|-----------------------|-------|
 |0.1		|M.Jerger, M.Mörike, M.Caspari, T.Scherer, meissa	|05.03.2015		|Veröffentlichung von DDA-Backup 0.5	|gültig	|

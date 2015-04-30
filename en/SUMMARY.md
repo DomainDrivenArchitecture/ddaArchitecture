@@ -3,17 +3,10 @@
 * [DomainDrivenArchitecture](README.md)
 * [Books Change History](change_history.md)
 * [Books Scope](01_scope/README.md)
-* [Backup](10_backup/README.md)
-  * [Concepts Change History](10_backup/change_history.md)
-  * [Concepts Scope](10_backup/10_scope/README.md)
-  * [Analysis](10_backup/20_analysis/README.md)
-    * [Questions and Entities](10_backup/20_analysis/questions_and_entities.md)
-    * [Backup Decisions Form](10_backup/20_analysis/decision_form.md)
-    * [Secific Environments](10_backup/20_analysis/specific_environments.md)
-  * [Architecture](10_backup/40_architecture/README.md)
-  * [Solution Architecture](10_backup/50_solution/README.md)
-    * [Backup Process](10_backup/50_solution/backup_process.md)
-    * [Restore Process](10_backup/50_solution/restore_process.md)
-    * [Source](10_backup/50_solution/source.md)
-    * [Sink](10_backup/50_solution/sink.md)
- * [Books License](LICENSE.md)
+* [Backup Feature Specification](10_backup/README.md) 
+{% include "./10_backup/SUMMARY_INCLUDE.md" %}
+
+* [Sandbox](99_sandbox/README.md)
+{% include "./99_sandbox/SUMMARY.md" %}
+
+* [Books License](LICENSE.md)

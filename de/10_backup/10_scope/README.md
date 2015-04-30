@@ -1,7 +1,7 @@
 # Rahmenbedingungen für dieses Dokument
 ## Anlass und Ziel
 Dieses Kapitel beschreibt das Backup Konzept. 
-Zur Veranschaulichung dient an einigen Stellen die "Beispiel GmbH".
+Zur Veranschaulichung dient an einigen Stellen das "Beispiel-Unternehmen".
 
 ## Adressatenkreis
 IT-Betrieb, IT-Architekten, Software-Entwickler und Anwendungsverantwortliche.

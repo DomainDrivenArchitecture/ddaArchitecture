@@ -25,4 +25,4 @@ Auf Knoten, die als Backup Quelle dienen, gibt es zwei Backup-User, die dataBack
 ## Lokales Backup Speicherverzeichnis
  1. Verzeichnisname
    1. store
- 2. Dateiname (analog zu 4.3.2  ausgehendes Transportverzeichnis)
+ 2. Dateiname (analog zu Abschnitt "Ausgehendes Transportverzeichnis")
