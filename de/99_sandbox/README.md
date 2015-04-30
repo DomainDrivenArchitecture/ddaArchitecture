@@ -3,8 +3,7 @@
 ## Eine andere Seite einbinden
 {% include "./AnOtherPage.md" %}
 
-{% include "AnOtherPage.md" %}
-
-{% include "AnOtherPage" %}
+## Lizenz
+{% include "../LICENSE.md" %}
 
 Abschließender Text
