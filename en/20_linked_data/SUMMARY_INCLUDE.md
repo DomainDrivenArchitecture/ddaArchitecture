@@ -1,4 +1,3 @@
-* [Linked Data Resource Publishing](20_linked_data/README.md)  
   * [Change History](20_linked_data/change_history.md)
   * [Scope](20_linked_data/10_scope/README.md)
   * [Analysis](20_linked_data/20_analysis/README.md)
