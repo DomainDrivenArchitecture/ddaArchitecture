@@ -1,5 +1,3 @@
-# DomainDrivenArchitecture
+# Domain Driven Architekture
 
-## Inhaltsverzeichnis
-
-{% include "./SUMMARY.md" %}
+Dieses Dokument beschreibt eine Musterarchitektur, die auf Konzepten des DomainDrivenDesigns von Eric Evans aufbaut.
