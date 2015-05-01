@@ -1,21 +1,11 @@
 # Analysis
 ## Tools
-### Interlinking
-#### Silk
-* Web: http://silk-framework.com/
-* Code: https://github.com/silk-framework/silk
-* Wiki: https://www.assembla.com/spaces/silk/wiki/Silk_Workbench
-
-### Any 2 RDF
-#### Talend
-* Code: https://github.com/Talend
-
-#### D2RQ
+### D2RQ
 * Project: http://d2rq.org/
 * Code: https://github.com/d2rq/d2rq
-* Realized Path on Server: /var/lib/d2rq-0.8.1
+* Path on Server: /var/lib/d2rq-0.8.1
 
-#### sesame
+### sesame
 * Workbench Doku:
   * <http://rdf4j.org/sesame/2.8/docs/using+sesame.docbook?view#Sesame_Workbench>
 * Server Doku:

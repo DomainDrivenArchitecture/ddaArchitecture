@@ -1,33 +1,23 @@
-# Requirements Linked Data für PolitAktiv
-Ziel: 
-Aus Beiträgen von Bürgern werden standardisierte Aussagen extrahiert und dabei in beide Richtungen navigierbar verlinkt. Die standardisierten Aussagen sind von den Moderatoren vorgegeben. 
+# Requirements - Semantic für PolitAktiv
+Goal: Citizens contributions are extracted to standardized essays. 
+Essays are linked with their origin. 
+Essays are given by moderators. 
 
 ## Basic
-* Ressourcen / Ontologien sind eindeutig referenziert
-* Ressourcen / Ontologien sind per Webtechnik dereferenzierbar
-  * für Menschen
-  * für WebService Clients
-* SPARQL Abfragen über Ontologien und Ressourcen 
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0107.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0108.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0109.md" %}
   
-## Authorisierung auf Mandantenebene
-* Authentifizierung
-* Autorisierung für Mandanten
+## Authorization
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0110.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0111.md" %}
 
-## Bearbeiten
-* Ontologie erstellen
-* Ontologie bearbeiten & erweitern
-* Instanzen erstellen
-* Instanzen bearbeiten & erweitern
+## Work
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0112.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0113.md" %}
 
-## Verlinkung
-* Verlinkungsregeln definieren & erweitern
-* Verlinkung automatisiert als Verlinkungs-Vorschlag erstellen
-* Verlinkungs-Vorschläge mit manueller Verlinkung zusammenführen.
-* Verlinkungs-Vorschläge können von manuellen Verlinkungen entmischt werden.
-
-### Idea: Multi-Source Ability
-* Establish a multi-source ability by deploying .war-files into a servlet container (e.g. tomcat), running on a server
-* use a distinct .war-file for every business application
-* thus, databases that do not belong together stay separated
-* when accessing the the server, the client application can be accessed by the URL which contains the name of the .war-file
-* thus, the URLs define namespaces for different business applications
+## Link
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0143.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0115.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0117.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0116.md" %}

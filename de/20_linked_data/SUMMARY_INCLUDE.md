@@ -10,6 +10,4 @@
     * [Publishing](20_linked_data/40_architecture/publishing/publishing.md)
       * [Publishing One Data Source](20_linked_data/40_architecture/publishing/publishingOneRelationalDataSource.md)
       * [Publishing Multiple Data Sources](20_linked_data/40_architecture/publishing/publishingMultipleRelationalDataSources.md)
-    * [Interlinking](20_linked_data/40_architecture/interlinking/README.md)
   * [Realization](20_linked_data/60_realization/README.md)
-  * [Glossary](20_linked_data/GLOSSARY.md)
