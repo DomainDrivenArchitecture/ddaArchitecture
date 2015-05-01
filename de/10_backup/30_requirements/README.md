@@ -1,4 +1,4 @@
-# Anforderungen für Feature Anwendungs-Backup
+# Anforderungen für Anwendungs Backup
 
 ## Backup für Daten
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0096.md" %}
