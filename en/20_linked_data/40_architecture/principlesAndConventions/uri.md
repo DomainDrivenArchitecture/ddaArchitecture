@@ -1,10 +1,10 @@
 # URI Conventions
 ## The Linked Data Platform Schema
 Basically we distinguish between different types, which results in different URI schemes also:
-* Ontology – Defines the structure of instances
-* Instances – (e.g. documents, data rows, person ...)
-* Taxonomy – (e.g. controlled vocabularies, taxonomies)
-* User - users are presinced resources. Users can be used as entities for authorization.
+* **Ontology** – Defines the structure of instances
+* **Instances** – (e.g. documents, data rows, person ...)
+* **Taxonomy** – (e.g. controlled vocabularies, taxonomies)
+* **User** - users are presinced resources. Users can be used as entities for authorization.
 
 URIs are laid out as following. The curly bracket indicates placeholders.
 * http://{server_name}/ontology/{ontology_name}/{version}# 
