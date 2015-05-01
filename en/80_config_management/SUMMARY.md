@@ -5,5 +5,6 @@
     * [Module Configuration](80_config_management/30_requirements/configuration.md)
     * [Module WebServer](80_config_management/30_requirements/webServer.md)
   * [Architecture](80_config_management/40_architecture/README.md)
+    * [DDA core](80_config_management/40_architecture/ddaCore.md)
   * [Realization](80_config_management/50_realization/README.md)
     * [Module WebServer](80_config_management/50_realization/webServer.md)

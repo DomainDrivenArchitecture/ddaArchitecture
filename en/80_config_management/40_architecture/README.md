@@ -25,12 +25,6 @@ There are many crates in the pallet world. In order to get a better overview, we
 ##Simulation Mode
 TODO: describe sm.
 
-##Configuration
-There will always be the situation of different versions of deployed software. Distinguishing between debit and actual. "Configuration" denominates the pursued debit, the actual state of server nodes we will name "Facts".
-
-###Test First in case of Configuration
-Simulation mode is one way to test application of new configurations.
-
 ###Distribution
 Configuration can be distributed in push mode and pull mode.
 * Push is important for security reason (server-credentials may not reside on every server node in net)
@@ -41,9 +35,3 @@ Configuration can be distributed in push mode and pull mode.
 ![communication in push mode](../resources/pallet-communication-server.png)
 
 ![communication in pull mode](../resources/pallet-communication-serverless.png)
-
-###Configuration differs
-Configuration is different for each system. In the one hand this statement is trivial, on the other hand this fact is a problem for a steady quality. Test first will be of limited use here only.
-
-###Configuration is complex
-Configuration tend to be complex. Because of all the abstracted away details we have more speed, but also higher complexity to tackle with.
