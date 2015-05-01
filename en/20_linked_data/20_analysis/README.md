@@ -6,6 +6,11 @@
 * Code: https://github.com/silk-framework/silk
 * Wiki: https://www.assembla.com/spaces/silk/wiki/Silk_Workbench
 
+#### OpenRefine
+* OpenRefine: https://github.com/OpenRefine/OpenRefine
+* RDF-Extension: https://github.com/fadmaa/grefine-rdf-extension
+* LOD-Refine: https://github.com/sparkica/LODRefine/tree/master/extensions/rdf-extension
+
 ### Any 2 RDF
 #### Talend
 * Code: https://github.com/Talend
