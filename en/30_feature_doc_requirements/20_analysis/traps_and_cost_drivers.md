@@ -1,0 +1,2 @@
+## Traps and cost driver
+Up to now we have been looking at the benefits. Now, let's have a look at the costs. Below, I will explain the mistakes that can potentially be expensive, without weighting them according to their order.

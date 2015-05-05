@@ -8,4 +8,5 @@ Wichtige Bereiche im Arbeitspaket sind:
 * description und plannedEfford, um die Umsetzungsschritte und deren Aufwand festzuhalten,
 * asignee für die Personalplanung und
 * realEfford, um Schätzungenauigkeiten zu identifizieren.
+
 Unter https://www.domaindrivenarchitecture.org/vorlagen finden Sie eine Vorlage für Arbeitspakete.

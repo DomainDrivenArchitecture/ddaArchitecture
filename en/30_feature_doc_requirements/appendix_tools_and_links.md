@@ -1,4 +1,4 @@
-## Anhang: Weitere Tools und weitere Links
+## Appendix: Further tools and more links
 
 http://www.youtube.com/watch?v=bRd8bVakmUI – Scetch Tool
 Wikipedia: http://en.wikipedia.org/wiki/Business_process_modeling
