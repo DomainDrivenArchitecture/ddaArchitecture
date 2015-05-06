@@ -4,7 +4,7 @@ In the figure below you find the structural aspects of solutions concerning the 
 
 ![Figure 1: Structure of requirements][structure]
 
-[structure]: TODOPATHReferenzenAufAnforderungenMitNummernGedreht.png "Figure 1: Structure of requirements"
+[structure]: https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/requirements/images/ReferenzenAufAnforderungenMitNummernGedreht.png "Figure 1: Structure of requirements"
 
 System vs. Projekt
 The system life-cycle (1) differs from the project life-cycle (1). Typically, a system is developed, maintained or changed by several implementation projects.

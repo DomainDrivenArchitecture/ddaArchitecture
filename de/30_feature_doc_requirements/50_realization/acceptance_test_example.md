@@ -2,4 +2,4 @@
 
 ![Abbildung 6: Ein Abnahmetest][ATExample]
 
-[ATExample]: TODOPATHFitnesseAbnahmeTest.png "Abbildung 6: Ein Abnahmetest"
+[ATExample]: https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/requirements/images/FitnesseAbnahmeTest.png "Abbildung 6: Ein Abnahmetest"

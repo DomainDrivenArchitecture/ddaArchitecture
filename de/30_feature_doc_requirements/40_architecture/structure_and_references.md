@@ -4,7 +4,7 @@ Die strukturellen Lösungselemente für die beschriebene Kosten / Nutzen Herausf
 
 ![Abbildung 1: Struktur von Anforderungen][structure]
 
-[structure]: TODOPATHReferenzenAufAnforderungenMitNummernGedreht.png "Abbildung 1: Struktur von Anforderungen"
+[structure]: https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/requirements/images/ReferenzenAufAnforderungenMitNummernGedreht.png "Abbildung 1: Struktur von Anforderungen"
 
 System vs. Projekt
 Die Lebensbereiche  eines Systems (1) unterscheiden sich selbstverständlich vom Lebensbereich eines Projekts (1). Ein System wird typischerweise von mehreren Umsetzungs-Projekten erstellt, gepflegt oder geändert.

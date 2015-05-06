@@ -3,4 +3,4 @@ Via URL, all requirements are versioned referenceably.
 
 ![Figure 4: URL referencable directly][directReference]
 
-[directReference]: TODOPATHFitnesseReferenzenAufAnforderungen.png "Figure 4: URL referencable directly"
+[directReference]: https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/requirements/images/FitnesseReferenzenAufAnforderungen.png "Figure 4: URL referencable directly"
