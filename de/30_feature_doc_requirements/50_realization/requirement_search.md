@@ -7,4 +7,4 @@ FitNesse bietet auch die Möglichkeit zur Volltext-Suche:
 
 ![Abbildung 8: Das Suchergebnis][search2]
 
-[search2]: TODOPATHFitnesseSuche1.png "Abbildung 8: Das Suchergebnis"
+[search2]: TODOPATHFitnesseSuche2.png "Abbildung 8: Das Suchergebnis"

@@ -7,4 +7,4 @@ FitNesse features the possibility for a full text search:
 
 ![Figure 8: The search result][search2]
 
-[search2]: TODOPATHFitnesseSuche1.png "Figure 8: The search result"
+[search2]: TODOPATHFitnesseSuche2.png "Figure 8: The search result"
