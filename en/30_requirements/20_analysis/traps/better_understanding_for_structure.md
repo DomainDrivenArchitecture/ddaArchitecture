@@ -1,0 +1,4 @@
+### A better understanding of problems leads to structural changes
+The demand for structural changes nearly always increases due to a better understanding of the technical problem. According to A. Cockburn, the requirement analyst would be well advised not to consider the functional decomposition within the requirements.
+Nevertheless, requirements are mentally linked with the future business architecture, which itself reflects the structural changes. Everyone working with this system feels the need for a reasonable structure.
+This structure is reflected by one or more views within the presented approach. Therefore, the better structure and content of the requirements can be separated, the lower are the restructuring costs.
