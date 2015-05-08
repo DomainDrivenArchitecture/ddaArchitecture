@@ -3,6 +3,7 @@
 |Version	|Author / Actor					|Date		|Change / Activity	|State	|
 | --------- | ----------------------------- | --------- | --------------	| -----	|
 |0.1		|M.Jerger, M.Mörike, M.Caspari, T.Scherer, meissa|05.03.2015	|Publishing of DDA Backup 0.5	|valid	|
+|0.3		|M.Jerger, T.Scherer			|08.05.2015	|Publication of DDA-Requirements en 0.7	|valid	|
 
 #Legend
 
