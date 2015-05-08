@@ -14,6 +14,9 @@ This is typically the creation date, the state of the data within the graph, aut
 An ontology is a collection of classes and properties that define the possible relations between
 instances of these classes as well as literal objects. Typical examples of ontologies are FOAF, VCARD or SIOC.
 
+#Data Set / Instances / Resources
+
+
 #Tag
 Index term assigned to a piece of information.
 
