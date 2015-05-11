@@ -6,8 +6,9 @@
   * [Requirements](30_requirements/30_requirements/README.md)
   * [Architecture](30_requirements/40_architecture/README.md)
     * [Structure and referencing of requirements](30_requirements/40_architecture/structure_and_references.md)
-        * [System scope](30_requirements/40_architecture/system_scope.md)
-    	* [Project-Scope (1.)](30_requirements/40_architecture/project_scope.md) 
+    * [System scope (1.)](30_requirements/40_architecture/system_scope.md)
+    * [Project-Scope (1.)](30_requirements/40_architecture/project_scope.md) 
   * [Realization](30_requirements/50_realization/README.md)
-  	* [Managing requirements with FitNesse](30_requirements/50_realization/manage_with_fitnesse.md)
+  	* [With FitNesse](30_requirements/50_realization/manage_with_fitnesse.md)
   * [Appendix: Further tools and more links](30_requirements/appendix_tools_and_links.md)
+   

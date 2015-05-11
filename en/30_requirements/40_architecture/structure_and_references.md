@@ -1,4 +1,4 @@
-## Struktur und Referenzierung von Anforderungen
+## Refering to Requirements
 In the figure below you find the structural aspects of solutions concerning the described cost-benefit challenge.
 
 
