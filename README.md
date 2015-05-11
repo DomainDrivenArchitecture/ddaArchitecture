@@ -11,6 +11,9 @@ Thanks to all contributors. The contributors are:
  * M.Caspari
  * T.Scherer
  * M.Jerger
+ * M.Klemm
+ * P. Raysz
+ * G.Bockhorn
  * meissa GmbH	
 
 # Contribute
