@@ -3,11 +3,11 @@ In FitNess requirements are versioned … in the following example Version 001 i
 
 ![Figure 2: Two versions – one for further specification and a stable one for implementation][twoVersions]
 
-[twoVersions]: https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/requirements/images/30_requirements/FitnesseVersionen.png "Figure 2: Two versions – one for further specification and a stable one for implementation"
+[twoVersions]: https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/master/images/30_requirements/FitnesseVersionen.png "Figure 2: Two versions – one for further specification and a stable one for implementation"
 
 
 For preparing a new version, we make a copy of the file system:
 
 ![Figure 3: Representation in the filesystem][twoVersionsFileSystem]
 
-[twoVersionsFileSystem]: https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/requirements/images/30_requirements/FitnesseVersionenImFilesystem.png "Figure 3: Representation in the filesystem"
+[twoVersionsFileSystem]: https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/master/images/30_requirements/FitnesseVersionenImFilesystem.png "Figure 3: Representation in the filesystem"
