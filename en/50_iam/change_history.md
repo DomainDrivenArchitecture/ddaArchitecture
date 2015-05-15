@@ -1,0 +1,16 @@
+#Change History
+
+|Version	|Author / Actor					|Date						|Change /  Acti		|Status	|
+| ----------------------------- 	| ------------- | --------------- | ----- |
+|0.1		|M.Duchrow								|15.05.2015			|Initial Creation	|draft|
+
+
+
+#Legend
+
+|New Status						|Implication	|
+| ----------------------------- 	| ------------- |
+|draft							|From the point of view of the author, the content is not complete|
+|valid								|From the point of view of the authors, the content is complete and correct.|
+|agreed (with Actor)|From the point of view of further persons, the content is valid, too.|
+|approved (fromr Actor)	|The client / responsible person declares the content valid.|
