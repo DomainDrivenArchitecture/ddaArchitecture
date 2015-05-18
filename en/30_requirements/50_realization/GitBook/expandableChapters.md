@@ -1,15 +1,18 @@
-# Developing GitBook extension "expandable-chapters" 
+## Developing GitBook extension "expandable-chapters" 
 
-## Requirement
+### Feature "Expand & Collapse Chapters"
+Task: Create a plugin, that allows to expand and collapse gitbooks chapters.
+
+#### Requirement
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0047.md" %}
 
-## Acceptance Criteria
+#### Acceptance Criteria
 1. there is a gitbook-plugin-expandable-chapters - forked from https://github.com/DomainDrivenArchitecture/gitbook-plugin-expandable-chapters.
 2. there is a fork from https://github.com/DomainDrivenArchitecture/ddaArchitecture with plugin configured using "expandable-chapters" (https://github.com/DomainDrivenArchitecture/ddaArchitecture/blob/master/book.json)
 3. gitbook build generates a book with exandable / collapsable chapters can be shown
 4. a short webconf, explaining how the plugin is structured (language english or german).
 
-## Setup for local GitBook publish
+#### Setup for local GitBook publish
 Our setup is (on ubuntu14.04):
  * gitbook
      * root: apt-get install npm
@@ -17,3 +20,11 @@ Our setup is (on ubuntu14.04):
      * root: ln -s /usr/bin/nodejs /usr/bin/node
      * user: npm install gitbook-plugin-piwik
  * for editing we are using "Springs STS" other eclipse versions should work as well.
+ 
+ #### Used Software
+ * gitbook: https://github.com/GitbookIO/gitbook
+ * Plugins@gitbook: http://help.gitbook.com/plugins/create.html
+ 
+ 
+ 
+ 
