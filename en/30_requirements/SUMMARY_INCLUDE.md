@@ -9,6 +9,7 @@
     * [System scope (1.)](30_requirements/40_architecture/system_scope.md)
     * [Project-Scope (1.)](30_requirements/40_architecture/project_scope.md) 
   * [Realization](30_requirements/50_realization/README.md)
-  	* [With FitNesse](30_requirements/50_realization/manage_with_fitnesse.md)
+    * [GitBook](30_requirements/50_realization/gitbook.md)  
+  	* [FitNesse](30_requirements/50_realization/fitnesse.md)
   * [Appendix: Further tools and more links](30_requirements/appendix_tools_and_links.md)
    

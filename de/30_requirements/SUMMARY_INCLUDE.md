@@ -9,5 +9,5 @@
     * [System-Scope (1.)](30_requirements/40_architecture/system_scope.md)
     * [Project-Scope (1.)](30_requirements/40_architecture/project_scope.md)
   * [Umsetzung](30_requirements/50_realization/README.md)
-  	* [Mit FitNesse](30_requirements/50_realization/manage_with_fitnesse.md)
+  	* [FitNesse](30_requirements/50_realization/fitnesse.md)
   * [Anhang: Weitere Tools und weitere Links](30_requirements/appendix_tools_and_links.md)

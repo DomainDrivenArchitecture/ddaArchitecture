@@ -6,7 +6,7 @@ The Book DomainDrivenArchitecture will collect architectural concepts with the c
 The concepts itself will show their state on their introduction. Most of them will be valid. Each concept will reside in its own topic/concept chapter.
 
 # Thanks to Contributers
-Thanks to all contributors. The contributors are:
+Thanks to all contributors. As there are:
  * M.Mörike
  * M.Caspari
  * T.Scherer

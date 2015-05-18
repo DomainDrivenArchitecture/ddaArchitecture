@@ -1,4 +1,4 @@
-## Managing requirements with FitNesse
+# Managing requirements with FitNesse
 
 {% include "./FitNesse/version_management.md" %}
 {% include "./FitNesse/requirement_referencing.md" %}
