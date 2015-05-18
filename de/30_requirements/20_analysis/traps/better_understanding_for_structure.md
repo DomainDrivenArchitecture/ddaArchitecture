@@ -1,0 +1,4 @@
+### Besseres Problemverständnis führt zu Strukturänderungen
+Mit zunehmendem Verständnis des fachlichen Problems geht auch fast immer der Wunsch nach einer Änderung der bestehenden Struktur einher. Nach A. Cockburn tut der Requirements-Analyst gut daran, die funktionale Dekomposition nicht in den Anforderungen zu berücksichtigen. 
+Nichts desto trotz sind Anforderungen mit der zukünftigen fachlichen Architektur – in der sich die Strukturänderungen zeigen – gedanklich gekoppelt. Alle Menschen, die mit dem System hantieren, haben das Bedürfnis zu einer sinnvollen Gliederung.
+Im vorgestellten Ansatz wird diese Struktur über eine oder mehrere Ansichten reflektiert. Je besser sich daher Struktur und Inhalt der Anforderungen trennen lassen, desto weniger kostet dieser Umstand.

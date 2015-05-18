@@ -1,0 +1,3 @@
+### Erklären um nachzudenken
+Ich mache bei mir oft die Erfahrung, dass schon längst verstanden geglaubte Zusammenhänge plötzlich gar nicht mehr so stringent logisch aufgebaut sind, wenn ich mit der Aufgabe konfrontiert bin, diese einem dritten zu erklären. In solchen Situationen verändert sich regelmäßig das Bild in meinem Kopf. Nach meiner Beobachtung tritt so ein ähnlicher Effekt auch beim Aufschreiben von Anforderungen auf.
+Ein Teil des Widerwillens gegen die Dokumentation von Anforderungen liegt sicher in dieser Denkarbeit begründet – und zeigt gleichzeitig auch die Notwendigkeit.

@@ -1,0 +1,3 @@
+### Violation against DRY (Don't Repeat Yourself)
+Important business insights are described in the requirements. These insights will be useful in many cases. Just think of descriptions for testing, work packages, requirement specification, project plans, manuals, status reports, contracts, or error messages. In all these cases, you are often tempted to insert parts of a requirement.
+The costs will become clear as soon as such a scattered requirement changes. Therefore, the challenge is to combine the comfort of “copy & paste” with the lack of redundancy.
