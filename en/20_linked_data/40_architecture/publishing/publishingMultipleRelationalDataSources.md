@@ -22,7 +22,24 @@ Thougts:
 ## More complex using Sesame as repo manager
 ![](publishingWithSesame.png)
 
-Thougts:
+### Infrastructure
+1. The httpd terminates ssl, only ports 80 / 443 are accepted.
+
+### IDM
+1. Basic Authentication is used for authentication.
+2. Access Authorization is used for authorizing tenants. Distinguished roles are
+  a. public
+  b. protected
+  
+### URLs
+1. Each tenant has its own url context: https://[servername]/tenant/...
+
+### LD Publishing
+1. Todo: can sesame publish with custom url context?
+2. Todo: can d2rq be published by sesame?
+ 
+
+### Further Thougts:
 * one more component is used.
 * sesame repo has to be secured
 	* Important Security Consideration: Workbench stores user name and password credentials in plain-text cookies in the browser. You will need to configure your Workbench server for HTTPS to properly protect these credentials. 
