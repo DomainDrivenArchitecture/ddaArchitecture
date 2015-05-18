@@ -25,9 +25,12 @@ Thougts:
 ### Infrastructure
 1. The httpd terminates ssl, only ports 80 / 443 are accepted.
 
-### IDM
+### Authentication & Autorization
 1. Basic Authentication is used for authentication.
-2. Access Authorization is used for authorizing tenants. Distinguished roles are
+2. Access Authorization is used for authorizing tenants.
+  a. Authoritzation is done by filtering url patterns.
+  b. By filtering url patterns, sparql will not be protected. Therefore different tenant repositories will be completly seperated on app-server level.
+3. Distinguished roles are
   a. public
   b. protected
   
