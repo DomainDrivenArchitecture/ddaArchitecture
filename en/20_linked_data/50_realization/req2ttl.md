@@ -80,4 +80,7 @@ req7777	hasId		7777 .
 Thus, duplicates need to be removed. 
 If you can assure that - speaking of languages - one set of requirements is a subset of the other, you do not need to iterate over both directories when collecting the IDs but only over the superset.
 
+### Use Job as runnable jar
+In talend, right-click on a job, choose "Build Job" and then choose a path for the archive file. The file will be a .zip file, containing a .jar as well as a shell and a batch script for running it. Now, jobs can be run by the server (with cron-jobs for example), which keeps the data up-to-date. 
+
 
