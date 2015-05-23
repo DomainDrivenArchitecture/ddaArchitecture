@@ -1,2 +1,4 @@
-# Requirements Build System
-* CRISP: Complete, Repeatable, Informative, Schedulable, Portable
+# Requirements of Liferay Build
+
+* 
+* PA Developers can change code on Liferay
