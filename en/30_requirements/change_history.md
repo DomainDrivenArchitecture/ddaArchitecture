@@ -1,6 +1,6 @@
-#Proof of Change
+#Change History
 	
-|Version	|Author / Actor					|Date		|Change /  Acti	|Status	|
+|Version	|Author / Actor					|Date		|Change /  Activity	|Status	|
 | ----------------------------- 	| ------------- |
 |0.1		|M.Jerger						|06.02.2012	|Initial Creation	|gülitg|
 |0.2		|M. Paus	|07.02.2012	|Orthography	|valid	|

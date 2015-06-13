@@ -1,7 +1,8 @@
 {
     "gitbook": "2.0.1",
     "plugins": [
-        "piwik"
+        "piwik", 
+        "expandable-chapters"
     ],
     "pluginsConfig": {
         "piwik": {
