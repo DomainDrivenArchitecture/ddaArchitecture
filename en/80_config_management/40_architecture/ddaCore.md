@@ -1,6 +1,6 @@
 #DDA Core Modules
 
-![](ddaCoreElements.png)
+![Figure 1: Structure of core Elements](https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/master/images/80_config_management/architecture_core_modules.png)
 
 ## Fact Reader (1)
 * Will read installed / upgraded versions
