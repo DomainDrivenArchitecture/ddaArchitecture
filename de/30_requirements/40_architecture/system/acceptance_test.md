@@ -1,0 +1,2 @@
+#### 4.1.2  Acceptance Test (3.)
+Im Acctepance Test im Sinne eines Abnahmetests wird beschrieben, was erfüllt sein muss, damit die Anforderung als umgesetzt gewertet wird. Während Anforderungen nach Möglichkeit auf einer hohen Abstraktionsebene formuliert sind, können in Tests wichtige Details beschrieben werden. Beispiele zur Testbeschreibung finden sich im Anhang unter 5.4 Der zugehörige Akzeptanztest.

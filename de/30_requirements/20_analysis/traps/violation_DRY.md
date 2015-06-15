@@ -1,0 +1,3 @@
+### Verstoß gegen DRY (Don't Repeate Yourself)
+In Anforderungen werden wichtige fachliche Zusammenhänge beschrieben. Diese Zusammenhänge werden an vielen Stellen erläuternd gebraucht. Denken Sie nur an Testbeschreibungen, Arbeitspakete, Pflichtenheft, Projektpläne, Handbücher, Statusberichte, Verträge oder Fehlermeldungen. An all diesen Stellen ist man stets versucht, mal kurz den ein oder anderen Teil einer Anforderung hin zu kopieren.
+Sobald sich eine derart verstreute Anforderung verändert, sind die Kosten recht plastisch klar. Das bedeutet, die Herausforderung liegt darin, den Komfort von Copy/ Paste mit Redundanzfreiheit zu kombinieren.

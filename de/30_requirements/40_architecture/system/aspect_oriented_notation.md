@@ -1,0 +1,3 @@
+##### Aspect-oriented User Requirements Notation
+Ein weitere hilfreiche Notation für funktionale Anforderungen ist die sogenannte Aspect-oriented User Requirements Notation. Mit dieser Notation lassen sich querschnittliche funktionale Anforderungen gut beschreiben. Ein typisches Beispiel für solche querschnittlichen Anforderungen sind z.B. Rechte von Rollen oder Fehlerprotokollierung.
+Zum Weiterlesen empfehle ich hier „Aspect-Oriented Software Development with Use Cases“ v. Ivar Jacobson & Pan-Wei NG oder Aspect-Oriented User Requirements Notation - University of Ottawa (http://www.springerlink.com/content/252645l617782770/) von G.Mussbach.

@@ -1,0 +1,4 @@
+#### DomainArchitecture (8.)
+Die Domain Architecture oder fachliche Architektur beschreibt die Unterteilung des fachlichen Problems. Neue Erkenntnisse, die während Analyse, ausprobieren oder Umsetzung entstehen, führen mit Sicherheit dazu, dass sich die Unterteilung und Strukturierung in der fachlichen Architektur verändert.
+Damit sich diese Veränderungen nicht so massiv auf schon bestehende Anforderungen auswirken, wird die semantische Verbindung zwischen Anforderungen und der fachlichen Architektur durch Requirements Views realisiert.
+Die in der fachlichen Architektur verwendeten Elemente wie Aggregate, Entitäten, Repositories, usw. sind im Domain Driven Design beschrieben.
