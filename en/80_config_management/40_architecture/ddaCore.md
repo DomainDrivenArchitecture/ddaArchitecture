@@ -4,7 +4,7 @@
 
 ## Module Description
 ### ExecutionContext
-The ExecutionContext encapsulates the for application of config management recognized state:
+The ExecutionContext encapsulates the state recognized for application of config management:
 * pointInTime - the current world time
 * organisationUnit - the organizational execution context. May be tenant or finer grained organizational units. 
 * targetSystem - pallet default representation of target system facts like ip, os-type and so on.
