@@ -18,7 +18,7 @@
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="91.50000000000006" width="289.9999999999999" x="-193.22965625000012" y="-716.34901875"/>
+          <y:Geometry height="91.50000000000006" width="289.9999999999999" x="-193.22965625000012" y="-723.0990187500003"/>
           <y:Fill color="#EDEDED" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.1328125" modelName="custom" textColor="#000000" visible="true" width="104.43896484375" x="92.78051757812494" y="3.0">Configuration<y:LabelModel>
@@ -32,7 +32,7 @@
             <y:AttributeLabel/>
             <y:MethodLabel>effectiveConfiguration(ExecutionContext)
 Boolean: valid?(ExecutionContext)
-[ValidationRsults]: validate(ExecutionContext)</y:MethodLabel>
+[ValidationResults]: validate(ExecutionContext)</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -178,7 +178,6 @@ configureWithInstances</y:MethodLabel>
       </data>
     </node>
     <node id="n8">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="74.67956562500024" y="-662.3490187500001"/>
@@ -248,7 +247,6 @@ configureWithInstances</y:MethodLabel>
       </data>
     </edge>
     <edge id="e5" source="n8" target="n7">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
