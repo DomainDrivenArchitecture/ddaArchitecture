@@ -1,6 +1,9 @@
 {
-	"gitbook": ">=2.0.1",
-    "plugins": ["piwik", "expandable-chapters"],
+	"gitbook": ">=2.1.0",
+    "plugins": [
+    	"piwik",
+    	"toggle-chapters", 
+    	"expandable-chapters"],
     "pluginsConfig": {
     	"piwik": {
          	"URL": "piwik.meissa-gmbh.de/",
