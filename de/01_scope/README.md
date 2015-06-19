@@ -19,5 +19,3 @@ IT-Betrieb, IT-Architekten, Software-Entwickler und Anwendungsverantwortliche.
   * Anwendungsverantwortliche
   * System Benutzer
   * System Betreiber
-
-

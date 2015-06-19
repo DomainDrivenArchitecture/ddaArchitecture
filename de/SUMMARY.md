@@ -9,5 +9,3 @@
 * [Sandbox](99_sandbox/README.md)
 {% include "./99_sandbox/SUMMARY.md" %}
 * [Lizenz](LICENSE.md)
-    
-
