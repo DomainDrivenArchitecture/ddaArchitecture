@@ -2,7 +2,6 @@
     "gitbook": "2.1.0",
     "plugins": [
     	"piwik",
-    	"toggle-chapters", 
     	"expandable-chapters"
     ],
     "pluginsConfig": {
