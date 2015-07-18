@@ -1,6 +1,7 @@
 * [Concepts Change History](change_history.md)
 * [Concepts Scope](10_scope/README.md)
 * [Analysis](20_analysis/README.md)
+  * [Configuration](80_config_management/20_analysis/configuration.md)
 * [Requirements](30_requirements/README.md)
   * [Instance and State Support](30_requirements/instance_and_state_support.md)
   * [Configuration](30_requirements/configuration.md)
