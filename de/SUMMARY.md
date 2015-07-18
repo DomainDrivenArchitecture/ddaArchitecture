@@ -8,6 +8,4 @@
 {% include "20_linked_data/SUMMARY_INCLUDE.md" %}
 * [Anforderungen](30_requirements/README.md)
 {% include "./30_requirements/SUMMARY_INCLUDE.md" %}
-* [Sandbox](99_sandbox/README.md)
-{% include "./99_sandbox/SUMMARY.md" %}
 * [Lizenz](LICENSE.md)
