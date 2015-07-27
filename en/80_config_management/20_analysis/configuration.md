@@ -25,9 +25,10 @@ Configuration is different for each system. In the one hand this statement is tr
 Configuration tend to be complex. Because of all the abstracted away details we have more speed, but also higher complexity to tackle with.
 
 ###Dependency Injection
-Good Articles about:
+Good Articles & Videos about:
 * http://tech.puredanger.com/2014/01/03/clojure-dependency-injection/
 * http://software-ninja-ninja.blogspot.de/2014/04/5-faces-of-dependency-injection-in.html
+* https://www.youtube.com/watch?v=13cmHf_kt-Q
 
 Frameworks:
 * https://github.com/stuartsierra/component
