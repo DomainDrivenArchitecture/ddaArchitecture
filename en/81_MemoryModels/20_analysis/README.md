@@ -10,3 +10,8 @@
 
 ### Max Memory consumption
 The overall memory consumption results in memory / thread * MaxClients (4 in our case).
+
+### Articles to read
+* http://jessesnet.com/development-notes/2014/apache-prefork-mpm-maxclients/
+* https://www.devside.net/articles/apache-performance-tuning
+* https://www.thomas-krenn.com/de/wiki/Apache_Performance_Tuning

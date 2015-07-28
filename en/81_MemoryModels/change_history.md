@@ -2,7 +2,7 @@
 	
 |Version	|Author / Actor					|Date		|Change /  Activity	|State|
 | ---------	| ----------------------------- | --------- | ----------------- | --- |
-|0.1		|M.Jerger						|27.07.2015	|Initial        	|valid|
+|0.1		|M.Max, M.Jerger				|27.07.2015	|Initial        	|valid|
 
 
 
