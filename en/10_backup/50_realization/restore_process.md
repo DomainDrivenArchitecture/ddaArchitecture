@@ -12,4 +12,4 @@
 3. Backups to be restored, have to be placed in /home/dataBackupSource/restore. The restore script will take the latest backup available in the restore folder.
 
 ## Restore (2)
-The restore step is part of the system applications' individual procedures.
+The restore step is part of the system applications individual procedures.

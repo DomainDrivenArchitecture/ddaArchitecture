@@ -6,13 +6,13 @@ Basically we distinguish between different types, which results in different URI
 * **Taxonomy** – (e.g. controlled vocabularies, taxonomies)
 * **User** - users are presinced resources. Users can be used as entities for authorization.
 
-URIs are laid out as following. The curly bracket indicates placeholders.
+URIs are laid out as following. The curly bracket indicates a placeholder.
 * http://{server_name}/ontology/{ontology_name}/{version}# 
 * http://{server_name}/resource/{ontology_name}/{resource_type}/{resource_identifier}#this 
 * http://{server_name}/taxonomy/{taxonomy_name}/{resource_name}#this
 * http://{server_name}/user/{account_identifier}#this
 
-URIs should be international usable. Therefore URIs language should be English by convention. The following chapters provide a more detailed explanation.
+URIs should be usable international. Therefore URIs language should be English by convention. The following chapters provide a more detailed explanation.
 
 ## Ontologies
 Ontologies have their own namespace build by the following schema:
@@ -29,7 +29,7 @@ Example:
 http://linkeddata.domaindrivenarchitecture.org/ontology/requirements/v1#
 ```
 
-URIs of classes ore properties are build up by the namespace, the hash character and the name of class or property as „Camel-Case“.
+URIs of classes are properties are build up by the namespace, the hash character and the name of class or property as „Camel-Case“.
 
 Example:
 ```url
@@ -53,11 +53,11 @@ http://linkeddata.domaindrivenarchitecture.org/resource/requirements/UseCase/001
 ```
 
 ## Taxonomies
-Taxonomies are Instances of classes (e.g. from skos ontology). Their URIs have the following schema:
+Taxonomies are instances of classes (e.g. from skos ontology). Their URIs have the following schema:
 
 **http://{server_name}/taxonomy/{taxonomy_name}/{resource_name}#this**
 
-The curly brackets indicate placeholders. Their semantic is:
+The curly brackets indicate a placeholder. Their semantic is:
 * {server_name} – The name of the webserver which derefers the taxonomy.
 * {taxonomy_name} – The normalized name of taxonomy (e.g skos:schema). „Normalized“ means: No special characters, white spaces and lowercase.
 * {resource_name} – The normalized name of instance. The name can be label/preferred label. „Normalized“ means: No special characters, white spaces and lowercase.
@@ -68,11 +68,11 @@ http://linkeddata.domaindrivenarchitecture.org/taxonomy/my_glossary/usecase#this
 ```
 
 ## Human User Identifiers
-Like any resource also human users are identified by URIs. These URIs are constructed as follows
+Like any resource human users are identified by URIs also. These URIs are constructed as follows:
 
 **http://{server_name}/user/{account_identifier}#this**
 
-The curly brackets indicates placeholders. Their semantic is:
+The curly brackets indicates a placeholder. Their semantic is:
 * {server_name} – The name of the webserver which defers the resource/instance.
 * {account_identifier} – The account name in lowercase.
 

@@ -13,9 +13,9 @@ On nodes serving as backup source, there are two backup users called dataBackupS
    2. Access to the backup source users is managed by /home/[sourceUserName]/.ssh/authorized_keys.
 
 ## Transport outgoing Folder
- 1. Folder-name
+ 1. Folder name
    1. transport-outgoing
- 2. File-name
+ 2. File name
    1. [application name]
    2. [backup source type] (eg. file system | mysql)
    3. time stamp
@@ -23,6 +23,7 @@ On nodes serving as backup source, there are two backup users called dataBackupS
    1. transport-outgoing/dda-owncloud_meissa_mysql_2015-01-28_04-52-01.sql
 
 ## Local Backup Store Folder
- 1. Folder-name
+ 1. Folder name
    1. store
- 2.File-name (same as in 4.3.2  Transport outgoing Folder)
+ 2.File name (same as in 4.3.2  Transport outgoing Folder)
+ 

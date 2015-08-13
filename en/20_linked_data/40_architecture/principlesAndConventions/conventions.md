@@ -47,6 +47,6 @@ ontology:hasRoleName
 Ontologies are stored and exchanged in turtle format.
 
 ## Namespace Storage
-Elements of differnt namespaces are stored in 
+Elements of different namespaces are stored in 
 * different named graphs or 
 * different turtle files.

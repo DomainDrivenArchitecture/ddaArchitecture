@@ -7,7 +7,7 @@
 * when accessing the the server, the client application can be accessed by the URL which contains the name of the .war-file
 * thus, the URLs define namespaces for different business applications
 
-##Simple version using only apache & d2rq
+##Simple: Using only apache & d2rq
 
 ![](publishingWithD2rqOnly.png)
 
@@ -19,7 +19,7 @@ Thougts:
   * basic auth is used, so clients has to support this also.
   * is url pattern based
 
-## More complex using Sesame as repo manager
+## More complex: Using Sesame as repo manager
 ![](publishingWithSesame.png)
 
 ### Infrastructure
@@ -46,12 +46,10 @@ Thougts:
 * one more component is used.
 * sesame repo has to be secured
 	* Important Security Consideration: Workbench stores user name and password credentials in plain-text cookies in the browser. You will need to configure your Workbench server for HTTPS to properly protect these credentials. 
-	* See <https://tomcat.apache.org/tomcat-6.0-doc/ssl-howto.html> or 
-	* <https://tomcat.apache.org/tomcat-7.0-doc/ssl-howto.html> for more information.	
+	* See <https://tomcat.apache.org/tomcat-6.0-doc/ssl-howto.html> or <https://tomcat.apache.org/tomcat-7.0-doc/ssl-howto.html> for more information.	
 * vocabulary serving works better
 * authentication & authorization 
   * apache is providing auth & autz.
-  	* see 
-* <http://www.rivuli-development.com/further-reading/sesame-cookbook/basic-security-with-http-authentication/>
+  	* see <http://www.rivuli-development.com/further-reading/sesame-cookbook/basic-security-with-http-authentication/>
   * basic auth is used, so clients has to support this also.
   * is url pattern based

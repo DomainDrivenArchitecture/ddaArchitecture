@@ -2,6 +2,6 @@
 This document describes the publication of linked data resources.
 
 ## Intended Reader
-IT Operations, IT Architects, developers and product owners.
+IT operation engeneers, IT architects, developers and product owners.
 
 ## Additional Documents
