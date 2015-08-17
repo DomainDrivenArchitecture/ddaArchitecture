@@ -1,6 +1,6 @@
 #User_ -> Group_
 
-##User from Group Blaubeuren
+##User from Group xy
 https://intermediate.intra.politaktiv.org/linkeddata-liferay/page/User_/230092
 
 ###Join two mapped entities
@@ -8,8 +8,8 @@ map:User__group a d2rq:PropertyBridge;
 	d2rq:belongsToClassMap map:User_;
 	d2rq:property vocab:Group_ ;
 	d2rq:refersToClassMap map:Group_ ;
-	d2rq:join "User_.userId <= Users_UserGroups.userGroupId";
-	d2rq:join "Users_UserGroups.userGroupId => Group_.groupId";
+	d2rq:join "User_.userId <= Users_Groups.userGroupId";
+	d2rq:join "Users_Groups.userGroupId => Group_.groupId";
 	.
 
 ##Group Blaubeuren
