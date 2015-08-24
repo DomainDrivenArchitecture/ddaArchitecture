@@ -15,5 +15,6 @@
       * [Publishing Requirements as Linked Data](20_linked_data/40_architecture/publishing/publishingRequirementsAsLinkedData.md)
     * [Interlinking](20_linked_data/40_architecture/interlinking/README.md)
   * [Realization](20_linked_data/50_realization/README.md)
+    * [d2rq for Liferay](20_linked_data/50_realization/d2rqForLiferay.md)
     * [Requirements2Turtle - Transformation with Talend](20_linked_data/50_realization/req2ttl.md)
   * [Glossary](20_linked_data/GLOSSARY.md)
