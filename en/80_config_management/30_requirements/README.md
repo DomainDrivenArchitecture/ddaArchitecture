@@ -8,7 +8,3 @@
 
 ## Multitenancy
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0184.md" %}
-
-# Two Modules in Progress
-* Configuration
-* Web-Server
