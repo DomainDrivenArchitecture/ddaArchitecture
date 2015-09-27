@@ -22,11 +22,3 @@ Configuration can for specific ExecutionContexts
 2. validate.
 
 In addition Configuration resolves the noted overwrite hierarchy. 
-
-
-## Process
-1. __readTargetState__: and fill in the execution context.
-2. __resolveOverwrite__ && 
-3. __provideEffectiveConfiguration__ for
-4. __valid?__
-5. and finally __apply the configuration__.
