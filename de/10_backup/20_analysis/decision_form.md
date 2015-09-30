@@ -1,5 +1,7 @@
 # Backup Entscheidungen
-## Allgemeine Entscheidungen
+## Generelle Entscheidungskriterien
+
+Allgemeine Entscheidungen
 ### Datentypen für das Backup
 Wir machen für Anwendungsdaten und Logdaten ein Backup.
 Code und Konfigurationen benötigen kein Backup, da der Code im Versions Management System gespeichert ist.
@@ -8,12 +10,24 @@ Code und Konfigurationen benötigen kein Backup, da der Code im Versions Managem
    * Begründung:
  * Sicherheits-Logdaten: Sicherheits-Logs benötigen kein Backup, da sie in Echtzeit synchronisiert werden. Aufbewahrungsdauer ist z.B.: 1 Jahr
 
-### Verfügbarkeit
+Allgemeine Entscheidungen
+### Datentypen für das Backup
+Wir machen für Anwendungsdaten und Logdaten ein Backup.
+Code und Konfigurationen benötigen kein Backup, da der Code im Versions Management System gespeichert ist.
+ * Anwendungsdaten
+ * Logdaten werden täglich synchronisiert. Aufbewahrungsdauer ist z.B.: 1 Jahr
+   * Begründung:
+ * Sicherheits-Logdaten: Sicherheits-Logs benötigen kein Backup, da sie in Echtzeit synchronisiert werden. Aufbewahrungsdauer ist z.B.: 1 Jahr
+
+
+## Entscheidungskriterien je Anwendung
+### Definition Verfügbarkeit
 * Hoch: Hoch wichtige Daten werden in einem anderen Rechenzentrum aufbewahrt.
 * Normal: Normal wichtige Daten werden auf einem anderen Server aufbewahrt.
 * Niedrig: Weniger wichtige Daten werden nur auf dem gleichen Server und im Backup Store des Hosting Providers aufbewahrt.
 
-## Entscheidungen und Auswertung je Anwendung
+
+
 |ID									|Messgröße|
 |--									|--|
 |Anwendungsname						||
@@ -33,3 +47,5 @@ Code und Konfigurationen benötigen kein Backup, da der Code im Versions Managem
 |Vertraulichkeit der Anwendungsdaten|| 
 |Vertraulichkeit der Logdaten		|| 
 |Wiederherstellungszeit im Katastrophenfall||
+
+Entscheidungsbeispiel in der 
