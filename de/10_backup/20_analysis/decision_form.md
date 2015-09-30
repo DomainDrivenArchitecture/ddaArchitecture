@@ -1,32 +1,14 @@
 # Backup Entscheidungen
 ## Generelle Entscheidungskriterien
-
-Allgemeine Entscheidungen
-### Datentypen für das Backup
-Wir machen für Anwendungsdaten und Logdaten ein Backup.
-Code und Konfigurationen benötigen kein Backup, da der Code im Versions Management System gespeichert ist.
- * Anwendungsdaten
- * Logdaten werden täglich synchronisiert. Aufbewahrungsdauer ist z.B.: 1 Jahr
-   * Begründung:
- * Sicherheits-Logdaten: Sicherheits-Logs benötigen kein Backup, da sie in Echtzeit synchronisiert werden. Aufbewahrungsdauer ist z.B.: 1 Jahr
-
-Allgemeine Entscheidungen
-### Datentypen für das Backup
-Wir machen für Anwendungsdaten und Logdaten ein Backup.
-Code und Konfigurationen benötigen kein Backup, da der Code im Versions Management System gespeichert ist.
- * Anwendungsdaten
- * Logdaten werden täglich synchronisiert. Aufbewahrungsdauer ist z.B.: 1 Jahr
-   * Begründung:
- * Sicherheits-Logdaten: Sicherheits-Logs benötigen kein Backup, da sie in Echtzeit synchronisiert werden. Aufbewahrungsdauer ist z.B.: 1 Jahr
-
+Wenn wir über Backup nachdenken, dann können die folgenden Elemente relevant sein:
+ * Systemkonfiguration: Konfiguration und Installationszustand des zugrundeliegenden Systems.
+ * Applikationskonfiguration: Die einstellungen der eigentlichen Anwendung
+ * Applikations-Binaries: Die ausführbaren Dateien einer Anwendung.
+ * Anwendungsdaten: Die Daten, die bei der Nutzung der Anwendung entstehen.
+ * Logdaten: Logmeldungen, die wichtige Ereignisse protokollieren.
 
 ## Entscheidungskriterien je Anwendung
-### Definition Verfügbarkeit
-* Hoch: Hoch wichtige Daten werden in einem anderen Rechenzentrum aufbewahrt.
-* Normal: Normal wichtige Daten werden auf einem anderen Server aufbewahrt.
-* Niedrig: Weniger wichtige Daten werden nur auf dem gleichen Server und im Backup Store des Hosting Providers aufbewahrt.
-
-
+Neben den eigentlichen Backup-Inhalten (für deren Backup generelle Richlinien gelten können) muss natürlich auch die einzelne Anwendung betrachtet werden:
 
 |ID									|Messgröße|
 |--									|--|
@@ -48,4 +30,20 @@ Code und Konfigurationen benötigen kein Backup, da der Code im Versions Managem
 |Vertraulichkeit der Logdaten		|| 
 |Wiederherstellungszeit im Katastrophenfall||
 
-Entscheidungsbeispiel in der 
+
+#Entscheidungs-Beispiel beim "Beispiel Unternehmen"
+## Generell
+Wir machen für Anwendungsdaten und Logdaten ein Backup.
+Code und Konfigurationen benötigen kein Backup, da der Code im Versions Management System gespeichert ist.
+* **Systemkonfiguration:** Wird vollständig durch ConfigManagement erstellt und ist daher immer reporduzierbar. - Kein Backup Bedarf.
+* **Applikationskonfiguration:** Wird vollständig durch ConfigManagement erstellt und ist daher immer reporduzierbar. - Kein Backup Bedarf.
+* **Applikations-Binaries:** Binaries werden für das ConfigManagement auf einem speziellen Artefakt-Server abgelegt. - Kein zusätzlicher Backup Bedarf.
+* **Anwendungsdaten:** Werden gemäß Kriterien-Tabelle gesichert - Backup Bedarf.
+* **Logdaten:** Logdaten werden zwar teilweise in Echtzeit Aggregiert und gesammelt (Logstash, Ossec), für eine vertiefte Analyse sollen Logdaten allerdings zusätzlich gesichert werden - Backup Bedarf, allgemeine Aufbewahrungszeit: 1 Jahr.
+
+
+### Definition Verfügbarkeit
+* Hoch: Hoch wichtige Daten werden in einem anderen Rechenzentrum aufbewahrt.
+* Normal: Normal wichtige Daten werden auf einem anderen Server aufbewahrt.
+* Niedrig: Weniger wichtige Daten werden nur auf dem gleichen Server und im Backup Store des Hosting Providers aufbewahrt.
+
