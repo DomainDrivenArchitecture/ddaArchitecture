@@ -1,6 +1,6 @@
 # Architecture
 ## Kontext
-Die beschreibenen Backup-/Restore-Prozesse beleuchten nur den Teil der 
+Die beschreibenen Backup-/Restore-Prozesse beschränken sich auf die Anwendungs- und Logdaten. Für ein vollständiges Recovery muss natürlich (an anderer Stelle) auch die Wiederherstellung auf Hardware-, Betriebsystem- und Applikations-Ebene betrachtet werden.
 
 ## Entscheidungen
 ### Datentransport nach dem Pull-Verfahren.
