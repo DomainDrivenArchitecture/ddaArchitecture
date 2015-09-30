@@ -41,8 +41,10 @@ Code und Konfigurationen benötigen kein Backup, da der Code im Versions Managem
 * **Anwendungsdaten:** Werden gemäß Kriterien-Tabelle gesichert - Backup Bedarf.
 * **Logdaten:** Logdaten werden zwar teilweise in Echtzeit Aggregiert und gesammelt (Logstash, Ossec), für eine vertiefte Analyse sollen Logdaten allerdings zusätzlich gesichert werden - Backup Bedarf, allgemeine Aufbewahrungszeit: 1 Jahr.
 
+## Je Anwendung
+Für die Festlöegung der Anwendungs-Individuellen Bedarfe haben wir die o.g. Tabelle verwendet. Für die Verfügbarkeit nutzen wir dei folgende Deffinition:
 
-### Definition Verfügbarkeit
+**Definition Verfügbarkeit**
 * Hoch: Hoch wichtige Daten werden in einem anderen Rechenzentrum aufbewahrt.
 * Normal: Normal wichtige Daten werden auf einem anderen Server aufbewahrt.
 * Niedrig: Weniger wichtige Daten werden nur auf dem gleichen Server und im Backup Store des Hosting Providers aufbewahrt.
