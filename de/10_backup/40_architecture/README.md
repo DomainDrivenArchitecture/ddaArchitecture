@@ -1,6 +1,6 @@
 # Architecture
 ## Kontext
-Das Backup
+Die beschreibenen Backup-/Restore-Prozesse beleuchten nur den Teil der 
 
 ## Entscheidungen
 ### Datentransport nach dem Pull-Verfahren.
