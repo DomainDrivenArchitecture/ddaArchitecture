@@ -2,17 +2,14 @@
 
 In analysis chapter we collect and discuss all the relevant questions in area of Configuration Management. Relevant questions are:
 
+1. Scope: What is the scope of Config Management, what are the limits?
+2. BusinessValue: What is the business value of Config Management?
+3. Which dimensions are important for cutting off the building blocks?
+4. What elements are important for handling versions?
+5. How can Config Management be tested?
+6. How should configuration be distributed?
+7. How can configuration be characterized?
 
 If there are questions we missed to consider from your point of view, please let us know at [dda@meissa-gmbh.de](mailto:dda@meissa-gmbh.de).
-
-##Business Value of Config Management
-* Standardize system setup - that's good for
-  * increase environmental control - new insights will result in a continuous progress
-  * all installed systems will benefit simultaneously from new insights
-  * systems can be installed repeatable - so testing in test systems become more meaningful
-* Increase automation - that's good for
-  * hide a huge number of boring details
-  * react fast on tasks like setup of new systems or apply a new configuration
-  * handle more systems with less human operators  
 
 
