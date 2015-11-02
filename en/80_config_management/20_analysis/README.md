@@ -7,9 +7,9 @@ In analysis chapter we collect and discuss all the relevant questions in area of
 3. Which dimensions are important for cutting off the building blocks?
 4. What elements are important for handling versions?
 5. How can Configuration Management be tested?
-6. How should configuration be distributed?
+6. How should configuration be distributed to target systems?
 7. How can configuration be characterized?
-8. Which kinds of configuration, installation or roll out can we distinguish?
+8. Which kinds of configuration, installation or roll out jobs can we distinguish?
 9. Can it-ops services be abstracted and integrated?
 10. How can we choose our Configuration Management system?
 11. How can configuration be modularized?
@@ -21,6 +21,13 @@ In analysis chapter we collect and discuss all the relevant questions in area of
 17. What is the role of Configuration Management in a bare metal-, cloud- and container-world?
 18. How can Configuration Management support legacy processes like manual application roll outs?
 19. How can / should Configuration Management support many instances on single server?
+20. How are updates handled?
+21. How can we transport information generated during the configuration / installation process?
+22. How are credentials handled secure?
+23. Whats our strategy to handle large files?
+24. How do we handle exceptions during configuration process?
+25. How configuration roll out results should be structured?
+26. When should we choose to overwrite configuration?
 
 If there are questions we missed to consider from your point of view, please let us know at [dda@meissa-gmbh.de](mailto:dda@meissa-gmbh.de).
 
