@@ -13,6 +13,12 @@ In analysis chapter we collect and discuss all the relevant questions in area of
 8. Can it-ops services be abstracted and integrated?
 9. How can we choose our Configuration Management system?
 10. How can configuration be modularized?
+11. Do we need state and how can state be managed?
+12. What kind of platforms can we distinguish?
+12. How can we apply same modules on different platforms?
+13. How can we distinguish debit configuration from actual configuration?
+14. How configuration defined becomes to configuration be ready to be applied to real nodes?
+15. How is the role of Configuration Management in a cloud and container hyped world?
 
 If there are questions we missed to consider from your point of view, please let us know at [dda@meissa-gmbh.de](mailto:dda@meissa-gmbh.de).
 
