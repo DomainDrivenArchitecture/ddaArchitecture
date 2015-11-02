@@ -9,8 +9,5 @@
             "URL": "piwik.meissa-gmbh.de/",
             "siteId": 30
         }
-    },
-    "pdf": {
-        "footerTemplate": "./FOOTER.html"
     }
 }
