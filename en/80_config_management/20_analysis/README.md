@@ -18,7 +18,9 @@ In analysis chapter we collect and discuss all the relevant questions in area of
 14. How can we apply same modules on different platforms?
 15. How can we distinguish debit configuration from actual configuration?
 16. How configuration defined becomes to configuration be ready to be applied to real nodes?
-17. How is the role of Configuration Management in a cloud and container hyped world?
+17. What is the role of Configuration Management in a bare metal-, cloud- and container-world?
+18. How can Configuration Management support legacy processes like manual application roll outs?
+19. How can / should Configuration Management support many instances on single server?
 
 If there are questions we missed to consider from your point of view, please let us know at [dda@meissa-gmbh.de](mailto:dda@meissa-gmbh.de).
 
