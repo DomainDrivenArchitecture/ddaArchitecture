@@ -1,5 +1,10 @@
 # Analysis
 
+In analysis chapter we collect and discuss all the relevant questions in area of Configuration Management. Relevant questions are:
+
+
+If there are questions we missed to consider from your point of view, please let us know at [dda@meissa-gmbh.de](mailto:dda@meissa-gmbh.de).
+
 ##Business Value of Config Management
 * Standardize system setup - that's good for
   * increase environmental control - new insights will result in a continuous progress
