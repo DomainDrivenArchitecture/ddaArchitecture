@@ -15,9 +15,4 @@ If there are questions we missed to consider from your point of view, please let
   * react fast on tasks like setup of new systems or apply a new configuration
   * handle more systems with less human operators  
 
-##Limits & Scoping
-The question is, how config management can be distinguished from things like
-* windows desktop applications with their installers or
-* linux packages?
 
-My thesis is: Config Management is the general unit for configuring all systems in scope. Therefore Config Management unites all the different ways installers or package managers are offering.
