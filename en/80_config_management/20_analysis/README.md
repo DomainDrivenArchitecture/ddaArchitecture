@@ -29,6 +29,7 @@ In analysis chapter we collect and discuss all the relevant questions in area of
 25. How configuration roll out results should be structured?
 26. When should we choose to overwrite configuration?
 
+
 If there are questions we missed to consider from your point of view, please let us know at [dda@meissa-gmbh.de](mailto:dda@meissa-gmbh.de).
 
 
