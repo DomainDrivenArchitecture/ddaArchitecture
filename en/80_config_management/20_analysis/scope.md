@@ -1,5 +1,4 @@
 #Limits & Scoping
-The Questions for Scope are:
 
 ## What is the scope of Configuration Management, what are the limits?
 The question is, how config management can be distinguished from things like
