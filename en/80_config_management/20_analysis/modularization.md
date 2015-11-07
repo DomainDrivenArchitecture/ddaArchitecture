@@ -21,8 +21,6 @@ The ExecutionContext encapsulates the state recognized for application of config
 ## What elements are important for handling versions?
 There will always be the situation of different versions of deployed software. Distinguishing between debit and actual. "Configuration" denominates the pursued debit, the actual state of server nodes we will name "Facts".
 
-## Which kinds of configuration, installation or roll out jobs can we distinguish?
-
 ## How can configuration be modularized?
 Can we use some kind of Dependency Injection to modularize our configuration?
 Good Articles & Videos about:
