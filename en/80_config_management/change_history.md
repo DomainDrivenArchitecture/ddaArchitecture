@@ -2,7 +2,7 @@
 	
 |Version	|Author / Actor					|Date		|Change / Activity	|State	|
 |-----------|-------------------------------|-----------|-------------------|-------|
-|0.1		|M.Jerger						|07.11.2015	|initial			|valid	|
+|0.1		|M.Jerger						|07.11.2015	|initial			|draft	|
 
 
 #Legend
