@@ -5,6 +5,10 @@ There are many relevant Dimensions for cutting modules
 * tenants, 
 * different system environments like dev, test, staging, integration or production 
 * cross cutting functions like security, backup, users identity on various levels
+* operating systems
+* cloud / hosting providers
+* cloud provider types
+* container types
 
 TBD
 The ExecutionContext encapsulates the state recognized for application of config management:
@@ -15,7 +19,12 @@ The ExecutionContext encapsulates the state recognized for application of config
 * targetEnvType - additional dda represantation of target environment type like dev, test, integration or production.  
 
 ## Can it-ops services be abstracted and integrated?
+
 ## What kind of platforms can we distinguish?
+All dimensions, can be hidden transparently away, from crate users we will call platforms. Dimensions considered to be hidden are:
+* Operating system
+* cloud / hosting provider
+
 ## How can we apply same modules on different platforms?
 ## How can / should Configuration Management support many instances on single server?
 ## What elements are important for handling versions?
