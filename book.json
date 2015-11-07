@@ -1,5 +1,5 @@
 {
-    "gitbook": "2.1.0",
+    "gitbook": ">2.1.0",
     "plugins": [
         "piwik",
         "expandable-chapters"
@@ -9,8 +9,5 @@
             "URL": "piwik.meissa-gmbh.de/",
             "siteId": 30
         }
-    },
-    "pdf": {
-    	"footerTemplate": "./FOOTER.html"
     }
 }
