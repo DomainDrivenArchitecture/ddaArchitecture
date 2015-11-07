@@ -20,8 +20,8 @@ The ExecutionContext encapsulates the state recognized for application of config
 
 ## Can it-ops services be abstracted and integrated?
 
-## What kind of platforms can we distinguish?
-All dimensions, can be hidden transparently away, from crate users we will call platforms. Dimensions considered to be hidden are:
+## What does dda-platform mean?
+All dimensions dda can be hide transparently away from crate users we will call dda-platform. Dimensions considered to be hidden are:
 * Operating system
 * cloud / hosting provider
 
