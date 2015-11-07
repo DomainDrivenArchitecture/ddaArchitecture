@@ -5,6 +5,6 @@ Configuration can be distributed in push mode and pull mode.
   * Technical: Some networks may be not accessible from outside.
   * Social: Developers don't like uncontrolled updates from outside.
   
-![communication in push mode](../resources/pallet-communication-server.png)
+![communication in push mode](../resources/communication_central.png)
 
 ![communication in pull mode](../resources/pallet-communication-serverless.png)
