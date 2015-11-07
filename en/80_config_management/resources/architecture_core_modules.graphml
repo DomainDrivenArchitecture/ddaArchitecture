@@ -18,11 +18,7 @@
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-<<<<<<< HEAD
           <y:Geometry height="91.50000000000006" width="289.9999999999999" x="-193.22965625000012" y="-723.0990187500003"/>
-=======
-          <y:Geometry height="91.50000000000006" width="331.3758620689655" x="-226.69629644396525" y="-716.34901875"/>
->>>>>>> branch 'configmanagement' of git@github.com:DomainDrivenArchitecture/ddaArchitecture.git
           <y:Fill color="#EDEDED" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.1328125" modelName="custom" textColor="#000000" visible="true" width="104.43896484375" x="113.46844861260774" y="3.0">Configuration<y:LabelModel>
