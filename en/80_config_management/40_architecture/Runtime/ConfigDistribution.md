@@ -7,4 +7,4 @@ Configuration can be distributed in push mode and pull mode.
   
 ![communication in push mode](../resources/communication_central.png)
 
-![communication in pull mode](../resources/pallet-communication-serverless.png)
+![communication in pull mode](../resources/communication_local.png)
