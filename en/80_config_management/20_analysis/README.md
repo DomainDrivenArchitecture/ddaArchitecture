@@ -2,32 +2,42 @@
 
 In analysis chapter we collect and discuss all the relevant questions in area of Configuration Management. Relevant questions are:
 
-1. Scope: What is the scope of Configuration Management, what are the limits?
-2. Business Value: What is the business value of Config Management?
-3. Which dimensions are important for cutting off the building blocks?
-4. What elements are important for handling versions?
-5. How can Configuration Management be tested?
-6. How should configuration be distributed to target systems?
-7. How can configuration be characterized?
-8. Which kinds of configuration, installation or roll out jobs can we distinguish?
-9. Can it-ops services be abstracted and integrated?
-10. How can we choose our Configuration Management system?
-11. How can configuration be modularized?
-12. Do we need state and how can state be managed?
-13. What kind of platforms can we distinguish?
-14. How can we apply same modules on different platforms?
-15. How can we distinguish debit configuration from actual configuration?
-16. How configuration defined becomes to configuration be ready to be applied to real nodes?
-17. What is the role of Configuration Management in a bare metal-, cloud- and container-world?
-18. How can Configuration Management support legacy processes like manual application roll outs?
-19. How can / should Configuration Management support many instances on single server?
-20. How are updates handled?
-21. How can we transport information generated during the configuration / installation process?
-22. How are credentials handled secure?
-23. Whats our strategy to handle large files?
-24. How do we handle exceptions during configuration process?
-25. How configuration roll out results should be structured?
-26. When should we choose to overwrite configuration?
+1. Scope 
+    1. What is the scope of Configuration Management, what are the limits?
+    2. How can configuration be characterized?
+2. Business Value
+    1. What is the business value of Configuration Management?
+    2. How can we choose our Configuration Management system?
+3. Modularization
+    1. How can configuration be modularized?
+    2. Which dimensions are important for cutting off the building blocks?
+    3. Can it-ops services be abstracted and integrated?
+    4. What kind of platforms can we distinguish?
+    5. How can we apply same modules on different platforms?
+    6. How can / should Configuration Management support many instances on single server?
+4. Dimensions
+    1. What elements are important for handling versions?
+    2. Which kinds of configuration, installation or roll out jobs can we distinguish?
+5. Development
+    1. How can Configuration Management be tested?
+    2. How are updates handled?
+    3. How do we handle exceptions during configuration process?
+6. Runtime
+    1. How should configuration be distributed to target systems?
+    2. Do we need state and how can state be managed?
+    3. How can we distinguish debit configuration from actual configuration?
+    4. How configuration defined becomes to configuration be ready to be applied to real nodes?
+    5. What is the role of Configuration Management in a bare metal-, cloud- and container-world?
+    6. How can we transport information generated during the configuration / installation process?
+    7. How are credentials handled secure?
+    8. Whats our strategy to handle large files?
+    9. When should we choose to overwrite configuration?
+7. Process Support
+    1. How can Configuration Management support legacy processes like manual application roll outs?
+    2. How configuration roll out results should be structured?
+
+
+
 
 
 If there are questions we missed to consider from your point of view, please let us know at [dda@meissa-gmbh.de](mailto:dda@meissa-gmbh.de).
