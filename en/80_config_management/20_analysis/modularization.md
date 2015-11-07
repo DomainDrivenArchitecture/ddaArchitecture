@@ -6,6 +6,14 @@ There are many relevant Dimensions for cutting modules
 * different system environments like dev, test, staging, integration or production 
 * cross cutting functions like security, backup, users identity on various levels
 
+TBD
+The ExecutionContext encapsulates the state recognized for application of config management:
+* pointInTime - the current world time
+* organisationUnit - the organizational execution context. May be tenant or finer grained organizational units. 
+* targetSystem - pallet default representation of target system facts like ip, os-type and so on.
+* targetInstallationState - additional dda representation of target system's installation state.  
+* targetEnvType - additional dda represantation of target environment type like dev, test, integration or production.  
+
 ## Can it-ops services be abstracted and integrated?
 ## What kind of platforms can we distinguish?
 ## How can we apply same modules on different platforms?
