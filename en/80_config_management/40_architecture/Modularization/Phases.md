@@ -1,4 +1,6 @@
 #Phases
+Phases are the answer to the question "Which kinds of configuration, installation or roll out jobs can we distinguish?"
+
 * **bootstrap**: Bootstrap is a pallet convention. In this pahse new vm's are provisioned.
 * **init**: Init is a dda convention. Init configures already existing nodes for the use with pallet.  
 * **settings**: Settings is a pallet convention. The settings phase collects config and other information from crates (and nodes) without providing side effects. So the settings phase does not alter state of servers and nodes. 
