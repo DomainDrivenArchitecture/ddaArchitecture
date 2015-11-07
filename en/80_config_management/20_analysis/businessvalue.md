@@ -1,4 +1,6 @@
-##Business Value of Config Management
+#Business Value of Configuration Management
+
+## What is the business value of Configuration Management?
 * Standardize system setup - that's good for
   * increase environmental control - new insights will result in a continuous progress
   * all installed systems will benefit simultaneously from new insights
@@ -7,3 +9,6 @@
   * hide a huge number of boring details
   * react fast on tasks like setup of new systems or apply a new configuration
   * handle more systems with less human operators
+
+## How can we choose our Configuration Management system?
+
