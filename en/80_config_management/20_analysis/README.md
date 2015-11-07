@@ -12,7 +12,7 @@ In analysis chapter we collect and discuss all the relevant questions in area of
     1. How can configuration be modularized?
     2. Which dimensions are important for cutting off the building blocks?
     3. Can it-ops services be abstracted and integrated?
-    4. What kind of platforms can we distinguish?
+    4. What does dda-platform mean?
     5. How can we apply same modules on different platforms?
     6. How can / should Configuration Management support many instances on single server?
     7. What elements are important for handling versions?
