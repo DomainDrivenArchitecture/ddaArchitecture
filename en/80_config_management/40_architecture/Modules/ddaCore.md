@@ -1,7 +1,5 @@
 #DDA Core Modules
 
-![Figure 1: Structure of core Elements](../resources/architecture_core_modules.png)
-
 ## ddaConfiguration
 Configuration can for specific ExecutionContexts
 1. provide the effectiveConfiguration and
