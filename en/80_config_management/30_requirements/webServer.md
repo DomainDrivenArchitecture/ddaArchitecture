@@ -1,1 +1,0 @@
-{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/configManagement/CmRequirementsWebServer.md" %}
