@@ -15,9 +15,9 @@ In analysis chapter we collect and discuss all the relevant questions in area of
     4. What kind of platforms can we distinguish?
     5. How can we apply same modules on different platforms?
     6. How can / should Configuration Management support many instances on single server?
-4. Dimensions
-    1. What elements are important for handling versions?
-    2. Which kinds of configuration, installation or roll out jobs can we distinguish?
+    7. What elements are important for handling versions?
+    8. Which kinds of configuration, installation or roll out jobs can we distinguish?
+    9. How can configuration be modularized?
 5. Development
     1. How can Configuration Management be tested?
     2. How are updates handled?
