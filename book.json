@@ -1,8 +1,9 @@
 {
-    "gitbook": ">2.1.0",
+    "gitbook": ">=2.5.0",
     "plugins": [
         "piwik",
-        "expandable-chapters"
+        "expandable-chapters", 
+        "comment"
     ],
     "pluginsConfig": {
         "piwik": {
