@@ -1,5 +1,5 @@
 # Runtime
-## How should configuration be distributed to target systems?
+## How should configuration be distributed to the target systems?
 Configuration can be distributed in push mode and pull mode.
 * Push is important for security reason (server-credentials may not reside on every server node in net)
 * Pull is important for social & technical reasons.
