@@ -23,7 +23,7 @@ In analysis chapter we collect and discuss all the relevant questions in area of
     2. How are updates handled?
     3. How do we handle exceptions during the configuration process?
 6. Runtime
-    1. How should configuration be distributed to target systems?
+    1. How should configuration be distributed to the target systems?
     2. Do we need state and how can state be managed?
     3. How can we distinguish debit configuration from actual configuration?
     4. How configuration defined becomes to configuration be ready to be applied to real nodes?
