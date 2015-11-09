@@ -31,7 +31,7 @@ In analysis chapter we collect and discuss all the relevant questions in area of
     6. How can we transport information generated during the configuration / installation process?
     7. How are credentials handled securely?
     8. Whats our strategy to handle large files?
-    9. When should we choose to overwrite configuration?
+    9. When should we choose to overwrite a configuration?
 7. Process Support
     1. How can Configuration Management support legacy processes like manual application rollouts?
     2. How configuration rollout results should be structured?
