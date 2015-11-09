@@ -13,6 +13,6 @@ There will always be the situation of different versions of deployed software. D
 ## How configuration defined becomes to configuration be ready to be applied to real nodes?
 ## What is the role of Configuration Management in a bare metal-, cloud- and container-world?
 ## How can we transport information generated during the configuration / installation process?
-## How are credentials handled secure?
+## How are credentials handled securely?
 ## Whats our strategy to handle large files?
-## When should we choose to overwrite configuration?
+## When should we choose to overwrite a configuration?
