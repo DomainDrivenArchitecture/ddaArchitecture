@@ -1,5 +1,5 @@
 # Modularization
-## How can configuration be modularized?
+## How can the configuration be modularized?
 ## Which dimensions are important for cutting off the building blocks?
 There are many relevant dimensions for cutting modules
 * tenants 
@@ -30,7 +30,7 @@ All dimensions dda can be hide transparently away from crate users, we will call
 ## What elements are important for handling versions?
 There will always be the situation of different versions of deployed software. Distinguishing between debit and actual. "Configuration" denominates the pursued debit, the actual state of server nodes we will name "Facts".
 
-## How can configuration be modularized?
+## How can the configuration be modularized?
 Can we use some kind of Dependency Injection to modularize our configuration?
 Good Articles & Videos about:
 * http://tech.puredanger.com/2014/01/03/clojure-dependency-injection/
