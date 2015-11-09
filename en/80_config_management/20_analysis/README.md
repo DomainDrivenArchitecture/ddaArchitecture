@@ -9,7 +9,7 @@ In analysis chapter we collect and discuss all the relevant questions in area of
     1. What is the business value of Configuration Management?
     2. How can we choose our Configuration Management system?
 3. Modularization
-    1. How can configuration be modularized?
+    1. How can the configuration be modularized?
     2. Which dimensions are important for cutting off the building blocks?
     3. Can it-ops services be abstracted and integrated?
     4. What does dda-platform mean?
@@ -17,7 +17,7 @@ In analysis chapter we collect and discuss all the relevant questions in area of
     6. How can / should Configuration Management support many instances on a single server?
     7. What elements are important for handling versions?
     8. Which kinds of configuration, installation or rollout jobs can we distinguish?
-    9. How can configuration be modularized?
+    9. How can the configuration be modularized?
 5. Development
     1. How can Configuration Management be tested?
     2. How are updates handled?
