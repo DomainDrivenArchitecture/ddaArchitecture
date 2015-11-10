@@ -29,7 +29,10 @@ In analysis chapter we collect and discuss all the relevant questions in area of
     1. How should configuration be distributed to target systems?
     2. Do we need state and how can state be managed?
     3. How can we distinguish debit configuration from actual configuration?
-    4. How configuration defined becomes to configuration be ready to be applied to real nodes?
+    4. How configuration defined becomes to configuration be ready to be applied to real nodes? 
+    
+*scj: Sorry, 4. verstehe ich nicht ganz ;-/*
+
     5. What is the role of Configuration Management in a bare metal-, cloud- and container-world?
     6. How can we transport information generated during the configuration / installation process?
     7. How are credentials handled secure?
