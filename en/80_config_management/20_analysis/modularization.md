@@ -30,6 +30,8 @@ All dimensions dda can be hide transparently away from crate users we will call 
 ## What elements are important for handling versions?
 There will always be the situation of different versions of deployed software. Distinguishing between debit and actual. "Configuration" denominates the pursued debit, the actual state of server nodes we will name "Facts".
 
+*scj: "pursued debit" ? Hilf mir mal... hier komme ich irgendwie auch an meine Sprachgrenze, "debit" kenn ich nur aus dem Bank-/ Kreditjargon, sagt man sowas in dem Fall auch? Das kommt ein paar mal... aber bei dem Satz hatte ich dann endgültig Mühe zu versehen :-o*
+
 ## How can configuration be modularized?
 Can we use some kind of Dependency Injection to modularize our configuration?
 Good Articles & Videos about:
