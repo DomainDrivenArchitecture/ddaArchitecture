@@ -7,3 +7,5 @@ Phases are the answer to the question "Which kinds of configuration, installatio
 * **install**: Install is a dda convention. The install phase brings software to nodes. The installation is intended to take effect only once. Functions in install-phase should be able to be called multiple times. Install uses per default the newest module version or the specified one. If install is called with a newer version, a update will be carried out.
 * **configure**: Configure is a pallet convention. Configure brings the newest configuration to the target nodes. Configure is intended to be called on a regular base. Configuration will overwrite existing changes allways.
 * **app-rollout**: Upgrade is a dda convention. The upgrade phase compares the version installed and the version intended for configuration. If there is a difference, upgrade can apply migration scripts.Functions in upgrade-phase should be able to be called multiple times and support the simulation mode.
+
+*scj: ist das wirklich der richtige Text zu app-rollout? Was hat das mit upgrade zu tun?* 
