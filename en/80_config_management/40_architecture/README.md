@@ -26,3 +26,5 @@
 4. Process Support
     1. How can Configuration Management support legacy processes like manual application roll outs?
     2. How configuration roll out results should be structured?
+    
+*scj: absichtlich identisch mit 20_analysis?*
