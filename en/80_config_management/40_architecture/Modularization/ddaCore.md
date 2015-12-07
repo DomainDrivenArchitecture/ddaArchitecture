@@ -8,7 +8,10 @@ A configuration
 for specific ExecutionContexts.
 
 ## ddaInit
-The ddaInit crate  provides an unique cm environment across the different underlaying systems (dedicated node, vm, docker container, ...).
+The ddaInit crate provides an consistent cm environment across the different underlaying systems (dedicated node, vm, docker container, ...). After this phase the underlaying system has
+* openssh installed and the service running,
+* a pallet user configured and
+* ssh authorized keys configured.
 
 ## ddaBase
 The ddaBase provides 
