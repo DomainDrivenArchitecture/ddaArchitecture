@@ -1,9 +1,10 @@
 #DDA Core Modules
 
 ## ddaConfiguration
-A configuration can for specific ExecutionContexts
-1. provide the effectiveConfiguration and
-2. validate it.
+A configuration
+1. provides the effective Configuration and
+2. validates it
+for specific ExecutionContexts.
 
 ## ddaInit
 The ddaInit crate  provides an unique cm environment across the different underlaying systems (dedicated node, vm, docker container, ...).
