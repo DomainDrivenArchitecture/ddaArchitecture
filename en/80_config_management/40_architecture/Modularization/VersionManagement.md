@@ -1,6 +1,6 @@
 #Version Management
 
-As pointed out in Phases, the installation is intended to run only once. But after first installation the modules will evolve and get new features and improvements. 
+As pointed out in Phases, the installation is intended to run only once. But after the first installation, the modules will evolve and get new features and improvements. 
 
 In order to provide these changes to already installed, existing nodes, ddaBase supports versioned modules and an upgrade mechanism. The features are:
 * Versions are handled on crate level. Crate versions in terms of 

@@ -1,10 +1,10 @@
 # Modularization
-## How can configuration be modularized?
+## How can the configuration be modularized?
 ## Which dimensions are important for cutting off the building blocks?
-There are many relevant Dimensions for cutting modules
-* tenants, 
+There are many relevant dimensions for cutting modules
+* tenants 
 * different system environments like dev, test, staging, integration or production 
-* cross cutting functions like security, backup, users identity on various levels
+* cross cutting functions like security, backup, user identity on various levels
 * operating systems
 * cloud / hosting providers
 * cloud provider types
@@ -16,23 +16,23 @@ The ExecutionContext encapsulates the state recognized for application of config
 * organisationUnit - the organizational execution context. May be tenant or finer grained organizational units. 
 * targetSystem - pallet default representation of target system facts like ip, os-type and so on.
 * targetInstallationState - additional dda representation of target system's installation state.  
-* targetEnvType - additional dda represantation of target environment type like dev, test, integration or production.  
+* targetEnvType - additional dda representation of target environment type like dev, test, integration or production.  
 
 ## Can it-ops services be abstracted and integrated?
 
 ## What does dda-platform mean?
-All dimensions dda can be hide transparently away from crate users we will call dda-platform. Dimensions considered to be hidden are:
-* Operating system
+All dimensions dda can be hide transparently away from crate users, we will call dda-platform. Dimensions considered to be hidden are:
+* operating system
 * cloud / hosting provider
 
-## How can we apply same modules on different platforms?
-## How can / should Configuration Management support many instances on single server?
+## How can we apply the same modules on different platforms?
+## How can / should Configuration Management support many instances on a single server?
 ## What elements are important for handling versions?
 There will always be the situation of different versions of deployed software. Distinguishing between debit and actual. "Configuration" denominates the pursued debit, the actual state of server nodes we will name "Facts".
 
 *scj: "pursued debit" ? Hilf mir mal... hier komme ich irgendwie auch an meine Sprachgrenze, "debit" kenn ich nur aus dem Bank-/ Kreditjargon, sagt man sowas in dem Fall auch? Das kommt ein paar mal... aber bei dem Satz hatte ich dann endgültig Mühe zu versehen :-o*
 
-## How can configuration be modularized?
+## How can the configuration be modularized?
 Can we use some kind of Dependency Injection to modularize our configuration?
 Good Articles & Videos about:
 * http://tech.puredanger.com/2014/01/03/clojure-dependency-injection/
