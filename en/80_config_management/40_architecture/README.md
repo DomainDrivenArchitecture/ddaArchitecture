@@ -23,6 +23,8 @@
     7. How are credentials handled secure?
     8. Whats our strategy to handle large files?
     9. When should we choose to overwrite configuration?
+    10. How we can validate configuration?
+    	a. pls see also https://github.com/Prismatic/schema
 4. Process Support
     1. How can Configuration Management support legacy processes like manual application roll outs?
     2. How configuration roll out results should be structured?
