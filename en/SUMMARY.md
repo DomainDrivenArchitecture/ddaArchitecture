@@ -9,4 +9,6 @@
 {% include "./30_requirements/SUMMARY_INCLUDE.md" %}
 * [Config Management](80_config_management/README.md)
 {% include "./80_config_management/SUMMARY_INCLUDE.md" %}
+* [Tool Selection](99_toolselection/README.md)
+{% include "./99_toolselection/SUMMARY_INCLUDE.md" %}
 * [Books License](LICENSE.md)
