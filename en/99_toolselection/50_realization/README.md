@@ -9,3 +9,6 @@
 4. https://www.lexoffice.de/vorteile/datensicherheit/
 5. http://www.billomat.com/funktionen#section-invoices
 6. https://sevdesk.de/
+7. Helium V
+  1. http://www.heliumv.org/opensource-Download-4.html
+  2. https://github.com/heliumv
