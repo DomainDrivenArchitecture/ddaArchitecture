@@ -27,3 +27,7 @@
 * https://github.com/wekan/wekan
 * https://github.com/RestyaPlatform/board
 * http://taskboard.matthewross.me/
+* 
+
+## Mail & Calendar
+* https://nylas.com/N1
