@@ -30,4 +30,7 @@
 * 
 
 ## Mail & Calendar
+* KMail
+* EVolution
+* Thunderbird
 * https://nylas.com/N1
