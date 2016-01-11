@@ -19,3 +19,8 @@
 
 
 ## Projectmanagement Software
+* https://github.com/taigaio
+* https://github.com/fguillot/kanboard
+* https://github.com/wekan/wekan
+* https://github.com/RestyaPlatform/board
+* http://taskboard.matthewross.me/
