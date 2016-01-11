@@ -12,6 +12,9 @@
 ## Hardware
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/synthesis/Hardware.md" %}
 
-## Hardware
+## Projectmanagement
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/synthesis/ProjectManagement.md" %}
+
+## Mail and Calendar
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/synthesis/MailAndCalendar.md" %}
 
