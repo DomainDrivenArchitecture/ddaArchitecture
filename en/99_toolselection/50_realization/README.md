@@ -27,7 +27,8 @@
 * https://github.com/wekan/wekan
 * https://github.com/RestyaPlatform/board
 * http://taskboard.matthewross.me/
-* 
+### Card Board Frontends
+* https://github.com/29decibel/assistant
 
 ## Mail & Calendar
 * KMail
