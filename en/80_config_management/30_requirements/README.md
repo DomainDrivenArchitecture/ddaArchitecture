@@ -1,7 +1,7 @@
 # Requirements
 
 ## User and Roles
-{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/configManagement/CmPersonAndRole.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/synthesis/configManagement/CmPersonAndRole.md" %}
    
 ## Modularization
 ### Multitenancy
