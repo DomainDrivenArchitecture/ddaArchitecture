@@ -26,7 +26,7 @@
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0092.md" %}
     
 ## BaseProducts
-{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/configManagement/CmRequirementsWebServer.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/synthesis/configManagement/CmRequirementsWebServer.md" %}
 
 
 
