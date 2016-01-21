@@ -6,3 +6,4 @@
 * https://github.com/plumatic/schema
 * https://github.com/metosin/compojure-api
 * https://github.com/swagger-api/swagger-core/wiki
+* https://github.com/gfredericks/schema-bijections
