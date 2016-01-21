@@ -13,7 +13,9 @@
       * [Core Modules](80_config_management/40_architecture/Modularization/ddaCore.md)
       * [Phases](80_config_management/40_architecture/Modularization/Phases.md)
       * [Version Mgm](80_config_management/40_architecture/Modularization/VersionManagement.md)
-    * [Development](80_config_management/40_architecture/Development/CodingConventions.md)
+    * Development
+      * [Coding Conventions](80_config_management/40_architecture/Development/CodingConventions.md)
+      * [Typed Parameters for Interfaces](80_config_management/40_architecture/TypedParametersForInterfaces.md)
     * [Runtime](80_config_management/40_architecture/Runtime/ConfigDistribution.md)
       * [State Mgm](80_config_management/40_architecture/Runtime/StateManagement.md)
     * [ProcessSupport](80_config_management/40_architecture/ProcessSupport/AppRollout.md)
