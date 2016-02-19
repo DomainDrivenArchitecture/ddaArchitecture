@@ -38,4 +38,13 @@ Im Folgenden werden reale Umsetzungen beschrieben, z.B. anwendbar auf die Applik
 
 * Backup- und Restore-Skripte liegen in /usr/lib/dda-[app-name]/
 
+#### Manueller Restore
 
+* ein Restore-Skript benötigt den gemeinsamen Präfix der Restore-Files als Parameter
+  * Beispielaufruf für folgenden Restore (gemeinsamer Präfix: "dda-myBackup\_"):
+    * dda-myBackup\_file\_2015-08-09_05-14-08.tgz
+    * dda-myBackup\_mysql\_2015-08-09_05-14-08.sql
+  *  /usr/lib/dda-[app-name]/myBackup\_restore.sh dda-myBackup\_
+* das Restore-Skript nutzt den Stand mit dem neusten Zeitstempel
+* nach dem Restore ist der Server neuzustarten
+ 
