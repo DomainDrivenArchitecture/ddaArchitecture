@@ -33,24 +33,3 @@ SELECT DISTINCT * WHERE {
 }
 LIMIT 1000
 
-
-# Content -> Url & -> Category
-Find out Assets for WebContents (not working yet).
-
-## Query
-SELECT DISTINCT * WHERE {
-
- ?journal rdf:type vocab:JournalArticle .
- ?journal vocab:JournalArticle_title ?title .
- ?journal vocab:JournalArticle_content ?content .
- ?journal vocab:JournalArticle_groupId ?groupId .
- 
- ?group rdf:type vocab:Group_ .
- ?group vocab:Group__friendlyURL ?group_url .
- ?group vocab:Group__friendlyURL"/blaubeuren".
- ?group vocab:Group__groupId ?groupId . 
-
-}
-LIMIT 1000
-
-
