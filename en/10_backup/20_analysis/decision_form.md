@@ -9,26 +9,26 @@ Code and configuration needs no backup, because code is saved by Version Managem
  * Security Log Data: Security logs need no backup, because they are synchronized in real time. Storage duration is:	e.g. 1 year
 
 ### Availability
- * High: Highly important data are stored on another computing center.
- * Normal: Normally important data are stored on another server.
- * Low: Less important data are stored only on the same server and on the hosting provider's backup store.
+ * **High**: Highly important data are stored on another computing center.
+ * **Normal**: Normally important data are stored on another server.
+ * **Low**: Less important data are stored only on the same server and on the hosting provider's backup store.
 
 ## Decisions and Analysis per Application
 |ID|Measurement|
 |--|--|
-|Application name||
+|**Application name**||
 |Current application data size||
 |Estimated application data growth for upcoming year||
 |Log data growth / year||
-|App data backup on SourceSystem||
+|**App data backup on SourceSystem**||
 |Generations in daily interval||
 |Generations in weekly interval||
 |Generations in monthly interval||
-|App data backup on SinkSystem||
+|**App data backup on SinkSystem**||
 |Generations in daily interval||
 |Generations in weekly interval||
 |Generations in monthly interval||
-|Application needs||
+|**Application needs**||
 |App data importance / availability||
 |App data confidentiality||
 |Log data confidentiality||

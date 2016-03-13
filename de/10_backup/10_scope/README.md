@@ -3,6 +3,8 @@
 Dieses Kapitel beschreibt das Backup Konzept. 
 Zur Veranschaulichung dient an einigen Stellen das "Beispiel-Unternehmen".
 
+Das Beispiel Unternehmen hat ca. 50 Mitarbeiter und betreibt mit einem eigenen CloudService landesweit Dienstleistungen für seine Kunden.
+
 ## Adressatenkreis
 IT-Betrieb, IT-Architekten, Software-Entwickler und Anwendungsverantwortliche.
 

@@ -1,16 +1,14 @@
 {
-    "gitbook": "2.1.0",
+    "gitbook": ">=2.5.0",
     "plugins": [
         "piwik",
-        "expandable-chapters"
+        "expandable-chapters", 
+        "comment"
     ],
     "pluginsConfig": {
-        "piwik": {
-            "URL": "piwik.meissa-gmbh.de/",
+    	"piwik": {
+         	"URL": "piwik.meissa-gmbh.de/",
             "siteId": 30
         }
-    },
-    "pdf": {
-    	"footerTemplate": "./FOOTER.html"
     }
 }
