@@ -14,7 +14,7 @@ On the level of one unit we can test either pure functions (if there are no side
 
 While pure functional test are quite easy, the behavioral test bring in some preconditions:
 1. We have to use strictly Dependency Injection (e.g. use spring)
-2. All modules not belonging to our unit under test will be represented by a mock (e.g. using mockito as mock framework).
+2. All modules not belonging to our unit under test will be represented by a mock.
 
 ## integration test
 Integration tests are defined for on specific configuration. If there are many configurations under test, there should be many sets of integration tests. Best Practices for integration tests are:
@@ -24,3 +24,4 @@ Integration tests are defined for on specific configuration. If there are many c
 
 ## Further usefull tools
 * greenmail for emails.
+* Mockito for mock-injection.
