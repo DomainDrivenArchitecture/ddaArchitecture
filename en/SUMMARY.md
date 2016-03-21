@@ -2,7 +2,9 @@
 
 * [DomainDrivenArchitecture](README.md)
 * [Book Change History](change_history.md)
-* [Book Scope](01_scope/README.md)
+* [Book Scope](scope.md)
+* [Domain Driven Architecture](05_architecture/README.md) 
+{% include "./05_architecture/SUMMARY_INCLUDE.md" %}
 * [Application Backup](10_backup/README.md) 
 {% include "./10_backup/SUMMARY_INCLUDE.md" %}
 * [Linked Data Resource Publishing](20_linked_data/README.md) 
