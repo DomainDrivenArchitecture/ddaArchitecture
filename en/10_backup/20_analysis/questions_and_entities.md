@@ -5,14 +5,15 @@
 4. Log Data: Log files for all running applications.
 5. Security Log Data: For secured systems, there are special security log files.
 
-# Backup Data De-Duplication
+# Backup Data Deduplication
 Although there are many types in between, we will distinguish between the two major types here:
 1. full backup or
 2. incremental backup
-Due to the small backup sizes at Example Company, we will use full backup only.
+
+Due to the small backup sizes at "Example Company", we will use full backup only.
 
 # Relevant Questions to answer
-Relevant questions with relation to backup are
+Relevant questions related to backup are
 1. Access-Security: Who has access to backups?
 2. Computer Center Outage: What happens, if the whole computer center fails?
 3. Protection Requirements: How sensible are backup data?

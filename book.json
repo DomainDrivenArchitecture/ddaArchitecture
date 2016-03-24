@@ -6,8 +6,8 @@
         "comment"
     ],
     "pluginsConfig": {
-        "piwik": {
-            "URL": "piwik.meissa-gmbh.de/",
+    	"piwik": {
+         	"URL": "piwik.meissa-gmbh.de/",
             "siteId": 30
         }
     }
