@@ -20,4 +20,6 @@
       * [State Mgm](80_config_management/40_architecture/Runtime/StateManagement.md)
     * [ProcessSupport](80_config_management/40_architecture/ProcessSupport/AppRollout.md)
   * [Realization](80_config_management/50_realization/README.md)
+    * [Quality](80_config_management/50_realizatioe/Quality.md)
+    * [TestFirst](80_config_management/50_realizatio/TestFirst.md)
     * [Module WebServer](80_config_management/50_realization/webServer.md)
