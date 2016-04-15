@@ -5,4 +5,6 @@
     * [PHP Ressource Model](98_webapplications/20_analysis/php/MemoryModel.md)
   * [Realization](98_webapplications/50_realization/README.md)
     * [Migrate DNS](98_webapplications/50_realization/MigrateDNS.md)
+    * [Timeouts 3 Tier](98_webapplications/50_realization/TimoutsInThreeTier.md)
+    
    
