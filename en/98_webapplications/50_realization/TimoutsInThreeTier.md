@@ -85,7 +85,7 @@ org.quartz.threadPool.threadCount=10
 
 ```
 
-### Refernce
+### Reference
 * https://tomcat.apache.org/tomcat-7.0-doc/config/ajp.html
 * https://www.liferay.com/de/community/wiki/-/wiki/Main/Database+Portal+Properties
 
