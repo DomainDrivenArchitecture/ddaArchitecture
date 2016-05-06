@@ -1,12 +1,17 @@
-# TimeOuts on three Tier Web Applications
+# TimeOuts and Maximum Requests on three Tier Web Applications
 
 In three tier architectures (web server - app server - db server) it's important to do a fine configuration of timeouts, maximum requests and connection pools. If timeouts get lost, the danger is, to get broken connections and resulting loss of performance. Analysis of timeout caused issues is a hard job.
 
-Therefore, the main idea is:
+Therefore, the main idea for Timouts is:
+
+**First Tier waits up for every downstream answer.**
+
+whereas the strategy for Maximum Requests is:
 
 **Build a hopper which has its tightest point on web server.**
 
 Following this idea, our connections will stay stable thru all involved systems and tiers.
+E real World example consiting of "apache httpd - modjk - apache tomcat - c3po - mysql" may look as follows:
 
 ## Web Tier
 The web tier has to limit the load of the whole system.
@@ -46,7 +51,7 @@ worker.mod_jk_www.type=ajp13
 
 # timeouts
 worker.mod_jk_www.socket_connect_timeout=300
-worker.mod_jk_www.socket_timeout=60000
+worker.mod_jk_www.socket_timeout=62000
 
 ```
 
@@ -96,8 +101,8 @@ Sizing DB Connections is not as easy as sizing tomcats thread pool, as the numbe
 
 ```
 max_connections= 153
-net_read_timeout=62
-net_write_timeout=62
+net_read_timeout=60
+net_write_timeout=60
 ```
 
 ### Reference
