@@ -68,9 +68,8 @@ App tier does the business logic. Tomcats threadpool should be large enough to h
 ```
 <Server>
   <Service name='Catalina'>
-     <Executor name='tomcatThreadPool' maxThreads="161"/>
-    <Connector executor="tomcatThreadPool" protocol="AJP/1.3" connectionTimeout="61000"
-maxThreads="151" />
+     <Executor name='tomcatThreadPool' maxThreads="151"/>
+    <Connector executor="tomcatThreadPool" protocol="AJP/1.3" connectionTimeout="61000"/>
 ```
 
 ### portal-ext.properties
