@@ -5,4 +5,4 @@ This document describes configuration management.
 DevOps, IT Operations, IT Architects, software developers.
 
 ##Limits
-This FeatureSpec is limited to configuration management of linux systems.
+This FeatureSpec is limited to configuration management for linux systems.
