@@ -39,7 +39,7 @@ JkWatchdogInterval 120
 
 ```
 worker.list=mod_jk_www
-worker.maintain=60
+worker.maintain=90
 
 # connection to app server
 worker.mod_jk_www.port=8009
@@ -50,8 +50,7 @@ worker.mod_jk_www.type=ajp13
 #worker.mod_jk_www.socket_keepalive=true
 
 # timeouts
-worker.mod_jk_www.socket_connect_timeout=300
-worker.mod_jk_www.socket_timeout=62000
+worker.mod_jk_www.socket_connect_timeout=62000
 
 ```
 
