@@ -3,7 +3,8 @@
 Maybe it's a simple question but did you ever have thought about "what makes the business value of DevOps"?
  
 There is one obvious answer: 
-1. Automation makes installations more repeatable, scalable and faster. Automation drives our world since more than thousand years, and it will continue to be valuable. 2. But beside this high level answer, there is also an answer with more DevOps insight: "The DevOps BusinessValue depends strongly on the right level of Abstraction between conventions and fully featured system adapters."
+  1. Automation makes installations more repeatable, scalable and faster. Automation drives our world since more than thousand years, and it will continue to be valuable. 
+  2. But beside this high level answer, there is also an answer with more DevOps insight: "The DevOps BusinessValue depends strongly on the right level of Abstraction between conventions and fully featured system adapters."
  
 ## Conventions <-> Fully featured System Adapters
 
@@ -23,22 +24,7 @@ In dda-pallet (a DevOps system written in clojure) we found it important, to dis
 So we can implement maintenance, security and quality together with our community on the level of adapter-crates. 
 On the other hand we handle every configuration on top of these adapter-crates as data. So it is very easy to implement own conventions on top of these adatper-crates.
  
-![DataDrivenConventions](/en/80_config_management/resources/DataDrivenConventions.png)
+![DataDrivenConventions](../resources/DataDrivenConventions.png)
  
 I think this idea is not solely bound to our DevOps System and would improve the situation also on the systems mentioned above.
  
-So what do you think about this idea?
-
-
-## What is the business value of Configuration Management?
-* Standardize system setup - that's good for
-  * increase environmental control - new insights will result in a continuous progress
-  * all installed systems will benefit simultaneously from new insights
-  * systems can be installed repeatable - so testing in test systems become more meaningful
-* Increase automation - that's good for
-  * hide a huge number of boring details
-  * react fast on tasks like setup of new systems or apply a new configuration
-  * handle more systems with less human operators
-
-## How can we choose our Configuration Management system?
-
