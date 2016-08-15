@@ -1,4 +1,1 @@
-# Architecture (todo)
-
- * Priciples
- * general processes, entities and interfaces
+# Solution Architecture

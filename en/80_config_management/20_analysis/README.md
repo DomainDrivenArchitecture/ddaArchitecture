@@ -27,9 +27,6 @@ In analysis chapter we collect and discuss all the relevant questions in area of
     2. Do we need state and how can state be managed?
     3. How can we distinguish debit configuration from actual configuration?
     4. How configuration defined becomes to configuration be ready to be applied to real nodes? 
-    
-*scj: Sorry, 4. verstehe ich nicht ganz ;-/*
-
     5. What is the role of Configuration Management in a bare metal-, cloud- and container-world?
     6. How can we transport information generated during the configuration / installation process?
     7. How are credentials handled securely?
@@ -38,6 +35,9 @@ In analysis chapter we collect and discuss all the relevant questions in area of
 7. Process Support
     1. How can Configuration Management support legacy processes like manual application rollouts?
     2. How configuration rollout results should be structured?
+8. Security
+    1. How can credential and personal data be protected?
+    2. How we can achieve security in building&configuring our systems out of images, code and files?
 
 If there are questions we missed to consider from your point of view, please let us know at [dda@meissa-gmbh.de](mailto:dda@meissa-gmbh.de).
 
