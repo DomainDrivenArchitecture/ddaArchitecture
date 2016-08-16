@@ -28,5 +28,9 @@
 ## BaseProducts
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/synthesis/configManagement/CmRequirementsWebServer.md" %}
 
+## Credentials Security
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/synthesis/configManagement/CmFeatureSecureCredentials.md" %}
+
+
 
 
