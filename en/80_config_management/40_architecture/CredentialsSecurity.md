@@ -1,7 +1,7 @@
 #Credentials Security Solution
 
 We've two services providing credentials security
-* encrypted-personal-user-credentials-service
+* encrypted-personal-credentials-service
 * encrypted-admin-credentials-service
 
 We need some util function to 
