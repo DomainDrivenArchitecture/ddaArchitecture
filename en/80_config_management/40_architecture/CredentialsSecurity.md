@@ -6,7 +6,7 @@ We've two services providing credentials security
 
 We need some util function to 
 * collect configuration from various places with precedence  
-  * service-config from conventions-modue
+  * service-config from conventions-module
   * PALLET_HOME/config.clj (PALLET_HOME defaults to ~/), 
   * PALLET_HOME/services/service_name.clj,  
   * current users name & ssh credentials
@@ -17,6 +17,9 @@ We need some util function to
 We use https://github.com/greglook/clj-pgp as pgp adapter.
 
 Secrets are stored in schema:
+
+```clojure
 :encrpyted-credential 
   {:account "account identifier unencrypted"
    :secret "ascii armored & gpg encrypted"}
+```
