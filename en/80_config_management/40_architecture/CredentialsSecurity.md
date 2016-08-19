@@ -1,8 +1,8 @@
 #Credentials Security Solution
 
 We've two services providing credentials security
-* encrypted-user-credentials-service
-* encrypted-server-credentials-service
+* encrypted-personal-user-credentials-service
+* encrypted-admin-credentials-service
 
 We need some util function to 
 * collect configuration from various places with precedence  
