@@ -18,8 +18,8 @@
   * [Credentials Security](40_architecture/CredentialsSecurity.md)
 * [Realization](50_realization/README.md)
   * Development
-    * [Coding Conventions](50_realizatioe/Development/CodingConventions.md)
-    * [Typed Parameters for Interfaces](50_realizatioe/TypedParametersForInterfaces.md)
+    * [Coding Conventions](50_realization/Development/CodingConventions.md)
+    * [Typed Parameters for Interfaces](50_realization/TypedParametersForInterfaces.md)
   * [Quality](50_realizatioe/Quality.md)
   * [TestFirst](50_realizatio/TestFirst.md)
   * [Module WebServer](50_realization/webServer.md)

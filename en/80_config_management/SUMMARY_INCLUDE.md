@@ -18,8 +18,8 @@
     * [Credentials Security](80_config_management/40_architecture/CredentialsSecurity.md)
   * [Realization](80_config_management/50_realization/README.md)
     * Development
-      * [Coding Conventions](80_config_management/50_realizatioe/Development/CodingConventions.md)
-      * [Typed Parameters for Interfaces](80_config_management/50_realizatioe/Development/TypedParametersForInterfaces.md)
+      * [Coding Conventions](80_config_management/50_realization/Development/CodingConventions.md)
+      * [Typed Parameters for Interfaces](80_config_management/50_realization/Development/TypedParametersForInterfaces.md)
     * [Quality](80_config_management/50_realizatioe/Quality.md)
     * [TestFirst](80_config_management/50_realizatio/TestFirst.md)
     * [Module WebServer](80_config_management/50_realization/webServer.md)
