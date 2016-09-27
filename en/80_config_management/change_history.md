@@ -3,6 +3,7 @@
 |Version	|Author / Actor					|Date		|Change / Activity	|State	|
 |-----------|-------------------------------|-----------|-------------------|-------|
 |0.1		|M.Jerger						|07.11.2015	|initial			|draft	|
+|0.2		|M.Jerger, meissa 				|27.19.2016	|Added encrypted credentials concept|valid	|
 
 
 #Legend

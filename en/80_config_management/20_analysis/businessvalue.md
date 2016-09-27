@@ -3,7 +3,7 @@
 Maybe it's a simple question but did you ever have thought about "what makes the business value of DevOps"?
  
 There is one obvious answer: 
-  1. Automation makes installations more repeatable, scalable and faster. Automation drives our world since more than thousand years, and it will continue to be valuable. 
+  1. Automation makes installations more repeatable, scalable, faster and increase the quality. Automation drives our world since more than thousand years, and it will continue to be valuable. 
   2. But beside this high level answer, there is also an answer with more DevOps insight: "The DevOps BusinessValue depends strongly on the right level of Abstraction between conventions and fully featured system adapters."
  
 ## Conventions <-> Fully featured System Adapters
