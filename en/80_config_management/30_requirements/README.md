@@ -5,7 +5,7 @@
 
 ## Base
 * System components (like httpd) should be installable and configurable by configuration data.
-* DevOps should be able to install System Components by configuring as view configuration as possible. 
+* DevOps should be able to install System Components by configuring as least configuration as possible. 
 
 ## Configuration
 ### Validation
