@@ -6,13 +6,8 @@ Configuration can be distributed in push mode and pull mode.
   * Technical: Some networks may be not accessible from outside.
   * Social: Developers don't like uncontrolled updates from outside.
 
-## Do we need state and how can state be managed?
-## How can we distinguish debit configuration from actual configuration?
-There will always be the situation of different versions of deployed software. Distinguishing between debit and actual. "Configuration" denominates the pursued debit, the actual state of server nodes we will name "Facts".
+## How we can express dependencies without knowing the target system ids?
+We will be forced to express dependencies between target system parts. These dependencies has to exist prior to their applicatin to real target systems. So we will be forced to operate in our own key space, called the Specification Key Space. Keys from the Specification Key Space has to be mapped to target keys on creating the target systems.   
 
-## How configuration defined becomes to configuration be ready to be applied to real nodes?
-## What is the role of Configuration Management in a bare metal-, cloud- and container-world?
-## How can we transport information generated during the configuration / installation process?
-## How are credentials handled securely?
 ## Whats our strategy to handle large files?
-## When should we choose to overwrite a configuration?
+TBD
