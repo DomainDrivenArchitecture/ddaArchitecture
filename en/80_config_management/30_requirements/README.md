@@ -3,13 +3,13 @@
 ## User and Roles
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/synthesis/configManagement/CmPersonAndRole.md" %}
 
+## Base
+* System components (like httpd) should be installable and configurable by configuration data.
+* DevOps should be able to install System Components by configuring as view configuration as possible. 
+
 ## Configuration
 ### Validation
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0090.md" %}
-
-### Dimension Configuration vs. Facts
-{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0091.md" %}
-{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0092.md" %}
 
 ### Dimension Multitenancy
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0184.md" %}
@@ -17,13 +17,14 @@
 ### Configuration, Defaults and Overwrite-Order
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0049.md" %}
    
+## Statemanagement & Version
+* State should be stored on a defined place
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0091.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0092.md" %}
+
 ## Runtime
 ### Distribution
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0182.md" %}
-
-### Statemanagement / Installed Versions
-{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0091.md" %}
-{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0092.md" %}
     
 ## System Adapters
 ### httpd / WebServer
