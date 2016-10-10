@@ -8,3 +8,6 @@ What's the definition of IT-Architecture?
   * Operations Architecture
   * Solution Architecture
 * What's architecture against Design?
+
+## Workshop Results
+![Definitions](../resources/IMG_20160808_203552.jpg)
