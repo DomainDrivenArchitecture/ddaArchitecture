@@ -1,4 +1,7 @@
 # Domain Driven Architecture
 
-This Book describes an architectural blueprint. 
-The architecture is based on Eric Evans brilliant concepts described in its book "Domain Driven Design".
+
+This book is about IT- and Organizational-Architecture. It collects architectural principles and resulting blueprints.
+The architecture is inspired by Eric Evans brilliant concepts described in its book "Domain Driven Design".
+ 
+

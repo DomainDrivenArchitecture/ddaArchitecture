@@ -1,5 +1,5 @@
-  * [Concepts Change History](80_config_management/change_history.md)
-  * [Concepts Scope](80_config_management/10_scope/README.md)
+  * [Change History](80_config_management/change_history.md)
+  * [Scope](80_config_management/10_scope/README.md)
   * [Analysis](80_config_management/20_analysis/README.md)
     * [Scope](80_config_management/20_analysis/scope.md)    
     * [Business Value](80_config_management/20_analysis/businessvalue.md)

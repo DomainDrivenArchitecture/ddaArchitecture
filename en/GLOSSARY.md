@@ -1,6 +1,7 @@
 # Glossyry
 
-* Feature Spec
+* Architecture
+* Architectural Blueprint
 * Configuration Management
   * Domain Dimension
   * System Adapter

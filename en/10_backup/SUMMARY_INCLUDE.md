@@ -1,5 +1,5 @@
-  * [Backup Change History](10_backup/change_history.md)
-  * [Feature Spec Scope](10_backup/10_scope/README.md)
+  * [Change History](10_backup/change_history.md)
+  * [Scope](10_backup/10_scope/README.md)
   * [Analysis](10_backup/20_analysis/README.md)
     * [Entities and Questions](10_backup/20_analysis/questions_and_entities.md)
     * [Ubuntu Log-Files](10_backup/20_analysis/ubuntu_logs.md)

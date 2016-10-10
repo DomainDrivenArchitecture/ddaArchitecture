@@ -1,4 +1,4 @@
-# DDA Config Management Concept
+# DDA Blueprint: Configuration Management
 
 ## Table of Content
 

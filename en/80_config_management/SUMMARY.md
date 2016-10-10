@@ -1,5 +1,5 @@
-* [Concepts Change History](change_history.md)
-* [Concepts Scope](10_scope/README.md)
+* [Change History](change_history.md)
+* [Scope](10_scope/README.md)
 * [Analysis](20_analysis/README.md)
   * [Scope](20_analysis/scope.md)    
   * [Business Value](20_analysis/businessvalue.md)

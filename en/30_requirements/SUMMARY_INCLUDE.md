@@ -1,5 +1,5 @@
-  * [Requirements Change History](30_requirements/change_history.md)
-  * [Concepts Scope](30_requirements/10_scope/README.md)
+  * [Change History](30_requirements/change_history.md)
+  * [Scope](30_requirements/10_scope/README.md)
   * [Analysis](30_requirements/20_analysis/README.md)
     * [The benefit of written requirements](30_requirements/20_analysis/benefits_written_requirements.md)
     * [Traps and cost driver](30_requirements/20_analysis/traps_and_cost_drivers.md)

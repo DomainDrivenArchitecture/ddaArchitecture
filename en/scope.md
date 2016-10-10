@@ -1,11 +1,10 @@
 # Target and Objective
-The Domain Driven Architecture is organized in useful building blocks for IT-Systems. 
-These building blocks we will form as feature documentation.  
 
-## Intended Reader
-IT Operations, IT Architects, developers and product owners.
+This book is about IT- and Organizational-Architecture. 
+It collects architectural principles and resulting blueprints.
 
-## Structure of Feature Documentation
+## Structure of Architectural Blueprint
+We structure architectural blueprints usually as follows:
 * __Change History__: The change history will contain the features history and description for feature doc releases.
 * __Scope__: Target, intended reader and usage context.
 * __Analysis__: Concepts and remarkable informations on the way to get a better understanding of the problem to solve.
@@ -17,4 +16,7 @@ IT Operations, IT Architects, developers and product owners.
   * Software Developers
   * Decision Makers
   * System Users
-  * System Operators
+  * System Operators  
+
+## Intended Reader
+IT Operations, IT Architects, Developers and Product Owners.

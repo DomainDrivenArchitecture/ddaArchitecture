@@ -1,1 +1,1 @@
-# Feature Spec Linked Data Resource Publishing
+# DDA Blueprint: Linked Data Resource Publishing

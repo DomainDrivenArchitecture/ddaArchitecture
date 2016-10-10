@@ -6,6 +6,7 @@
 |0.3		|M.Jerger, M. Paus, M.Klemm, P. Raysz, M. Mörike, G.Bockhorn, T.Scherer, meissa |11.05.2015	|Publication of DDA-Requirements en 0.7	|valid	|
 |0.4		|M.Jerger, meissa 	|07.11.2015	|Publication of dda Configuration Management en 0.1	|draft	|
 |0.5		|M.Jerger, meissa 	|27.19.2016	|Publication of dda Configuration Management en 0.2	|valid	|
+|0.6		|M.Jerger, meissa 	|10.10.2016	|Start of architectural principles en 0.1			|draft	|
 
 #Legend
 
