@@ -1,3 +1,5 @@
   * [Change History](./05_architecture/10_meta/change_history.md)
   * [Scope](./05_architecture/10_meta/scope.md)
   * [Analysis](./05_architecture/20_analysis/README.md)
+    * [Definition](./05_architecture/20_analysis/ArchitecturDefinition.md)
+    * [Principles](./05_architecture/20_analysis/ArchitecturalPrinciples.md)
