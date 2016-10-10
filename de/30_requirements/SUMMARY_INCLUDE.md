@@ -1,5 +1,5 @@
-  * [Requirements Änderungshistorie](30_requirements/change_history.md)
-  * [Konzept Rahmenbedingungen](30_requirements/10_scope/README.md)
+  * [Änderungshistorie](30_requirements/change_history.md)
+  * [Rahmenbedingungen](30_requirements/10_scope/README.md)
   * [Analyse](30_requirements/20_analysis/README.md)
     * [Nutzen von aufgeschriebenen Anforderungen](30_requirements/20_analysis/benefits_written_requirements.md)
     * [Fallen und Kostentreiber](30_requirements/20_analysis/traps_and_cost_drivers.md)

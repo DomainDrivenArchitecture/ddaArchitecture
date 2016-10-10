@@ -1,5 +1,5 @@
-  * [Backup Änderungshistorie](10_backup/change_history.md)
-  * [Konzept Rahmenbedingungen](10_backup/10_scope/README.md)
+  * [Änderungshistorie](10_backup/change_history.md)
+  * [Rahmenbedingungen](10_backup/10_scope/README.md)
   * [Analyse](10_backup/20_analysis/README.md)
     * [Entitäten und Fragen](10_backup/20_analysis/questions_and_entities.md)
     * [Ubuntu Log-Files](10_backup/20_analysis/ubuntu_logs.md)

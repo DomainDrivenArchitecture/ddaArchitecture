@@ -1,12 +1,9 @@
 # Rahmenbedingungen
-## Anlass und Ziel
-Domain Driven Architektur ist in module unterteilt, die jeweils für sich einen Wert darstellen. 
-Diese Module werden wir als Feature Dokumentation ausprägen.  
+In diesem Buch geht es um IT- und Organisations-Architektur.
+Wir sammeln dazu Prinzipien und verdeutlichen deren Anwendung am Beispiel von konkreten Blaupausen.
 
-## Adressatenkreis
-IT-Betrieb, IT-Architekten, Software-Entwickler und Anwendungsverantwortliche.
-
-## Teile einer Feature Dokumentation
+## Teile einer Architectur Blaupause
+Typischerweise sind die in dieserm Buch beschriebenen Architektur Blaupausen folgendermassen strukturiert:
 * __Änderungshistorie__: Beschreibt wichtige Änderungen eines Releases.
 * __Rahmenbedingungen__: Ziele, Leserkreis und Nutzungskontext.
 * __Analyse__: Erkenntnisse und bemerkenswerte Informationen, die den Weg zum Problemverständnis erleichtern.
@@ -19,3 +16,6 @@ IT-Betrieb, IT-Architekten, Software-Entwickler und Anwendungsverantwortliche.
   * Anwendungsverantwortliche
   * System Benutzer
   * System Betreiber
+  
+## Adressatenkreis
+IT-Betrieb, IT-Architekten, Software-Entwickler und Anwendungsverantwortliche.
