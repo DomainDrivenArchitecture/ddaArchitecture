@@ -16,6 +16,7 @@
     * [Config Distribution](80_config_management/40_architecture/ConfigDistribution.md)
     * [State Mgm](80_config_management/40_architecture/StateManagement.md)
     * [Credentials Security](80_config_management/40_architecture/CredentialsSecurity.md)
+    * [Testing](80_config_management/40_architecture/Testing.md)
   * [Realization](80_config_management/50_realization/README.md)
     * Development
       * [Coding Conventions](80_config_management/50_realization/Development/CodingConventions.md)

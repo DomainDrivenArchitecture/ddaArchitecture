@@ -16,6 +16,7 @@
   * [Config Distribution](40_architecture/ConfigDistribution.md)
   * [State Mgm](40_architecture/StateManagement.md)
   * [Credentials Security](40_architecture/CredentialsSecurity.md)
+  * [Testing](40_architecture/Testing.md)
 * [Realization](50_realization/README.md)
   * Development
     * [Coding Conventions](50_realization/Development/CodingConventions.md)
