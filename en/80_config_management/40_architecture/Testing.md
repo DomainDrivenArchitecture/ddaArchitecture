@@ -1,74 +1,45 @@
 #Testing
 
-Alle Actions werden mit Pallet realisiert und in einer eigenen Phase (test) ausgeführt.
+To test the installation (e.g. when performing an integration test) there is a seperate phase called **test**.
 
-1) Zu prüfende / überwachende Resourcen können festgelegt werden.
-
-* Dabei wird eine eindeutige Kennung der Resource angegeben. 
-  Um Mehrfachverwendung zu vermeiden Vorschlag: crate_resource, z.B. dda-servertest-crate_apt-packagelist
-* State wird angelegt unter /home/pallet/state/$timestamp/
-
-  (serverstate/define-check-file some-handle "...")
-  Idee: File wird kopiert in /home/pallet/state-$timestamp/, Fehler falls nicht vorhanden
-
-  (serverstate/define-check-script some-handle "...")
-  Idee: Script wird ausgeführt (errorcode <> 0 = fehler) und ausgabe nach /home/pallet/state-$timestamp/... zum untersuchen
-
-  (serverstate/define-check-filetree some-handle "path")
-  Idee: Mit "find path" wird Dateibaum erzeugt
+![](../../../images/80_config_management/testing.png)
 
 
-2) Inhalte können verifiziert werden
+##Resources
 
-* Checkscripte sollen vernünftige (lesbare) outputs erzeugen, dass diese im Nachgang gespeichert/analysiert werden können.
-* Checks sollen auf dem Server unter /home/pallet/state-$timestamp/checks abgelegt sein
+In the first step **test resources** are defined. A test resource is an output of a linux shell script. For example `ps -A` to test for a running process after install or also the raw content of a file using `cat /etc/hosts`.
 
-z.B.
-  (serverstate/check-content some-handle content)
-  überprüft ob content exakt gleich
+Defining the resources is required to perform tests not only on the remote node machine, but also on the machine running the JVM. When resources are defined their output is transfered to the JVM machine and can be interpreted and tested. There must be no credentials or secrets in resources since they might be saved and displayed in test results.
 
-  (serverstate/check-contains(-not) some-handle content)
-  überprüft ob ein ausschnitt (nicht) vorhanden ist
+Outputs and scripts for creation of resources are saved in `/home/pallet/state/resources-$TIMESTAMP`. There is a link from `/home/pallet/state/resources-current` to the latest resources.
 
-  (serverstate/check-regex some-handle content)
-  überprüft den regexp auf den inhalt
-
-Helfer wie
-  (serverstate/check-file-exists some-path)
-  (serverstate/check-installed some-pkg)
+All resources must be identified using a unique key. To guarantee uniqueness of keys one should use namespaced keywords in clojure, e.g. `::my-resource`. The key of a resource corresponds to the filename in the resource folder.
 
 
-3) Erweiterung: Diffs zwischen den States anzeigen, Tests mit Diffs
-z.B.
-  (serverstate/check-nodiffs some-handle)
+##Tests
 
+There can be multiple tests and each crate can define own tests or use tests that are provided by other crates. If any test fails the execution of other tests is continued.
 
-4) Phase clear-state löscht alte states
+##Local test
 
+A **local test** is a test performed on the executing node using already defined resources. There is no further interaction between the executing node and the target node.
 
+A local test...
 
+* is a clojure function getting the resource as input.
+* evaluates to `nil` or `false` iff the test failes.
+* may output additional information on stdout, which are collected in the test-result.
+* can easily be unit-tested since no executions on a remote node are involved.
 
--------------
+##Remote tests
 
-Vordefinierte Tests im server-test-crate:
+A **remote test** is a test performed on the target node. It is specified by a shell script and its exit code corresponds with the test result. 
 
+In detail the test script...
 
-* apt-package-list		
-apt list --installed
+* receives the specified resource on stdin.
+* must exit with code 0 iff the test passes.
+* can print additional information to stdout.
+* is more difficult to test than local tests (since a test framework for shell script must be integrated).
 
-* apt-repository-list
-egrep -v '^#|^ *$' /etc/apt/sources.list /etc/apt/sources.list.d/*
-
-* os-version
-cat /proc/version
-cat /etc/os-release
-
-* disk-status	
-df
-Skript konfigurierbar --> Thresholds können angegeben werden
-
-* network
-ifconfig
-
-* ports
-netstat ...
+Remote tests are useful if additional server state is required.
