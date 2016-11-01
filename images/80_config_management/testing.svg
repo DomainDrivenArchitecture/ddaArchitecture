@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="testing.svg"
+   inkscape:export-filename="/home/jat/code/ddaArchitecture/images/80_conig_management/testing.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4">
     <inkscape:perspective
@@ -135,9 +138,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="317.66268"
-     inkscape:cy="221.74955"
+     inkscape:zoom="1.979899"
+     inkscape:cx="361.55475"
+     inkscape:cy="115.93909"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1192,7 +1195,7 @@ xhhjjDHGQsD/A4RGdxHe5jgIAAAAAElFTkSuQmCC
          sodipodi:role="line"
          id="tspan4243-0"
          x="294.06094"
-         y="616.55981">trasport test script</tspan></text>
+         y="616.55981">transport test script</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
