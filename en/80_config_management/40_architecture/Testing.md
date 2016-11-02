@@ -1,8 +1,14 @@
 #Testing
 
+TODO: 
+* Add context for resources & tests
+* introduce xBox-Tests
+* introduce test Scopes
+* introduce cost @analysis
+
 To test the installation (e.g. when performing an integration test) there is a seperate phase called **test**.
 
-![](../../../images/80_config_management/testing.png)
+![](../../resources/testing.png)
 
 
 ##Resources
