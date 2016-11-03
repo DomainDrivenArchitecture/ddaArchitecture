@@ -6,12 +6,16 @@ TODO:
 * introduce test Scopes
 * introduce cost @analysis
 
-To test the installation (e.g. when performing an integration test) there is a seperate phase called **test**.
+To integration test a given installation (e.g. when performing an integration test) we use phase called **test**.
 
 ![](../../resources/testing.png)
 
+The test itself is separated into two steps:
+* Collect resources from target: Collecting resources from target system is executed on target and may not change targets state (with exception of /tmp and /home/pallet/state ). 
+* Test against expectation: The resources are transported to executing system and can be tested there against expectation.
 
-##Resources
+
+## Collect Resources
 
 In the first step **test resources** are defined. A test resource is an output of a linux shell script. For example `ps -A` to test for a running process after install or also the raw content of a file using `cat /etc/hosts`.
 
@@ -19,24 +23,21 @@ Defining the resources is required to perform tests not only on the remote node 
 
 Outputs and scripts for creation of resources are saved in `/home/pallet/state/resources-$TIMESTAMP`. There is a link from `/home/pallet/state/resources-current` to the latest resources.
 
-All resources must be identified using a unique key. To guarantee uniqueness of keys one should use namespaced keywords in clojure, e.g. `::my-resource`. The key of a resource corresponds to the filename in the resource folder.
+All resources must be identified using a unique key. To guarantee uniqueness of keys one should use namespaced keywords in clojure, e.g. `::my-resource`.
 
 
-##Tests
+## Execute Tests
 
-There can be multiple tests and each crate can define own tests or use tests that are provided by other crates. If any test fails the execution of other tests is continued.
+There can be multiple tests and each crate can define own tests or use tests that are provided by other crates. If any test fails the execution of other tests is continued. 
 
-##Local test
-
-A **local test** is a test performed on the executing node using already defined resources. There is no further interaction between the executing node and the target node.
-
-A local test...
+A Test ...
 
 * is a clojure function getting the resource as input.
-* evaluates to `nil` or `false` iff the test failes.
+* evaluates to `nil` or `false` if the test fails.
 * may output additional information on stdout, which are collected in the test-result.
 * can easily be unit-tested since no executions on a remote node are involved.
 
+TODO: Move this information to relization part
 ##Remote tests
 
 A **remote test** is a test performed on the target node. It is specified by a shell script and its exit code corresponds with the test result. 
