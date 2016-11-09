@@ -1,12 +1,31 @@
+[//]: # (This doc. has been reviewed by @Ali)
+
 # Backup Decision Form
 
 ## Global Decisions
+[//]: (@Ali)
+
+* Application configuration: The settings of the actual application
+* Application Binaries: The executable files of an application.
+* Application data: The data that is generated when using the application.
+* Log data: log messages that log important events.
+
+
 ### Data Types  to Backup
+
+[//]: (@Ali)
+
 We backup application data and log data.
+* System configuration
+* Application configuration
+* Application binaries
 Code and configuration needs no backup, because code is saved by Version Management System.
  * Application Data
- * Log Data: Logfiles are synchronized daily. Storage duration is: e.g. 1 year
+ * Log Data: Log files are synchronized daily. Storage duration is: e.g. 1 year
  * Security Log Data: Security logs need no backup, because they are synchronized in real time. Storage duration is:	e.g. 1 year
+
+[//]: # (Security isn't in German version @Ali)
+
 
 ### Availability
  * **High**: Highly important data are stored on another computing center.

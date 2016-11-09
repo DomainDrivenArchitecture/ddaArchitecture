@@ -1,8 +1,10 @@
+[//]: # (This doc. has been modified by @Ali)
+
 # Target and Objective
-This document describes backup concepts on an example company.
+This document describes backup concepts on an example company. The example company has about 50 employees and operates its own CloudService for its customers.
 
 ## Intended Reader
-IT operations engeneers, IT architects, developers and product owners.
+IT operations engineers, IT architects, developers and product owners.
 
 ## Additional Documents
 1. BSI Datensicherung: https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKataloge/Inhalt/_content/baust/b01/b01004.html

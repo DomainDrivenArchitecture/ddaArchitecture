@@ -1,8 +1,12 @@
+[//]: # (modified by @Ali)
+
 # Backup Process Steps
 
 ![the backup process][backup process]
 
 [backup process]: backup_phases.png "the backup process"
+
+[//]: # (The translation contains 3 parts, however, it has 6 part originally: by @Ali, What should I do?)
 
 ## Backup Source
 ### Backing up (1)
