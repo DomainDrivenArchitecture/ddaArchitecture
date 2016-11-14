@@ -2,8 +2,6 @@
   * [Scope](20_linked_data/10_scope/README.md)
   * [Analysis](20_linked_data/20_analysis/README.md)
     * [ScopeComparison](20_linked_data/20_analysis/ScopeComparison.md)
-    * [Shape vs. Rdfs](20_linked_data/20_analysis/ShapeVsRdfs.md)
-    * [Urls in Liferay](20_linked-data/20_analysis/UrlCalculationInLiferay.md)
   * [Requirements](20_linked_data/30_requirements/README.md)
   * [Architecture](20_linked_data/40_architecture/README.md)
     * [Principles and Conventions](20_linked_data/40_architecture/principlesAndConventions/principlesAndConventions.md)
