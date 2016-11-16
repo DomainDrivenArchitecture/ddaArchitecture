@@ -22,7 +22,7 @@ Realizations are described below, e.g. Applicable to the applications
 
 ## Instances
 * Individual modules can be instanced several times.
-* D.h. The module configurations must be able to distinguish between different entities.
+* For example the module configurations must be able to distinguish between different entities.
 * This means that the backup must also be able to distinguish between instances of modules.
 * Instances are distinguishable by their id. For reasons of readability, different instances get different semantic names:
 * Semantic-name
@@ -31,21 +31,21 @@ Realizations are described below, e.g. Applicable to the applications
 
 ### Scripts in the filesystem
 
-* There are roughly two types of scripts used
+* There are used two types of scripts roughly
 * Cronjob scripts
 * Module- and instance-specific backup / restore scripts
 
 * Cronjob scripts are located in /etc/cron.daily/
 * Also links to backup and transport scripts can be found here
 
-* Backup and restore scripts are located in / usr / lib / dda- [app-name] /
+* Backup and restore scripts are located in /usr/lib/dda-[app-name]/
 
 #### Manual Restore
 
 * A restore script needs the common prefix of the restore files as parameters
   * Example call for the following restore (common prefix: "dda-myBackup \ _"):
-    * Dda-myBackup \ _file \ _2015-08-09_05-14-08.tgz
-    * Dda-myBackup \ _mysql \ _2015-08-09_05-14-08.sql
-  * /usr/lib/dda-[app-name]/myBackup\_restore.sh dda-myBackup \ _
+    * Dda-myBackup\_file\_2015-08-09_05-14-08.tgz
+    * Dda-myBackup\_mysql\_2015-08-09_05-14-08.sql
+  * /usr/lib/dda-[app-name]/myBackup\_restore.sh dda-myBackup\_
 * The Restore script uses the state with the latest time stamp
-* Restart the server after restarting
+* Restart the server after restoring
