@@ -1,5 +1,3 @@
-[//]: # (This doc. has been modified by @Ali)
-
 # Target and Objective
 This document describes backup concepts on an example company. The example company has about 50 employees and operates its own CloudService for its customers.
 

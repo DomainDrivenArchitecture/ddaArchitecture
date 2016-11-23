@@ -1,4 +1,3 @@
-[//]: # (Reviewed and added by @Ali)
 # Restore Process Steps
 
 ![the restore process][restore process]

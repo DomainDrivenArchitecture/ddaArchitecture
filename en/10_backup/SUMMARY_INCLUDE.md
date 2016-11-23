@@ -1,4 +1,3 @@
-[//]: # (Reviewed and modified by @Ali)
   * [Backup Change History](10_backup/change_history.md)
   * [onceptual framework](10_backup/10_scope/README.md)
   * [Analysis](10_backup/20_analysis/README.md)

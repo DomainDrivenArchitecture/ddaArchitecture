@@ -1,5 +1,3 @@
-[//]: (modeified by @Ali)
-
 # Target and Objective
 The Domain Driven Architecture is organized in useful building blocks for IT-Systems. 
 These building blocks we will form as feature documentation.  

@@ -1,5 +1,3 @@
-[//]: # (Reviewed and added by @Ali)
-
 # Types of Backup Data
 1. Application Code: Code for all individual application installations.
 2. Application Data: Data of installed and used applications.

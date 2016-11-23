@@ -1,5 +1,3 @@
-[//]: # (modified by @Ali)
-
 # Backup Process Steps
 
 ![the backup process][backup process]

@@ -1,5 +1,3 @@
-[//]: # (Reviewed and added by @Ali)
-
 # Architecture
 ## Context
 The described backup / restore process is limited to the application and log data. For a complete recovery, restoration at the hardware, operating system and application level must also be considered (elsewhere).

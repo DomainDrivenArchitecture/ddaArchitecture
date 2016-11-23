@@ -1,5 +1,3 @@
-[//]: # (translated by @Ali)
-
 # Implementation
 
 Realizations are described below, e.g. Applicable to the applications
