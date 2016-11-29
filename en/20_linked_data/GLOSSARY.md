@@ -7,7 +7,7 @@ A named graph is a collection of triples in the Triple store.
 A named graph is an entity that is subject to access control.
 
 #GraphMetaData
-Data, that describes meta-information about a named graph.
+Data that describes meta-information about a named graph.
 This is typically the creation date, the state of the data within the graph, authorization information, etc..
 
 #Ontology
@@ -22,7 +22,7 @@ Index term assigned to a piece of information.
 
 #Tagging
 The process of assigning tags to a piece of information or a document,
-personally by the item&#8216;s creator or viewer or semi-automatically via natural-language-processing tools.
+personally by the item's creator or viewer or semi-automatically via natural-language-processing tools.
 
 #Taxonomy
 A Taxonomy is a controlled vocabulary which has a strictly hierarchical structure.
@@ -37,5 +37,5 @@ Dictionary containing unambiguous, non-redundant terms and their definitions.
 The terms in a vocabulary are described using an ontology.
 
 #ControlledVocabulary
-A Vocabulary which is subject to an editorial process or even fixed.
+A Vocabulary which is subject to an editorial process or even fixed one.
 
