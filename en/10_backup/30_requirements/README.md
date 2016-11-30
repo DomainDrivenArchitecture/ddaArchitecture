@@ -1,10 +1,10 @@
 # Application backup requirements
 
 ## Backup for data
-{% Include "git + https: //github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0096.md"%}
-{% Include "git + https: //github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0097.md"%}
-{% Include "git + https: //github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0045.md"%}
-{% Include "git + https: //github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0046.md"%}
+{% Include "git + https: //github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0096.md"%}
+{% Include "git + https: //github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0097.md"%}
+{% Include "git + https: //github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0045.md"%}
+{% Include "git + https: //github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0046.md"%}
 
 
 ### Support backup sources
