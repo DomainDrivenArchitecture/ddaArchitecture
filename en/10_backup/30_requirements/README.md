@@ -17,7 +17,7 @@
 
 ## Restore data
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0103.md" %}
-{% Include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0044.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0044.md" %}
 
 ## Secured risks
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0104.md" %}
