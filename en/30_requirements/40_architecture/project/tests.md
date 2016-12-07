@@ -1,4 +1,4 @@
 #### Tests
 In the context of implementation projects, two types of tests are relevant, the acceptance test and additionally the development test. 
-Acceptance Tests: With the requirements, that are referenced in the work package, the relevant acceptance tests are labeled, that have to been passed in context of the implementation. 
-DevelopmentTest (10.): Additionally, it's useful to formulate some development tests that are only valid in the scope of the implementation project. Chosen development test can be adopted to acceptance tests if necessary. Then, they are longer available than only for the project lifetime.
+Acceptance Tests: With the requirements, that are referenced in the work package, the relevant acceptance tests are labeled, that must be passed in context of the implementation. 
+Development Test (10.): Additionally, it's useful to formulate some development tests that are only valid in the scope of the implementation project. Chosen development test can be adopted to the acceptance tests if it's necessary. Then, they are longer available than only for the project lifetime.
