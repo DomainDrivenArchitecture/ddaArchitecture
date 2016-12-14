@@ -1,9 +1,10 @@
+# Framework conditions
 # Target and Objective
 The Domain Driven Architecture is organized in useful building blocks for IT-Systems. 
 These building blocks we will form as feature documentation.  
 
 ## Intended Reader
-IT Operations, IT Architects, developers and product owners.
+IT-company, IT Architects, developers and product owners.
 
 ## Structure of Feature Documentation
 * __Change History__: The change history will contain the features history and description for feature doc releases.
@@ -15,6 +16,6 @@ IT Operations, IT Architects, developers and product owners.
 * __Architecture__: Architecture decomposes the problem described in requirements. Elements described in this part will be referred in requirements part to classify requirements and in realization part for implementing described concepts.
 * __Realization__: There are four intended reader types for realization documentation:
   * Software Developers
-  * Decision Makers
+  * Product Owner
   * System Users
   * System Operators
