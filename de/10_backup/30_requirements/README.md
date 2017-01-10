@@ -17,6 +17,7 @@ Neben Applikationsspezifischer Backup Adaptern stellt der dda-backup-crate auch 
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0100.md" %}
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0101.md" %}
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0045.md" %}
+
 ### Alternativ
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0046.md" %}
 
