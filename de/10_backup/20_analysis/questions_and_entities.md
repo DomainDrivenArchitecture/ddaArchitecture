@@ -1,19 +1,22 @@
-# Varianten von Backup Daten
+# Fragen, die für ein Backup wichtig sind
+## Welche Daten sollen gesichert werden?
+Die folgende Begriffe sind für die Frage "was wollen wir sichern" wichtig:
 1. Anwendungs-Code: Code für individuelle Anwendungs-Installationen.
 2. Anwendungsdaten: Daten der installierten und genutzten Anwendungen.
 3. Konfiguration: Konfiguration der Komponenten oder Anwendungen.
 4. Logdaten: Logfiles für genutzte Anwendungen.
 5. Sicherheits-Logdaten: spezielle Sicherheits-Logfiles (für gesichterte Systeme).
 
-# Backup Daten Deduplizierung
-Auch wenn es viele Zwischenvarianten gibt, werden wir hier nur nach den zwei Hauptvarianten unterscheiden:
-1. Vollständiges Backup
-2. Inkrementelles Backup
-Aufgrund der kleinen Backup-Größe unseres Beispiel-Unternehmens werden wir nur das vollständige Backup nutzen.
+## Nutzen wir Deduplizierung?
+Um Speicherplatz, Übertragungs-kapazität und Backupzeit einzusparen, arbeiten manche Lösungen mit Teilbackups. 
+1. Vollständiges Backup: Alle Daten werden in einer Backup-Einheit gesichert. Zur Widerherstellung ist nur diese eine Backup Einheit nötig.
+2. Inkrementelles Backup: Nur geänderte Daten werden gesichert. Zur Widerherstellung sind mehrere aufeinanderfolgende Backupeinheiten nötig.
 
-# Wichtige Fragen, die es zu beantworten gilt
+## Welche Daten-Sicherheit benötigen wir?
 Wichtige Fragen in Bezug auf Backups sind:
 1. Zugriffs-Schutz: Wer hat Zugriff zu Backups?
-2. Rechenzentrums-Ausfall: Was geschieht, wenn das gesamte Rechenzentrum ausfällt?
-3. Datenschutz-Anforderungen: Wie sensibel sind die Backup-Daten?
-4. Wiederherstellung: Wiederherstellung beschreibt den Kontext der Rettung von Anwendungen, ihrer Daten und Konfigurationen im Katastrophenfall. Damit stellt sich die Frage: Was ist die Dauer für die Wiederstellung?
+2. Datenschutz-Anforderungen: Wie sensibel sind die Backup-Daten?
+
+## Was ist für die Widerherstellung wichtig?
+1. Rechenzentrums-Ausfall: Was geschieht, wenn das gesamte Rechenzentrum ausfällt, soll eine Widerherstellung möglich sein?
+2. Wiederherstellungs Zeit und Vorbedingungen: Wiederherstellung beschreibt den Kontext der Rettung von Anwendungen, ihrer Daten und Konfigurationen im Katastrophenfall.

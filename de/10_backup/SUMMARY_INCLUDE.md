@@ -2,8 +2,6 @@
   * [Konzept Rahmenbedingungen](10_backup/10_scope/README.md)
   * [Analyse](10_backup/20_analysis/README.md)
     * [Entitäten und Fragen](10_backup/20_analysis/questions_and_entities.md)
-    * [Ubuntu Log-Files](10_backup/20_analysis/ubuntu_logs.md)
-    * [Besonderheiten bei Host Europe](10_backup/20_analysis/hosteurope.md)
     * [Formular für Backup Entscheidungen](10_backup/20_analysis/decision_form.md)
   * [Anforderungen](10_backup/30_requirements/README.md)
   * [Architektur](10_backup/40_architecture/README.md)

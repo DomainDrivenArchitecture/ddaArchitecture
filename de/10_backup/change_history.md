@@ -9,6 +9,8 @@
 |0.5		|meissa							|30.01.15	|Gereviewed und übersetzt|gültig	|
 |0.6		|M.Jerger						|30.04.15	|Umstrukturiert, Anforderungen hinzugefügt, Umsetzung in das Umsetzungprojekt ausgelagert. Meissa Review|gültig	|
 |0.7		|T.Scherer						|15.06.15	|Backup-Umsetzung		|gültig	|
+|0.8		|M.Jerger						|10.01.17	|Möglichkeit zur Remotstorage / duplicity eingefügt	|Entwurf	|
+
 
 #Legende
 
