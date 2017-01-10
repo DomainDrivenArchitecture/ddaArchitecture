@@ -3,7 +3,7 @@ Here you can see a view with chapters in hinged position:
 
 ![Figure 9: Embedded requirement – in hinged position][view1]
 
-[view1]: https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/master/images/30_requirements/FitnesseAnsicht01_zusammengeklappt.png "Figure 9: Embedded requirement – in hinged position"
+[view1]: https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/master/images/30_requirements/FitnesseAnsicht01_zusammengeklappt.png "Figure 9: Embedded requirement collapsed – in hinged position"
 
 And here the chapter “Community Suche” (community search) is opened … all assigned requirements are listed one below the other.
 

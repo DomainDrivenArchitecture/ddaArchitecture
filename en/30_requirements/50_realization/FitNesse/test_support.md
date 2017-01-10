@@ -7,11 +7,11 @@ In the meaning of FitNesse, all requirements are TestSuites. So in the FitNesse 
 
 You get a fine test summary for the individual test...
 
-![Figure 13: several acceptance tests summarised in a suite][test2]
+![Figure 13: several acceptance tests summarized in a suite][test2]
 
-[test2]: https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/master/images/30_requirements/FitnesseTestunterstuetzung2.png "Figure 13: several acceptance tests summarised in a suite"
+[test2]: https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/master/images/30_requirements/FitnesseTestunterstuetzung2.png "Figure 13: several acceptance tests summarized in a suite"
 
-and for all realised tests and retests ...
+and for all realized tests and retests ...
 
 ![Figure 14: A historical overview over the last test procedures][test3]
 

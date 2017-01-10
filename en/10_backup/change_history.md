@@ -1,4 +1,4 @@
-#Changehistory
+#Change history
 	
 |Version	|Author / Actor					|Date		|Change / Activity	|State	|
 |-----------|-------------------------------|-----------|-------------------|-------|

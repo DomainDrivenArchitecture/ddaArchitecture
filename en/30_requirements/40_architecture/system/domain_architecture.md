@@ -1,4 +1,4 @@
 #### DomainArchitecture (8.)
-The domain architecture describes the differentiation of the technical problem. New findings that arise during analysis, trial or implementation certainly lead to a change in differentiation and structure in the domain architecture.
-So that this change hasn't such an intense impact on the existing requirements, the semantic link between requirement and domain architecture is realized by requirements views.
-The elements used in the domain architecture like aggregates, entities, repositories are described in Domain Driven Design.
+The domain architecture or professional architecture describes the differentiation of the technical problem. New findings that arise during analysis, trial or implementation certainly lead to a change in differentiation and structure in the domain architecture.
+To ensure that these changes do not have a massive effect on already existing requirements, the semantic link between requirements and the domain architecture is realized by means of requirements views.
+The elements used in the domain architecture like aggregates, entities, repositories, etc. are described in the Domain Driven Design.

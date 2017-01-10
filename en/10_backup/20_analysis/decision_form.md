@@ -1,34 +1,43 @@
 # Backup Decision Form
 
 ## Global Decisions
+* Application configuration: The settings of the actual application
+* Application Binaries: The executable files of an application.
+* Application data: The data that is generated when using the application.
+* Log data: log messages that log important events.
+
+
 ### Data Types  to Backup
 We backup application data and log data.
+* System configuration
+* Application configuration
+* Application binaries
 Code and configuration needs no backup, because code is saved by Version Management System.
  * Application Data
- * Log Data: Logfiles are synchronized daily. Storage duration is: e.g. 1 year
+ * Log Data: Log files are synchronized daily. Storage duration is: e.g. 1 year
  * Security Log Data: Security logs need no backup, because they are synchronized in real time. Storage duration is:	e.g. 1 year
 
 ### Availability
- * High: Highly important data are stored on another computing center.
- * Normal: Normally important data are stored on another server.
- * Low: Less important data are stored only on the same server and on the hosting provider's backup store.
+ * **High**: Highly important data are stored on another computing center.
+ * **Normal**: Normally important data are stored on another server.
+ * **Low**: Less important data are stored only on the same server and on the hosting provider's backup store.
 
 ## Decisions and Analysis per Application
 |ID|Measurement|
 |--|--|
-|Application name||
+|**Application name**||
 |Current application data size||
 |Estimated application data growth for upcoming year||
 |Log data growth / year||
-|App data backup on SourceSystem||
+|**App data backup on SourceSystem**||
 |Generations in daily interval||
 |Generations in weekly interval||
 |Generations in monthly interval||
-|App data backup on SinkSystem||
+|**App data backup on SinkSystem**||
 |Generations in daily interval||
 |Generations in weekly interval||
 |Generations in monthly interval||
-|Application needs||
+|**Application needs**||
 |App data importance / availability||
 |App data confidentiality||
 |Log data confidentiality||

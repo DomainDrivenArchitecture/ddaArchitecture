@@ -13,4 +13,4 @@ The target group for this document are requirements analysts, IT product manager
 This document illuminates the structuring and management of requirements. The exemplified ideas stand in the context of DomainDrivenArchitecture.org. This means particularly, that
 * Methods for requirements analysis – especially for validation and consistency of requirements – are illuminated in a separate document.
 * Domain Driven Design makes a stable separation between technical architecture and business architecture possible. The interaction and the actual technical architecture are illuminated in a separate document. 
-* This separation between technical and business architecture allows – in a first realisation phase  - to focus on the business architecture (and the business interface). According to this, in this document non-functional requirements are discussed only marginally.
+* This separation between technical and business architecture allows – in a first realization phase  - to focus on the business architecture (and the business interface). According to this, in this document non-functional requirements are discussed only marginally.
