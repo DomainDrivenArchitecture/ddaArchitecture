@@ -10,7 +10,7 @@
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0098.md" %}
 ### Datensicherheit
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0097.md" %}
-{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0236.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0236.md" %}
 
 ## Unterstütze Backup Quellen
 Neben Applikationsspezifischer Backup Adaptern stellt der dda-backup-crate auch generische Adapter zur Verfügung: 
@@ -22,8 +22,8 @@ Neben Applikationsspezifischer Backup Adaptern stellt der dda-backup-crate auch 
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0046.md" %}
 
 ## Unterstütze Backup Speicher
-{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0237.md" %}
-{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0238.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0237.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0238.md" %}
 
 ## Restore für Daten
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0103.md" %}
