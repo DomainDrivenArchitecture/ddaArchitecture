@@ -1,13 +1,13 @@
 # Backup Sink
 ## Sink System Principles
- 1. Process
-   1. The backups are pulled from the source systems and stored to a transport incoming folder
-   2. After the transport steps are triggered from the sink system:
-     1. Check successful transport.
-     2. Executed on the source system after the transport steps.
-     3. Executed on the sink system after the transport steps.
-       1. Rotate backup files
-       2. Do after process "analysis"
+ 1. Procedure
+   1. The backups are pulled from the source systems and stored in an input transport directory
+   2. After the transport steps are triggered by the "Sink" system:
+     1. Verification of successful transport.
+     2. Perform the "source" system steps after transport.
+     3. Perform the "Sink" system steps after transport.
+       1. Move the backup files to the store
+       2. (Optional) Execute evaluation after expiry
  2. Access
    1. The backup data and the backup log are pulled from different users:
      1. dataBackupSink

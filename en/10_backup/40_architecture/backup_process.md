@@ -8,10 +8,13 @@
 
 ## Backup Source
 ### Backing up (1)
-In the backup step, a source system cron job will 
-1. collect all application (1.a) and log (1.b) data.
-2. deliver this data to the “Transport Handover Point”
-3. handle the “previous transport failed” case (send a mail).
+
+In the backup step, a cronjob is responsible for the "source"
+1. to stop the running application server (1.a).
+2. Collect all application data (1.b) and log data (1.d).
+3. restart the application server (1.c).
+4. Transfer the collected data to the "Transport Handover Point".
+5. the "previous transport has failed" case and, e.g. To send an error mail.
 
 ## Backup Data Transport (2)
 ### Do the Transport (2.a)
