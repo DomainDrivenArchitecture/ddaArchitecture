@@ -1,11 +1,11 @@
 # Backup Decision Form
-
-## Global Decisions
-* Application configuration: The settings of the actual application
-* Application Binaries: The executable files of an application.
-* Application data: The data that is generated when using the application.
-* Log data: log messages that log important events.
-
+## General Decision Criteria
+When we think about backing up our data the following aspects could be relevant:
+* system configuration: configuration and installation state of the target system
+* application configuration: the settings of the actual application
+* application binaries: the executable files of the application
+* application data: data that is created by the usage of the application
+* log data: log messages which protocols important occurrences
 
 ### Data Types  to Backup
 We backup application data and log data.

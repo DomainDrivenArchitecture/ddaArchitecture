@@ -7,6 +7,10 @@
 |0.3		|M.Jerger						|22.12.14	|described Solution Architecture and refactored document structure.|valid	|
 |0.4		|M.Jerger						|28.01.15	|reviewed for consistency, added restore|valid	|
 |0.5		|meissa							|30.01.15	|reviewed and translated.|valid	|
+|0.6 		| M.Jerger 						| 30.04.15 | Restructured, requirements added, implementation translated into the implementation project. Meissa Review |
+|0.7		|T.Scherer						|15.06.15	| Backup | Implementation | Backup |
+|0.8 		| M.Max, M.Jerger 				| 01.10..15 | Review | valid |
+
 
 #Legend
 
