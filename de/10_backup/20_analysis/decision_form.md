@@ -35,14 +35,14 @@ Neben den eigentlichen Backup-Inhalten (für deren Backup generelle Richlinien g
 ## Generell
 Wir machen für Anwendungsdaten und Logdaten ein Backup.
 Code und Konfigurationen benötigen kein Backup, da der Code im Versions Management System gespeichert ist.
-* **Systemkonfiguration:** Wird vollständig durch ConfigManagement erstellt und ist daher immer reporduzierbar. - Kein Backup Bedarf.
-* **Applikationskonfiguration:** Wird vollständig durch ConfigManagement erstellt und ist daher immer reporduzierbar. - Kein Backup Bedarf.
+* **Systemkonfiguration:** Wird vollständig durch ConfigManagement erstellt und ist daher immer reproduzierbar. - Kein Backup Bedarf.
+* **Applikationskonfiguration:** Wird vollständig durch ConfigManagement erstellt und ist daher immer reproduzierbar. - Kein Backup Bedarf.
 * **Applikations-Binaries:** Binaries werden für das ConfigManagement auf einem speziellen Artefakt-Server abgelegt. - Kein zusätzlicher Backup Bedarf, allgemeine Aufbewahrungszeit: 1 Jahr.
 * **Anwendungsdaten:** Werden gemäß Kriterien-Tabelle gesichert - Backup Bedarf.
 * **Logdaten:** Logdaten werden zwar teilweise in Echtzeit Aggregiert und gesammelt (Logstash, Ossec), für eine vertiefte Analyse sollen Logdaten allerdings zusätzlich gesichert werden. Logdaten werden also gemäß Kriterien-Tabelle gesichert - Backup Bedarf, allgemeine Aufbewahrungszeit: 1 Jahr.
 
 ## Je Anwendung
-Für die Festlöegung der Anwendungs-Individuellen Bedarfe haben wir die o.g. Tabelle verwendet. Für die Verfügbarkeit nutzen wir dei folgende Deffinition:
+Für die Festlöegung der Anwendungs-Individuellen Bedarfe haben wir die o.g. Tabelle verwendet. Für die Verfügbarkeit nutzen wir dei folgende Definition:
 
 **Definition Verfügbarkeit**
 * Hoch: Hoch wichtige Daten werden in einem anderen Rechenzentrum aufbewahrt.
