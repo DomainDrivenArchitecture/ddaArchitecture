@@ -1,4 +1,4 @@
-# Summary
+# Domain Driven Architecture
 
 * [DomainDrivenArchitecture](README.md)
 * [Book Change History](change_history.md)
