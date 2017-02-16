@@ -1,7 +1,6 @@
 # Backup Decision Form
 ## General Decision Criteria
 When we think about backing up our data the following aspects could be relevant:
-
 * System configuration: configuration and installation state of the target system
 * Application configuration: the settings of the actual application
 * Application binaries: the executable files of the application
@@ -15,7 +14,7 @@ can apply), the individual application must also be considered:
 |ID 								| Measurement |
 |-- 								|--| 
 |Application name 					|| 
-|Current application data 			|| 
+|Current application data size			|| 
 |Estimated application data growth for upcoming year || 
 |Log data growth / year				|| 
 |Application data backup on "Source" System		|| 
@@ -30,7 +29,7 @@ can apply), the individual application must also be considered:
 |Importance / availability of Application data	||
 |Confidentiality of application data||
 |Confidentiality of log data		||
-|Recovery time for disaster			||
+|Recovery time from failure			||
 
 # Decision example for the "sample company"
 ## As a general rule

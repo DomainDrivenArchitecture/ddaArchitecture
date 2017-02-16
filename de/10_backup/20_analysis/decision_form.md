@@ -31,7 +31,7 @@ Neben den eigentlichen Backup-Inhalten (für deren Backup generelle Richlinien g
 |Wiederherstellungszeit im Katastrophenfall||
 
 
-#Entscheidungs-Beispiel für das "Beispiel Unternehmen"
+# Entscheidungs-Beispiel für das "Beispiel Unternehmen"
 ## Generell
 Wir machen für Anwendungsdaten und Logdaten ein Backup.
 Code und Konfigurationen benötigen kein Backup, da der Code im Versions Management System gespeichert ist.
@@ -42,7 +42,7 @@ Code und Konfigurationen benötigen kein Backup, da der Code im Versions Managem
 * **Logdaten:** Logdaten werden zwar teilweise in Echtzeit Aggregiert und gesammelt (Logstash, Ossec), für eine vertiefte Analyse sollen Logdaten allerdings zusätzlich gesichert werden. Logdaten werden also gemäß Kriterien-Tabelle gesichert - Backup Bedarf, allgemeine Aufbewahrungszeit: 1 Jahr.
 
 ## Je Anwendung
-Für die Festlöegung der Anwendungs-Individuellen Bedarfe haben wir die o.g. Tabelle verwendet. Für die Verfügbarkeit nutzen wir dei folgende Definition:
+Für die Festlegung der Anwendungs-Individuellen Bedarfe haben wir die o.g. Tabelle verwendet. Für die Verfügbarkeit nutzen wir dei folgende Definition:
 
 **Definition Verfügbarkeit**
 * Hoch: Hoch wichtige Daten werden in einem anderen Rechenzentrum aufbewahrt.
