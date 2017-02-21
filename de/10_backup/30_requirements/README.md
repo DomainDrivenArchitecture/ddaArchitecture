@@ -1,6 +1,6 @@
 # Anforderungen für den dda-backup-crate
 
-## Abgesicherte Risiken 
+## Abgesicherte Risiken
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0104.md" %}
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0105.md" %}
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0106.md" %}
