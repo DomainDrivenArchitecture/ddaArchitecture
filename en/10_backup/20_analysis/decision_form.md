@@ -7,7 +7,7 @@ When we think about backing up our data the following aspects could be relevant:
 * Application data: data that is created by the usage of the application
 * Log data: log messages which protocols important occurrences
 
-## Decisions and Analysis per Application
+## Decisions criteria per Application
 In addition to the actual backup contents (for which backup general guidelines
 can apply), the individual application must also be considered:
 
@@ -41,7 +41,7 @@ Code and configurations do not need backup because the code is stored in the ver
 * ** Application data: ** Backed up according to criteria table - Backup requirements.
 * ** Log data: ** Log data is partly aggregated and collected in real time (Logstash, Ossec). Log data is to be additionally saved for an in-depth analysis. Log data is thus saved according to the criteria table - backup requirement, general retention time: 1 year.
 
-## per application
+## Per application
 For the definition of the application-specific requirements we have the above mentioned Table. For availability, we use the following definition:
 
 ** Definition Availability **

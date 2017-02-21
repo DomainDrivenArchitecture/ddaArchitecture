@@ -18,7 +18,7 @@ In the backup step, a cronjob is responsible for the "source"-system
 ### Do the transport - in push-mode (2.a)
 In the transport step, a cron-job on the "source"-system is responsible for
 1. do the transport (2.a): The dataBackupSource User is authorized to store on the "Sink" system.
-2. (Optional) verify correctness: Done by hash comparison.
+2. (Optional) verify correctness: By means of hash comparison.
 3. Treat "sink" generations: Deletes the oldest backups, which exceed the selected number of backup generations to be kept.
 4. Move to the "Source Store" (2.c): Moves the resulting backup to the "Source Store".
 5. Treat Source Generations: Deletes backups according to the selected source system generations.

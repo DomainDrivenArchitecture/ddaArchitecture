@@ -3,8 +3,8 @@
 # Target and Objective
 This chapter describes the backup concept.
 
-For further demonstration we will in some case use an "Example Company". 
-The example company has about 50 employees and operates its own CloudService for its customers.
+For further demonstration we will in some case use an "example company". 
+The example company has about 50 employees and operates its own cloud service for its customers.
  
 ## Intended Reader
 IT-company, IT architects, Software developers and product owners.
