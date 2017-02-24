@@ -2,7 +2,7 @@
 
 ![the backup process][backup process]
 
-[backup process]: backup_phases.png "the backup process"
+[backup process]: /images/10_backup/backup_phases.png "the backup process"
 
 ## Backup Source
 ### Backing up (1)

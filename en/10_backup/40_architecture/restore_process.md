@@ -2,7 +2,7 @@
 
 ![the restore process][restore process]
 
-[restore process]: restore_phases.png "the restore process"
+[restore process]: /images/10_backup/restore_phases.png "the restore process"
 
 ## Restore Data Transport (1)
 1. Source for restores can either be
