@@ -2,7 +2,7 @@
 
 ![the backup process][backup process]
 
-[backup process]: /images/10_backup/backup_phases.png "the backup process"
+[backup process]: https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/ali/images/10_backup/backup_phases.png "the backup process"
 
 ## Backup Quelle
 ### Backup durchführen (1)

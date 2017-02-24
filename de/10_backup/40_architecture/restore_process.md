@@ -2,7 +2,7 @@
 
 ![the restore process][restore process]
 
-[restore process]: /images/10_backup/restore_phases.png "the restore process"
+[restore process]: https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/ali/images/10_backup/restore_phases.png "the restore process"
 
 ## Datentransport zum Restore (1)
 1. Quellen zur Wiederherstellung können entweder 
