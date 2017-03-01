@@ -24,7 +24,7 @@ In addition to application-specific backup adapters, the dda-backup-crate also p
 
 ## Supported Backup Memory
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0237.md" %}
-{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/de/requirements/req0238.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0238.md" %}
 
 ## Restore data
 {% include "git+https://github.com/DomainDrivenArchitecture/ddaRequirement.git/en/requirements/req0103.md" %}
