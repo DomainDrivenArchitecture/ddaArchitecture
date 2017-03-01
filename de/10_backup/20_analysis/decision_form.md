@@ -28,7 +28,7 @@ Neben den eigentlichen Backup-Inhalten (für deren Backup generelle Richlinien g
 |Wichtigkeit / Verfügbarkeit der Anwendungsdaten||
 |Vertraulichkeit der Anwendungsdaten|| 
 |Vertraulichkeit der Logdaten		|| 
-|Wiederherstellungszeit im Katastrophenfall||
+|Wiederherstellungszeit im Katastrophenfall|||
 
 
 # Entscheidungs-Beispiel für das "Beispiel Unternehmen"

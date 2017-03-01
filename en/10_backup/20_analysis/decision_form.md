@@ -29,7 +29,7 @@ can apply), the individual application must also be considered:
 |Importance / availability of Application data	||
 |Confidentiality of application data||
 |Confidentiality of log data		||
-|Recovery time from failure			||
+|Recovery time from failure			|||
 
 # Decision example for the "sample company"
 ## As a general rule
