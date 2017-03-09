@@ -1,10 +1,10 @@
-# Glossyry
+# Glossary
 
 * Feature Spec
 * Configuration Management
   * Domain Dimension
   * System Adapter
-  * Convetion Module
+  * Convention Module
   * Facts
   * Plan
   * Specification Key Space

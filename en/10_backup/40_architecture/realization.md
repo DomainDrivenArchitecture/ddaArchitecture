@@ -1,4 +1,4 @@
-# Implementation
+# Realization
 
 Realizations are described below, e.g. Applicable to the applications
 * JIRA
@@ -20,7 +20,7 @@ Realizations are described below, e.g. Applicable to the applications
 
 ## Instances
 * Individual modules can be instanced several times.
-* For example the module configurations must be able to distinguish between different entities.
+* This means the module configurations must be able to distinguish between different entities.
 * This means that the backup must also be able to distinguish between instances of modules.
 * Instances are distinguishable by their id. For reasons of readability, different instances get different semantic names:
 * Semantic-name
@@ -40,10 +40,10 @@ Realizations are described below, e.g. Applicable to the applications
 
 #### Manual Restore
 
-* A restore script needs the common prefix of the restore files as parameters
-  * Example call for the following restore (common prefix: "dda-myBackup \ _"):
+* a restore script needs the common prefix of the restore files as a parameter
+* example call for the following restore (common prefix: "dda-myBackup \ _"):
     * Dda-myBackup\_file\_2015-08-09_05-14-08.tgz
     * Dda-myBackup\_mysql\_2015-08-09_05-14-08.sql
-  * /usr/lib/dda-[app-name]/myBackup\_restore.sh dda-myBackup\_
-* The Restore script uses the state with the latest time stamp
-* Restart the server after restoring
+* /usr/lib/dda-[app-name]/myBackup\_restore.sh dda-myBackup\_
+* the Restore script uses the state with the latest time stamp
+* the server is to be restarted after the restore

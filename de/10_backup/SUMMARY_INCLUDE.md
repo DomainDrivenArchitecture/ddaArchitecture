@@ -7,6 +7,4 @@
   * [Architektur](10_backup/40_architecture/README.md)
     * [Backup Prozess](10_backup/40_architecture/backup_process.md)
     * [Restore Prozess](10_backup/40_architecture/restore_process.md)
-    * [Source](10_backup/40_architecture/source.md)
-    * [Sink](10_backup/40_architecture/sink.md)
   * [Umsetzung](10_backup/50_realization/README.md)

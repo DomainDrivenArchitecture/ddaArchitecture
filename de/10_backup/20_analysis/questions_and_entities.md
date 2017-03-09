@@ -8,7 +8,7 @@ Die folgende Begriffe sind für die Frage "was wollen wir sichern" wichtig:
 5. Sicherheits-Logdaten: spezielle Sicherheits-Logfiles (für gesichterte Systeme).
 
 ## Nutzen wir Deduplizierung?
-Um Speicherplatz, Übertragungs-kapazität und Backupzeit einzusparen, arbeiten manche Lösungen mit Teilbackups. 
+Um Speicherplatz, Übertragungskapazität und Backupzeit einzusparen, arbeiten manche Lösungen mit Teilbackups. 
 1. Vollständiges Backup: Alle Daten werden in einer Backup-Einheit gesichert. Zur Widerherstellung ist nur diese eine Backup Einheit nötig.
 2. Inkrementelles Backup: Nur geänderte Daten werden gesichert. Zur Widerherstellung sind mehrere aufeinanderfolgende Backupeinheiten nötig.
 
