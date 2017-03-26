@@ -5,6 +5,7 @@
 |0.1		|M.Jerger, M.Mörike, M.Caspari, T.Scherer, meissa	|05.03.2015		|Veröffentlichung von DDA-Backup 0.5	|gültig	|
 |0.2		|M.Jerger, meissa	|30.04.2015		|Veröffentlichung von DDA-Backup de 0.6	|gültig	|
 |0.3		|M.Jerger, M. Paus, M.Klemm, P. Raysz, M. Mörike, G.Bockhorn, T.Scherer, meissa|11.05.2015		|Veröffentlichung von DDA-Anforderungen de 0.7	|gültig	|
+|0.6		|M.Jerger                       |10.03.2017 |Veröffentlichung von dda backup 1.0 |gültig |
 	
 
 #Legende

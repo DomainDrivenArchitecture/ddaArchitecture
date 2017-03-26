@@ -20,7 +20,7 @@ Ontologies have their own namespace build by the following schema:
 **http://{server_name}/ontology/{ontology_name}/{version}#**
 
 The curly brackets indicates placeholders. Their semantic is:
-* {server_name} – The name of the webserver which derefers the ontology.
+* {server_name} – The name of the webserver which dereferences the ontology.
 * {ontology_name} – The normalized name of ontology. „Normalized“ means: No special characters, white spaces and lowercase.
 * {version} – The version of ontology. The version changes whenever the ontology faces a compatibility breaking change. That’s the case, if classes or properties are deleted or renamed.
 
@@ -53,12 +53,12 @@ http://linkeddata.domaindrivenarchitecture.org/resource/requirements/UseCase/001
 ```
 
 ## Taxonomies
-Taxonomies are instances of classes (e.g. from skos ontology). Their URIs have the following schema:
+Taxonomies are instances of classes (e.g. from SKOS ontology). Their URIs have the following schema:
 
 **http://{server_name}/taxonomy/{taxonomy_name}/{resource_name}#this**
 
 The curly brackets indicate a placeholder. Their semantic is:
-* {server_name} – The name of the webserver which derefers the taxonomy.
+* {server_name} – The name of the webserver which dereferences the taxonomy.
 * {taxonomy_name} – The normalized name of taxonomy (e.g skos:schema). „Normalized“ means: No special characters, white spaces and lowercase.
 * {resource_name} – The normalized name of instance. The name can be label/preferred label. „Normalized“ means: No special characters, white spaces and lowercase.
 
@@ -73,7 +73,7 @@ Like any resource human users are identified by URIs also. These URIs are constr
 **http://{server_name}/user/{account_identifier}#this**
 
 The curly brackets indicates a placeholder. Their semantic is:
-* {server_name} – The name of the webserver which defers the resource/instance.
+* {server_name} – The name of the webserver which dereferences the resource/instance.
 * {account_identifier} – The account name in lowercase.
 
 Example:
@@ -82,5 +82,5 @@ http://linkeddata.domaindrivenarchitecture.org/user/mustermannm#this
 ```
 
 # Usage of dereferencable URIs 
-In order to ensure full linked data functionality all URIs in an enterprise linked data environment should be dereferencable. Meaning that if an HTTP client contacts an URI via the HTTP protocoll he gets back a description of the ressource that is identified by the URI  These descriptions are provided as HTML documents that present the information to the audience in the desired format (i.e.. HTML browser -> html, RDF client -> rdf).
-In order to achieve that content negotiation should established throughout the whole enterprise linked data architecture. Each HTTP client that requests an URI sends in his HTTP header what sort of documents he is expecting. Servers can then provide the corresponding response based on the the request.
+In order to ensure full linked data functionality all URIs in an enterprise linked data environment should be dereferencable. It means that if an HTTP client contacts an URI via the HTTP protocol it gets back a description of the resource that is identified by the URI. These descriptions are provided as HTML documents that present the information to the audience in the desired format (i.e.. HTML browser -> html, RDF client -> rdf).
+In order to achieve that content, negotiation should established throughout the whole enterprise linked data architecture. Each HTTP client which requests an URI sends in its HTTP header what sort of documents it's expecting to. Servers can then provide the corresponding response based on the request.

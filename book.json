@@ -10,7 +10,7 @@
     "pluginsConfig": {
     	"piwik": {
          	"URL": "piwik.meissa-gmbh.de/",
-            "siteId": 30
+            "siteId": 30 
         }
     }
 }

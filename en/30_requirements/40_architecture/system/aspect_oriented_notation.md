@@ -1,3 +1,3 @@
 ##### Aspect-oriented user requirements notation
 A further helpful notation for functional requirements is the so-called aspect-oriented user requirements notation. With this notation the cross-sectional functional requirements can be described well. A typical example for such a cross-sectional requirement are e.g. the rights of roles or error logging. 
-For read more I recommend “Aspect-Oriented Software Development with Use Cases” by Ivar Jacobson & Pan-Wei NG or  Aspect-Oriented User Requirements Notation - University of Ottawa (http://www.springerlink.com/content/252645l617782770/) from G.Mussbach.
+For further reading I recommend “Aspect-Oriented Software Development with Use Cases” by Ivar Jacobson & Pan-Wei NG or  Aspect-Oriented User Requirements Notation - University of Ottawa (http://www.springerlink.com/content/252645l617782770/) by G.Mussbach.

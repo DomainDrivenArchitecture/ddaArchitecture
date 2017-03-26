@@ -1,4 +1,4 @@
-# Requirements - Semantic für PolitAktiv
+# Requirements - Semantic for PolitAktiv
 Goal: Citizens contributions are extracted to standardized essays. 
 Essays are linked with their origin. 
 Essays are given by moderators. 

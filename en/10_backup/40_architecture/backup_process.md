@@ -2,31 +2,40 @@
 
 ![the backup process][backup process]
 
-[backup process]: backup_phases.png "the backup process"
+[backup process]: https://raw.githubusercontent.com/DomainDrivenArchitecture/ddaArchitecture/ali/images/10_backup/backup_phases.png "the backup process"
 
 ## Backup Source
 ### Backing up (1)
-In the backup step, a source system cron job will 
-1. collect all application (1.a) and log (1.b) data.
-2. deliver this data to the “Transport Handover Point”
-3. handle the “previous transport failed” case (send a mail).
+In the backup step, a cronjob is responsible for the "source"-system
+1. To stop the running application server (1.a).
+2. Collect all application data (1.b) and log data (1.d).
+3. Restart the application server (1.c).
+4. Transfer the collected data to the "Transport Handover Point".
+5. To handle the "previous transport has failed" case and e.g. send an Error-Mail.
+
 
 ## Backup Data Transport (2)
-### Do the Transport (2.a)
-In the transport step, a sink system cron job will
-1. do the transport (2.a): using ssh and rsync. For ssh, the sink system is authorized on dataBackupSource user.
-2. (Optional) verify correctness: Done by hash comparison.
-3. move to Sink-Store (2.b): Moves the received backup to Sink-Store.
-4. handle Sink generations: Deletes the deepest backup up to the number of the defined generations to be preserved.
-5. move to Source-Store (2.c): Moves the received backup to Source-Store.
-6. handle Source Generations: Deletes backups, bailing out of the defined generations to be preserved.
+### Do the transport - in push-mode (2.a)
+In the transport step, a cron-job on the "source"-system is responsible for
+1. do the transport (2.a): The dataBackupSource User is authorized to store on the "Sink" system.
+2. (Optional) verify correctness: By means of hash comparison.
+3. Treat "sink" generations: Deletes the oldest backups, which exceed the selected number of backup generations to be kept.
+4. Move to the "Source Store" (2.c): Moves the resulting backup to the "Source Store".
+5. Treat Source Generations: Deletes backups according to the selected source system generations.
+
+### Alternative: Carry out the transport - in pull mode (2.a)
+In the transport step, a cron job is responsible for the "sink" system,
+1. do the transport (2.a): The "Sink" system is authorized for the dataBackupSource user.
+2. (optional) verify correctness: By means of hash comparison.
+3. Move to the "Sink-Store" (2.b): Move the resulting backup to the "Sink-Store".
+4. Treat "sink" generations: Deletes the oldest backups, which exceed the selected number of backup generations to be kept.
+5. Move to the "Source Store" (2.c): Moves the resulting backup to the "Source Store".
+6. Treat Source Generations: Deletes backups according to the selected source system generations.
+
 
 ## Backup Log Transport (3)
-In the transport step, a sink system cron job will
-1. do the transport (3.a): using ssh and rsync. For ssh, the sink system is authorized on logBackupSource user.
+In the transport step, a cronjob of the "sink" system is responsible for
+1. Do the transport (3.a): using ssh and rsync. For ssh, the sink system is authorized on logBackupSource user.
 2. (Optional) verify correctness: Done by hash comparison
-3. move to Sink-Store (3.b): Moves the received backup to Sink-Store
-4. handle Sink generations: Deletes the deepest backup of the defined generations to be preserved.
-
-## Use HostEurope Backup (4)
-HostEurope backs up the whole file system of the last 14 days. If we just store one daily generation on the local file system, we have the ability to rollback to one of the last 14 days.
+3. Move to Sink-Store (3.b): Moves the resulting backup to the Sink-Store
+4. Handle Sink generations: Deletes the oldest backup of the defined generations to be preserved.

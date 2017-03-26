@@ -1,12 +1,12 @@
-# Modelling Conventions
+# Modeling Conventions
 ## Add Label and Comment
 Each class or property must have an English label / comment without a language tag (default label). Language tagged labels can be added also.
 
-## List owl and rdf Types explicitly
+## List owl and rdf types explicitly
 As a hint or help for tools that might not be able to interpret owl the associated rdf type is listed, too.
 
 ## Add cardinality to Properties
-As mentionend in [modelling.md#FormAggregates]
+As mentioned in [modelling.md#FormAggregates]
 
 ## Add defines & isDefinedBy: .
 In order to increase the human readability add defines & isDefinedBy. So readers will find an overview from detail and details from top level.

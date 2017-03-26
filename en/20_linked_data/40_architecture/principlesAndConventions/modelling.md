@@ -8,10 +8,10 @@ Ontologies contain classes and properties but typically no instances. In certain
 Form classes, give names and description to these classes.
 Class names are described in singular.
 Names are written as CamelCase.
-Class names start with an uppercase character, properties with lowercase.
+Class names start with an upper case character, properties start with a lower case character.
 
 ## Form Aggregates
-In order to give hints for load/store/transact on collections of things, form aggregates as adviced by DomainDrivenDesign. Aggregates always need an usage context. So different aggregates for different UseCases are expected. 
+In order to give hints for load/store/transact on collections of things, form aggregates as advice by DomainDrivenDesign. Aggregates always need an usage context, so different aggregates for different use cases are expected.
 
 TODO: verify cardinality syntax
 
@@ -27,7 +27,7 @@ There are four possibilities:
 1. Direct Reuse: Use existing classes like foaf:Person. This approach makes sense for existing classes that already cover most of the required functionalities.
 2. Inheritance: Create sub-classes for specialization: xxx:Person rdfs:subClassOf foaf:Person. Very useful for adding domain-specific properties to instances.
 3. Rename: Mark the new class as being the same: xxx:Person owl:sameAs foaf:Person. In general this solution is discouraged: when creating new ontologies this approach does not bring any real benefit while there might be bad tool support.
-4. Composition: Embed existing classes in your own, new class. This approach makes sense, if existing classes should be semantically composed to a new class (e.g. class OnlineAccount can reference instances with type foaf:Person and myOntology:OnlineService)
+4. Composition: Embed existing classes in your own new class. This approach makes sense if existing classes should be semantically composed to a new class (e.g. class OnlineAccount can reference instances with type foaf:Person and myOntology:OnlineService)
 
 # Other LinkedData Principles
 * Tim Berners Lee "four rules": http://www.w3.org/DesignIssues/LinkedData.html
