@@ -4,23 +4,22 @@ The answer to this question depends on the underlying DevOps system. We can use 
 
 ## Which dimensions are important for cutting off the building blocks?
 There are many aspects fur cutting modules and configuration along. We call them domain dimensions. In case of Configuration Management we know the following dimensions:
-* tenants 
-* different system environments like dev, test, staging, integration or production 
+* tenants
+* different system environments like dev, test, staging, integration or production
 * cross cutting functions like security, backup, user identity on various levels
 * operating systems
 * cloud / hosting providers
 * cloud provider types
 * container types
-* application tiers like web, app or persistence 
+* application tiers like web, app or persistence
 
 ## Can it-ops services be abstracted and integrated?
 Ops Services are services like monitoring, alerting, backup, security testing, hardening, dns, firewalls, vpn, routing, providing compute capacity and providing a datacenter api. The the question of abstraction can be answered, if we are able to abstract differences across all known providers for each category.    
 
-## How can we apply the same modules on different platforms?
-We have to build in cross cutting features across all relevant system adapters. 
-In order to support an additional distribution we have to implement the additional distribution support into all linux related System Adapters. For supporting a new Cloud Provider, we've to implement the provider support for the whole data center api System Adapters.
+## Use one modules for different os- / cloud-provider platforms?
+Serving as many as possible target platforms would be great. We could achive this by reducing side effects.
 
-## How can / should Configuration Management support many instances on a single server?
+## Support instances on a single server?
 Following the principle "Keep solutions as simple as possible" we should always try to keep System Adapters simple also. Multi-instance could be realized by container in most cases.
 
 ## What elements are important for handling versions?
@@ -36,7 +35,3 @@ Good Articles & Videos about:
 Frameworks:
 * https://github.com/stuartsierra/component
 * https://github.com/palletops/leaven
-
-
-  
-  
