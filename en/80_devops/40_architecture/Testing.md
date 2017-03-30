@@ -1,6 +1,6 @@
 #Testing
 
-TODO: 
+TODO:
 * Add context for resources & tests
 * introduce xBox-Tests
 * introduce test Scopes
@@ -11,7 +11,7 @@ To integration test a given installation (e.g. when performing an integration te
 ![](../../resources/testing.png)
 
 The test itself is separated into two steps:
-* Collect resources from target: Collecting resources from target system is executed on target and may not change targets state (with exception of /tmp and /home/pallet/state ). 
+* Collect resources from target: Collecting resources from target system is executed on target and may not change targets state (with exception of /tmp and /home/pallet/state ).
 * Test against expectation: The resources are transported to executing system and can be tested there against expectation.
 
 
@@ -28,7 +28,7 @@ All resources must be identified using a unique key. To guarantee uniqueness of 
 
 ## Execute Tests
 
-There can be multiple tests and each crate can define own tests or use tests that are provided by other crates. If any test fails the execution of other tests is continued. 
+There can be multiple tests and each crate can define own tests or use tests that are provided by other crates. If any test fails the execution of other tests is continued.
 
 A Test ...
 
@@ -40,7 +40,7 @@ A Test ...
 TODO: Move this information to relization part
 ##Remote tests
 
-A **remote test** is a test performed on the target node. It is specified by a shell script and its exit code corresponds with the test result. 
+A **remote test** is a test performed on the target node. It is specified by a shell script and its exit code corresponds with the test result.
 
 In detail the test script...
 
@@ -50,3 +50,11 @@ In detail the test script...
 * is more difficult to test than local tests (since a test framework for shell script must be integrated).
 
 Remote tests are useful if additional server state is required.
+
+
+#TestFirst
+
+There are several Mocking-Frameworks
+* https://github.com/amitrathore/conjure
+* https://github.com/bguthrie/shrubbery (in combination with https://github.com/stuartsierra/component or with leaven)
+* https://github.com/hugoduncan/atticus

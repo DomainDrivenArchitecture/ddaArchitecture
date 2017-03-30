@@ -1,7 +1,9 @@
 #Architecture
 
-Important decisions are:
-
-* Configuration can be expanded to a map containing data only. This map is handed over to crates.
-* State is handled central (see [Statemanagement](StateManagement.md))
-* We develop strictly using TestFirst (see TestFirst.md)
+Principles are:
+* ConfigurationIsData : DevOps configures System by providing simple data.
+* CompositionOverInheritance : DevOps compose modules in order to build higher level stacks.
+* SeparateDomainFromInfrastructure : We use lowlevel configuration as anti corruption layer against infrastructure.
+* ConventionOverConfiguration : DevOps can create conventions.
+* ExplicitStatemanagement: We will handle state explicit by declare facts.
+* ConfigurationValidation: Every configuration is validated

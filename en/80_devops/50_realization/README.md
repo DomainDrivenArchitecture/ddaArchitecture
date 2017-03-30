@@ -1,4 +1,16 @@
 # Realization
 
-## Design Decissions
-1. __ConfigurationHandOver__: Content of configuration files / script files is handed over (between functions) either as stevedore or as vector of strings. The conversion into a final single string, including newlines, happens as late as possible.
+## Refactorings
+* Integration namespace with manual aws & existing test
+* Crate schema
+* Domain separated from crate
+* group-based configuration
+* removed additional-configuration
+* no more default config
+* test-first for domain
+* docker-based integration-tests
+* composed configuration
+* dda / meissa namespace
+* crate und domain boundaries
+
+## Crates
