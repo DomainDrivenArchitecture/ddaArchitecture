@@ -9,6 +9,7 @@
   * [Credentials Security](20_analysis/CrdentialsSecurity.md)
   * [Process Support](20_analysis/processsupport.md)
 * [Requirements](30_requirements/README.md)
+  * [dda-git-crate](30_requirements/git.md)
   * [ManagedIde](30_requirements/managedIde.md)
   * [WebServer](30_requirements/webserver.md)
   * [Liferay Portal](30_requirements/liferay.md)
