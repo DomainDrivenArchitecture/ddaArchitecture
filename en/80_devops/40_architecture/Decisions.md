@@ -5,18 +5,18 @@ There are many reasons for separating domain from infrastructure - in case of De
 * domain for domain logic.
 In order to do as less integration test as possible, we will keep crates as simple as possible.
 
-## Integration source folder for each crate
+## Integration Folder
 In order to separate integration test we've an integration source-folder.
 Integration tests may target use cloud systems, pre spawned existing systems or docker containers.
 We've integration tests for each complex function on crate level.
 
-## Prefere docker based integration tests
+## Docker based Integration Tests
 If possible, we prefere docker based integration tests.
 
-## Unittests for Domain
+## Unit Tests for Domain
 If there are complex logic in domain area, we will do unit tests.
 
-## Crate & domain boundaries
+## Crate & Domain Boundaries
 For crates we've namespaces following the pattern
 ```
 dda.pallet.crate.[crate-name]
@@ -24,16 +24,16 @@ dda.pallet.domain.[crate-name]
 ```
 The crate-nanme namespace is the top level and the boundary to the outside. All namespaces below are for internal use only.
 
-## Description of input / output
+## Input / Output Spec
 At the level of boundaries all input and output should be described as schema & validated.
 
 # Design Decisions
-## Short namespace name
+## Short Package
 We use
 * `dda` instead of `org.domaindrivenarchitecture`
 * `meissa` instead of `de.meissa-gmbh`
 
-## Composition prefered over using api
+## Composition over API
 If possible, we compose crates using groups :extends.
 ```
 (api/group-spec "dda-git-group"
@@ -41,7 +41,7 @@ If possible, we compose crates using groups :extends.
             git-crate/with-git])
 ```
 
-## New configuration layout
+## Group based Configuration
 ### we use
 We use group based configuration
 ```
