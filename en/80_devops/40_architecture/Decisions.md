@@ -2,30 +2,30 @@
 ## Separate Domain from Infrastructure
 There are many reasons for separating domain from infrastructure - in case of DevOps the expense of integration tests are important. In terms of dda-pallet we use the names
 * crate to describe infrastructure (as crate is defined by pallet)
-* domain for domain logic.
-In order to do as less integration test as possible, we will keep crates as simple as possible.
+* domain for domain logic
+In order to do as little integration tests as possible, we will keep crates as simple as possible.
 
 ## Integration Folder
-In order to separate integration test we've an integration source-folder.
-Integration tests may target use cloud systems, pre spawned existing systems or docker containers.
-We've integration tests for each complex function on crate level.
+In order to separate integration tests from the rest of the codebase, we've an integration source-folder.
+Integration tests may target cloud systems, pre spawned existing systems or docker containers.
+We've integration tests for each complex function on the crate level.
 
 ## Docker based Integration Tests
-If possible, we prefere docker based integration tests.
+If possible, we prefer docker based integration tests.
 
 ## Unit Tests for Domain
-If there are complex logic in domain area, we will do unit tests.
+If there is complex logic in domain area, we will do unit tests.
 
-## Crate & Domain Boundaries
+## Boundaries
 For crates we've namespaces following the pattern
 ```
 dda.pallet.crate.[crate-name]
 dda.pallet.domain.[crate-name]
 ```
-The crate-nanme namespace is the top level and the boundary to the outside. All namespaces below are for internal use only.
+Both crate-name namespaces are the top level and the boundary to the outside. All namespaces below are for internal use only.
 
 ## Input / Output Spec
-At the level of boundaries all input and output should be described as schema & validated.
+At the level of boundaries all input and output-types of functions should, if reasonable, be described by a schema and validated.
 
 # Design Decisions
 ## Short Package
@@ -64,7 +64,7 @@ or
 ```
 
 ### deprecated
-By using group-based configuration we replace old additional-configuration
+By using group-based configuration, we replace old configuration
 ```
 {:node-specific-config           ; fixed key
   {:my-node-id                   ; nodes identifier
@@ -78,7 +78,7 @@ By using group-based configuration we replace old additional-configuration
        :dda-init ...}}}
 ```
 
-or id based configuration.
+and also id based configuration.
 ```
 {:node-specific-config           ; fixed key - deprecated
   {:my-node-id                   ; nodes identifier
