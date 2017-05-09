@@ -1,1 +1,1 @@
-{% include "git+https://github.com/DomainDrivenArchitecture/dda-user-crate/blob/master/README.md" %}
+{% include "git+https://github.com/DomainDrivenArchitecture/dda-user-crate.git/README.md" %}
