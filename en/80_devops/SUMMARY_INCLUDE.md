@@ -24,3 +24,4 @@
     * [Typed Parameters for Interfaces](80_devops/40_architecturen/TypedParametersForInterfaces.md)
   * [Realization](80_devops/50_realization/README.md)
     * [Module WebServer](80_devops/50_realization/webServer.md)
+    * [Module UserCrate](80_/devops/50_realization/userCrate.md)
