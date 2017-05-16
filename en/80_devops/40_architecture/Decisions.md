@@ -24,6 +24,9 @@ dda.pallet.domain.[crate-name]
 ```
 The crate-nanme namespace is the top level and the boundary to the outside. All namespaces below are for internal use only.
 
+## Dimension: Target
+The target configuration is separated from targets content configuration.
+
 ## Input / Output Spec
 At the level of boundaries all input and output should be described as schema & validated.
 
