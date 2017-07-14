@@ -88,3 +88,36 @@ and also id based configuration.
     {:dda-git ...                ; dda-git-crate's config
      :dda-init ...}}}
 ```
+
+## Use app layer
+Crates reside in the infra name space and configuration conventions reside in domain name space. But at some point configuration has to be combined with the corresponding crates. Following the DDD schema, we call this area 'app'.
+
+App typically consists of
+
+```
+(def xxxAppConfig
+ {:group-specific-config
+  {s/Keyword {infra/facility infra/xxxConfig}}})
+
+(def with-xxx infra/with-xxx)
+
+(s/defn xxx-app-configuration :- xxxAppConfig
+  [domain-config :- domain/xxxConfig
+   & {:keys [group-key] :or {group-key :dda-httpd-group}}]
+  ...)
+
+(s/defn xxx-group-spec
+   [app-config :- xxxAppConfig]
+  (api/group-spec
+    (get-group-name app-config)
+    :extends [(config-crate/with-config app-config)
+              with-xxx])))
+```
+
+## DDD ns layout
+We aim to a unified namespace layout:
+```
+dda.pallet.dda-xxx-crate.app
+dda.pallet.dda-xxx-crate.domain
+dda.pallet.dda-xxx-crate.infra
+```
