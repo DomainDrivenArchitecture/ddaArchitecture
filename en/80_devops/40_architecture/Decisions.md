@@ -121,3 +121,13 @@ dda.pallet.dda-xxx-crate.app
 dda.pallet.dda-xxx-crate.domain
 dda.pallet.dda-xxx-crate.infra
 ```
+
+##  Use dda-pallet aws/existing
+```
+[dda.pallet.commons.aws :as cloud-target]
+
+or
+
+[dda.pallet.commons.existing :as cloud-target]
+```
+instead of `dda.cm.existing`.
