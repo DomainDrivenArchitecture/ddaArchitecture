@@ -135,7 +135,7 @@ instead of `dda.cm.existing`.
 ## fatjar able folderstructure (fat-folder)
 We have now resource and src combined into artifact folders.
 ```
-./intergration/resources (or src)
+./integration/resources (or src)
 ./main/resources (or src)
 ./test/resources (or src)
 ./uberjar/resources (or src)
@@ -143,7 +143,8 @@ We have now resource and src combined into artifact folders.
 ```
 Now we can see, what profile is using which folders 
 
-| | intergration | main | test | uberjar |
-| dev | x | x | x | x |
-| test |   | x | x |   |
-| uberjar |  | x |  | x |
+|         | integration | main | test | uberjar |
+|---------|-------------|------|------|---------|
+| dev     | x           | x    | x    | x       |
+| test    |             | x    | x    |         |
+| uberjar |             | x    |      | x       |
