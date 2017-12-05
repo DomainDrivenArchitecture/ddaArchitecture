@@ -23,5 +23,6 @@
   * [Coding Conventions](40_architecture/Development/CodingConventions.md)
   * [Typed Parameters for Interfaces](40_architecturen/TypedParametersForInterfaces.md)
 * [Realization](50_realization/README.md)
+  * [Refactorings](50_realization/Refactorings.md)
   * [Module WebServer](50_realization/webServer.md)
   * [Module UserCrate](50_realization/userCrate.md)
