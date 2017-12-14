@@ -17,6 +17,8 @@ Furthermore dda-pallet supports 2 different types of secret structures in the pa
 
 During application execution the secrets are resolved in an early stage in the app layer of a crate. The function "resolve-secrets" converts the domain configuration with unresolved secrets into a configuration with resolved secrets, represented as string values. The resolved domain configuration can then directly be used by the rest of the application, for example by sub-crates. This means that later on in the code execution there is no more need for handling unresolved secrets nor caring about resolving.
 
+One remark about **userid** and **password**: although userids are usually considered to be public, it might often be a good idea to treat userids similar to secrets. This could mean for example to store userids together with the passwords in the password-store. This approach can increase the security in systems.
+
 The picture below shows how secrets are resolved in a crate.
 
 ![](https://github.com/DomainDrivenArchitecture/ddaArchitecture/blob/configmanagement/en/80_devops/resources/dda-secrets-and-resolving-4.svg "Resolving of secrets in dda-pallet")
