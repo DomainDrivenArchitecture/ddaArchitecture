@@ -21,4 +21,4 @@ One remark about **userid** and **password**: although userids are usually consi
 
 The picture below shows how secrets are resolved in a crate.
 
-![](https://github.com/DomainDrivenArchitecture/ddaArchitecture/blob/configmanagement/en/80_devops/resources/dda-secrets-and-resolving-4.svg "Resolving of secrets in dda-pallet")
+![Resolving of secrets in dda-pallet] (../resources/dda-secrets-and-resolving-4.svg) "Resolving of secrets in dda-pallet"
