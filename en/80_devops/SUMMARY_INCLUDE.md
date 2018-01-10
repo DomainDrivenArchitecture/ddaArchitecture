@@ -19,6 +19,7 @@
     * [Config Distribution](80_devops/40_architecture/ConfigDistribution.md)
     * [State Mgm](80_devops/40_architecture/StateManagement.md)
     * [Credentials Security](80_devops/40_architecture/CredentialsSecurity.md)
+    * [Resolve secrets](80_devops/40_architecture/ResolveSecrets.md)
     * [Testing](80_devops/40_architecture/Testing.md)    
     * [Coding Conventions](80_devops/40_architecture/Development/CodingConventions.md)
     * [Typed Parameters for Interfaces](80_devops/40_architecturen/TypedParametersForInterfaces.md)
